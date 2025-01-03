@@ -1,0 +1,87 @@
+{
+  "title": "GitHub Pages",
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.2,
+  "architecture": {
+    "paradigm": "static site generator",
+    "serverAdminRequired": false,
+    "backendLanguage": "None",
+    "extensionLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["Markdown"],
+    "hostingOptions": ["managed"],
+    "apiOptions": ["none"],
+    "summary": "GitHub Pages is a static site hosting service that allows users to publish web content directly from a GitHub repository. It integrates seamlessly with Jekyll, a static site generator, enabling the use of Markdown for content creation. As a managed service, it requires no server administration, and sites are hosted directly on GitHub's infrastructure."
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "kinda",
+    "singleContentEditor": "kinda",
+    "smallContentTeam": "kinda",
+    "largeContentTeam": "no",
+    "enterpriseCorporation": "no",
+    "summary": "GitHub Pages is ideal for individual developers, hobbyists, and small teams seeking a straightforward way to host static websites. While it supports collaborative development, its feature set may be limited for large teams or enterprise-level projects requiring advanced content management and workflows."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "GitHub Pages is a proprietary service provided by GitHub, a commercial entity. While the service is free for public repositories, private repository support is available through GitHub's paid plans."
+  },
+  "userManagement": {
+    "paradigm": ["none"],
+    "summary": "GitHub Pages does not include built-in user management or authentication features. Access control is managed through GitHub's repository permissions, and any user with write access to the repository can update the site's content."
+  },
+  "contentEditing": {
+    "paradigm": "text editor",
+    "onSiteEditing": "no",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "yes",
+    "previewing": "kinda",
+    "editingWorkflows": "no",
+    "realTimeCollaboration": "no",
+    "summary": "Content for GitHub Pages is typically edited using text editors, with changes pushed to the repository. It supports custom fields and content types through Jekyll's configuration. Versioning is inherent via Git, but features like on-site editing, real-time collaboration, and advanced workflows are not natively supported."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "yes",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "no",
+    "paidThemes": "no",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "GitHub Pages supports the use of themes, particularly when integrated with Jekyll, allowing for packaged themes to be applied. However, there is no official theme marketplace, and customization typically requires frontend development skills."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "kinda",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "Mobile support for sites hosted on GitHub Pages depends on the design and implementation by the developer. While responsive design can be achieved, it is not provided by default. The platform does not offer native support for creating Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "kinda",
+    "multilingualUI": "no",
+    "multilingualEditor": "no",
+    "summary": "Internationalization is not natively supported by GitHub Pages but can be implemented manually by developers. This requires setting up the necessary structures and templates to handle multilingual content, as there is no built-in support for multilingual user interfaces or editors."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "yes",
+    "extensionMarketplace": "no",
+    "paidExtensions": "no",
+    "summary": "Extending the functionality of a GitHub Pages site requires backend development skills. There is no official extension marketplace, and any additional features must be custom-built or integrated through third-party services."
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "no",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": [],
+    "summary": "GitHub Pages does not provide e-commerce functionality. Implementing such features would require integrating third-party services or platforms, which involves additional development effort."
+  },
+  "costs": {
+    "paradigm": ["free"],
+    "subscription": 0,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 0,
+    "summary": "GitHub Pages is free to use for public repositories. Private repository support and additional features are available through GitHub's paid plans. There are no direct costs associated with using GitHub Pages, making it a cost-effective solution for hosting static websites."
+  }
+}

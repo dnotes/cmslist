@@ -1,0 +1,87 @@
+{
+  "title": "GoDaddy Website Builder",
+  "webMarketShare": 0.5,
+  "cmsMarketShare": 0.8,
+  "architecture": {
+    "paradigm": "SaaS",
+    "serverAdminRequired": false,
+    "backendLanguage": "N/A",
+    "extensionLanguageTech": [],
+    "frontendLanguageTech": [],
+    "contentStorage": [],
+    "hostingOptions": ["managed"],
+    "apiOptions": ["none"],
+    "summary": "GoDaddy Website Builder is a SaaS platform that provides managed hosting, eliminating the need for server administration. It does not require knowledge of backend or frontend technologies, as it offers a user-friendly interface for website creation. The platform does not provide APIs for external integrations."
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "kinda",
+    "largeDevelopmentTeam": "no",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "kinda",
+    "largeContentTeam": "no",
+    "enterpriseCorporation": "no",
+    "summary": "GoDaddy Website Builder is ideal for individual hobbyists, single developers, and single content editors due to its simplicity and ease of use. It can accommodate small development and content teams to some extent but lacks the advanced features required by large teams or enterprise corporations."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "GoDaddy Website Builder is a proprietary, commercially developed platform owned by GoDaddy Inc."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "The platform includes a self-contained user management system, allowing users to manage roles and permissions within the website builder environment."
+  },
+  "contentEditing": {
+    "paradigm": "drag and drop",
+    "onSiteEditing": "yes",
+    "customFields": "no",
+    "customContentTypes": "no",
+    "versioning": "no",
+    "previewing": "yes",
+    "editingWorkflows": "no",
+    "realTimeCollaboration": "no",
+    "summary": "GoDaddy Website Builder offers a drag-and-drop interface with on-site editing capabilities and content previewing. However, it lacks support for custom fields, custom content types, content versioning, editing workflows, and real-time collaboration."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "no",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "no",
+    "paidThemes": "no",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "The platform provides a selection of packaged themes with on-site display customization options, allowing users to modify their site's appearance without requiring frontend development skills. There is no theme marketplace or paid themes available."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "Websites built with GoDaddy Website Builder are responsive by design, ensuring compatibility with mobile devices. The platform does not offer features to create progressive web apps or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "no",
+    "multilingualUI": "no",
+    "multilingualEditor": "no",
+    "summary": "GoDaddy Website Builder does not provide built-in support for multilingual content, user interfaces, or editors, limiting its suitability for internationalized websites."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "no",
+    "extensionMarketplace": "no",
+    "paidExtensions": "no",
+    "summary": "The platform is not extensible through third-party plugins or extensions, and there is no extension marketplace. Users are limited to the built-in features provided by GoDaddy."
+  },
+  "commerce": {
+    "isInCore": "yes",
+    "isInExtensions": "no",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": ["GoDaddy Payments"],
+    "summary": "E-commerce functionality is included in the core platform, with support for GoDaddy Payments as the primary payment gateway. Integration with other platforms or payment gateways is not available."
+  },
+  "costs": {
+    "paradigm": ["subscription"],
+    "subscription": 9.99,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 119.88,
+    "summary": "GoDaddy Website Builder operates on a subscription model, with plans starting at $9.99 per month. There is no separate software license fee. The estimated total cost for the first year is $119.88. Users should be aware that prices may increase after the first year, and additional costs may apply for domain registration and other services."
+  }
+}

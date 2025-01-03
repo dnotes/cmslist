@@ -1,0 +1,87 @@
+{
+  "title": "Moodle",
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.2,
+  "architecture": {
+    "paradigm": "server install",
+    "serverAdminRequired": true,
+    "backendLanguage": "PHP",
+    "extensionLanguageTech": ["PHP"],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["SQL"],
+    "hostingOptions": ["shared", "vps", "managed"],
+    "apiOptions": ["REST"],
+    "summary": "Moodle is a server-installed learning management system (LMS) built with PHP, requiring server administration. It utilizes SQL databases for content storage and supports various hosting options, including shared, VPS, and managed hosting. Moodle offers REST API options for integrations."
+  },
+  "targetUsers": {
+    "individualHobbyist": "kinda",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "kinda",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "yes",
+    "enterpriseCorporation": "yes",
+    "summary": "Moodle is designed primarily for educational institutions and training organizations, accommodating a wide range of users from single developers to large development teams and enterprises. While individual hobbyists and single content editors can use it, its extensive features are particularly beneficial for collaborative educational environments."
+  },
+  "legal": {
+    "softwareLicense": "open-source: copyleft",
+    "corporateStructure": "community",
+    "summary": "Moodle is an open-source LMS licensed under the GNU General Public License (GPLv3), allowing free use and modification. It is developed and maintained by a community-driven structure, promoting collaborative development."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "Moodle includes a robust, self-contained user management system that allows for the creation of multiple user accounts with customizable roles and permissions, facilitating effective management of learners, educators, and administrators."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "no",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "yes",
+    "previewing": "yes",
+    "editingWorkflows": "yes",
+    "realTimeCollaboration": "no",
+    "summary": "Moodle offers comprehensive web-form-based content editing features, including support for custom fields and content types, versioning, content previewing, and editing workflows. However, it does not provide on-site editing or real-time collaboration features."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "kinda",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "Moodle supports packaged themes and offers a theme marketplace with both free and paid themes. While frontend development skills can enhance customization, the system provides tools for on-site display customization, making it accessible to users with varying technical expertise."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "Moodle is designed with responsive design principles, ensuring accessibility on mobile devices. It does not natively support the creation of Progressive Web Apps (PWAs) or native mobile applications, but a dedicated mobile app is available for accessing Moodle courses."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "Moodle provides robust internationalization features, including support for multilingual content, a multilingual user interface, and editor, making it suitable for global educational environments."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "kinda",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "Moodle is highly extensible, with a plugin directory offering both free and paid extensions. While backend development skills can enhance customization, many plugins are readily available to extend functionality without extensive coding."
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "yes",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": [],
+    "summary": "E-commerce functionalities are not included in Moodle's core but can be added through extensions. Specific integrated platforms and payment gateways depend on the chosen plugins."
+  },
+  "costs": {
+    "paradigm": ["free"],
+    "subscription": 0,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 0,
+    "summary": "Moodle is free to use, with no subscription or software license fees. However, costs may arise from hosting, premium themes, plugins, or professional support services."
+  }
+}

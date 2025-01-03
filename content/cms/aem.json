@@ -1,0 +1,87 @@
+{
+  "title": "Adobe Experience Manager (AEM)",
+  "webMarketShare": 0.08,
+  "cmsMarketShare": 0.12,
+  "architecture": {
+    "paradigm": "server install",
+    "serverAdminRequired": true,
+    "backendLanguage": "Java",
+    "extensionLanguageTech": ["Java", "JavaScript"],
+    "frontendLanguageTech": ["JavaScript"],
+    "contentStorage": ["JCR (Java Content Repository)"],
+    "hostingOptions": ["managed", "on-premises", "cloud"],
+    "apiOptions": ["REST", "GraphQL"],
+    "summary": "Adobe Experience Manager (AEM) is an enterprise-level content management system (CMS) built on Java, utilizing a Java Content Repository (JCR) for content storage. It requires server administration and offers flexible hosting options, including managed services, on-premises installations, and cloud deployments. AEM provides both RESTful and GraphQL APIs for developers, supporting extensions in Java and JavaScript, with JavaScript commonly used for frontend development."
+  },
+  "targetUsers": {
+    "individualHobbyist": "no",
+    "singleDeveloper": "kinda",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "kinda",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "yes",
+    "enterpriseCorporation": "yes",
+    "summary": "AEM is designed for medium to large organizations, including enterprise corporations, and is well-suited for small to large development and content teams. It may be overly complex and cost-prohibitive for individual hobbyists or single developers and content editors."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "Adobe Experience Manager is proprietary software developed and maintained by Adobe Inc., a commercial entity. Licensing is subscription-based, tailored to enterprise needs."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "AEM includes a comprehensive, self-contained user management system that allows administrators to define roles, permissions, and workflows, facilitating complex access control and content governance."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "yes",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "yes",
+    "previewing": "yes",
+    "editingWorkflows": "yes",
+    "realTimeCollaboration": "no",
+    "summary": "AEM offers a robust web-based content editing interface with on-site editing capabilities. It supports custom fields, custom content types, versioning, and previewing. Advanced editing workflows are available, though it lacks real-time collaboration features."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "kinda",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "no",
+    "paidThemes": "no",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "AEM supports packaged themes and allows for extensive on-site display customization. While basic site setups can be achieved without frontend development skills, advanced customization typically requires frontend development expertise. There is no official theme marketplace or paid themes."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "AEM supports responsive design to ensure mobile-friendly websites. However, it does not natively provide functionality to create Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "AEM provides robust support for internationalization, enabling multilingual content, user interfaces, and editor settings, which facilitates the creation and management of websites in multiple languages."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "yes",
+    "extensionMarketplace": "no",
+    "paidExtensions": "no",
+    "summary": "AEM is highly extensible, allowing for custom development to meet specific business requirements. However, extending AEM typically requires backend development expertise. There is no official extension marketplace or paid extensions; customizations are usually developed in-house or through Adobe partners."
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "yes",
+    "integratedPlatforms": ["Adobe Commerce (formerly Magento)"],
+    "integratedPaymentGateways": ["PayPal", "Stripe", "Authorize.Net"],
+    "summary": "E-commerce functionality is not included in AEM's core but can be integrated through Adobe Commerce (formerly Magento), which supports various payment gateways such as PayPal, Stripe, and Authorize.Net."
+  },
+  "costs": {
+    "paradigm": ["subscription"],
+    "subscription": 0,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 0,
+    "summary": "Adobe Experience Manager operates on a subscription-based licensing model, with costs varying based on the organization's specific requirements and scale. Pricing is typically customized, and interested parties should contact Adobe for detailed quotes. As such, specific cost figures are not publicly disclosed."
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "title": "Wix",
+  "webMarketShare": 3.3,
+  "cmsMarketShare": 4.6,
+  "architecture": {
+    "paradigm": "SaaS",
+    "serverAdminRequired": false,
+    "backendLanguage": "Javascript",
+    "extensionLanguageTech": ["Javascript"],
+    "frontendLanguageTech": ["Javascript"],
+    "contentStorage": ["NoSQL"],
+    "hostingOptions": ["managed"],
+    "apiOptions": ["REST"],
+    "summary": "Wix is a SaaS-based website builder that allows users to create and manage websites without server administration. It utilizes JavaScript for both backend and frontend development, with content stored in a NoSQL database. Hosting is fully managed by Wix, and it offers RESTful APIs for developers."
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "kinda",
+    "largeDevelopmentTeam": "no",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "kinda",
+    "largeContentTeam": "no",
+    "enterpriseCorporation": "no",
+    "summary": "Wix is well-suited for individual hobbyists, single developers, and single content editors due to its user-friendly interface and managed services. It can accommodate small development teams and content teams to some extent but may not meet the complex needs of large teams or enterprise corporations."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "Wix operates under a proprietary software license and is structured as a commercial entity, providing its services through a subscription-based model."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "Wix includes built-in user management, allowing site owners to manage user access and roles directly within the platform without the need for external authentication services."
+  },
+  "contentEditing": {
+    "paradigm": "drag and drop",
+    "onSiteEditing": "yes",
+    "customFields": "kinda",
+    "customContentTypes": "kinda",
+    "versioning": "no",
+    "previewing": "yes",
+    "editingWorkflows": "no",
+    "realTimeCollaboration": "no",
+    "summary": "Wix offers a drag-and-drop editor with on-site editing capabilities and previewing. While it provides some support for custom fields and content types, it lacks versioning, advanced editing workflows, and real-time collaboration features."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "no",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "Wix does not require frontend development skills, offering a variety of packaged themes through its marketplace, including paid options. Users can customize the display of their site directly through the platform's intuitive interface."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "Wix supports responsive design to ensure websites are mobile-friendly. However, it does not offer functionality to create Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "Wix provides robust support for internationalization, allowing for multilingual content, user interfaces, and editor settings, facilitating the creation of websites in multiple languages."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "no",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "Wix offers an extension marketplace with both free and paid options, enabling users to enhance their websites without the need for backend development expertise."
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "yes",
+    "integratedPlatforms": ["Wix Stores"],
+    "integratedPaymentGateways": ["PayPal", "Stripe", "Square"],
+    "summary": "E-commerce functionality in Wix is available through extensions like Wix Stores, integrating with payment gateways such as PayPal, Stripe, and Square to facilitate online transactions."
+  },
+  "costs": {
+    "paradigm": ["per site"],
+    "subscription": 17,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 204,
+    "summary": "Wix operates on a per-site subscription model, with plans starting at $17 per month. There is no separate software license fee, making the estimated total cost for the first year approximately $204."
+  }
+}

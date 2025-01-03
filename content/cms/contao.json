@@ -1,0 +1,87 @@
+{
+  "title": "Contao",
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.2,
+  "architecture": {
+    "paradigm": "server install",
+    "serverAdminRequired": true,
+    "backendLanguage": "PHP",
+    "extensionLanguageTech": ["PHP", "Symfony"],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["SQL"],
+    "hostingOptions": ["shared", "vps", "managed"],
+    "apiOptions": ["REST"],
+    "summary": "Contao is a server-installed CMS built with PHP and Symfony, requiring server administration. It uses SQL databases for content storage and supports various hosting options, including shared, VPS, and managed hosting. The system offers REST API options for integrations."
+  },
+  "targetUsers": {
+    "individualHobbyist": "kinda",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "kinda",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "yes",
+    "enterpriseCorporation": "yes",
+    "summary": "Contao is suitable for a wide range of users, from single developers to large development teams and enterprises. While individual hobbyists and single content editors can use it, the system's features are particularly beneficial for collaborative environments with multiple content editors and larger teams."
+  },
+  "legal": {
+    "softwareLicense": "open-source: permissive",
+    "corporateStructure": "community",
+    "summary": "Contao is an open-source CMS licensed under the LGPL-3.0, allowing free use even for commercial projects. It is developed and maintained by a community-driven structure, promoting collaborative development."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "Contao features a robust, self-contained user management system with a fine-grained permission system, allowing control over access to each form field in the backend. Access rights can be granted on both user and group levels."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "no",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "yes",
+    "previewing": "yes",
+    "editingWorkflows": "yes",
+    "realTimeCollaboration": "no",
+    "summary": "Contao provides advanced web-form-based content editing features, including support for custom fields and content types, versioning, content previewing, and editing workflows. However, it lacks on-site editing and real-time collaboration capabilities."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "kinda",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "Contao supports packaged themes and offers a theme marketplace with both free and paid themes. While frontend development skills can enhance customization, the system provides tools for on-site display customization, making it accessible to users with varying technical expertise."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "Contao is designed with responsive design principles, ensuring websites are accessible on mobile devices. However, it does not natively support the creation of Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "Contao fully supports internationalization, offering multilingual content capabilities, a multilingual user interface, and editor, making it suitable for global audiences."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "kinda",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "Contao is highly extensible, with an extension marketplace offering both free and paid extensions. While backend development skills can enhance customization, many extensions are readily available for various functionalities."
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "yes",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": [],
+    "summary": "E-commerce functionalities are not included in Contao's core but can be added through extensions. Specific integrated platforms and payment gateways depend on the chosen extensions."
+  },
+  "costs": {
+    "paradigm": ["free"],
+    "subscription": 0,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 0,
+    "summary": "Contao is free to use, with no subscription or software license fees. However, costs may arise from hosting, premium themes, extensions, or professional support services."
+  }
+}

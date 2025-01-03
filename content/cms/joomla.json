@@ -1,0 +1,87 @@
+{
+  "title": "Joomla",
+  "webMarketShare": 1.6,
+  "cmsMarketShare": 2.2,
+  "architecture": {
+    "paradigm": "server install",
+    "serverAdminRequired": true,
+    "backendLanguage": "PHP",
+    "extensionLanguageTech": ["PHP", "Javascript"],
+    "frontendLanguageTech": ["Javascript"],
+    "contentStorage": ["SQL"],
+    "hostingOptions": ["shared", "vps", "managed", "container"],
+    "apiOptions": ["REST"],
+    "summary": "Joomla is an open-source content management system (CMS) that requires server installation and administration. It is built primarily with PHP and uses SQL databases for content storage. The platform supports extensions developed in PHP and JavaScript, and offers flexibility in hosting options, including shared, VPS, managed, and container environments. Joomla provides RESTful APIs for developers to interact with the system."
+  },
+  "targetUsers": {
+    "individualHobbyist": "kinda",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "kinda",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "yes",
+    "enterpriseCorporation": "yes",
+    "summary": "Joomla caters to a wide range of users, from single developers to large development teams and enterprise corporations, due to its scalability and extensive feature set. While individual hobbyists and single content editors can use Joomla, they may encounter a steeper learning curve compared to more user-friendly platforms."
+  },
+  "legal": {
+    "softwareLicense": "open-source: copyleft",
+    "corporateStructure": "non-profit",
+    "summary": "Joomla is released under the GNU General Public License, a copyleft open-source license, and is maintained by a non-profit organization, Open Source Matters, Inc."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "Joomla includes a robust, self-contained user management system with a registration system that allows users to configure personal options. It supports multiple user groups with various types of permissions, facilitating complex access control scenarios."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "yes",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "yes",
+    "previewing": "yes",
+    "editingWorkflows": "yes",
+    "realTimeCollaboration": "no",
+    "summary": "Joomla offers a comprehensive web-based content editing experience with on-site editing capabilities. It supports custom fields and content types, content versioning, and previewing. Additionally, Joomla includes workflows for content publishing but does not support real-time collaboration."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "kinda",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "Joomla provides a variety of packaged themes and access to a theme marketplace with both free and paid options. On-site display customization is supported, allowing users to modify the appearance of their site. While basic customization can be done without frontend development skills, advanced customization may require developer involvement."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "Joomla supports responsive design, ensuring websites are mobile-friendly. However, it does not natively offer functionality to create Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "Joomla provides robust multilingual support, allowing for multilingual content, user interfaces, and editor settings, facilitating the creation of websites in multiple languages."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "kinda",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "Joomla offers an extensive extension marketplace with both free and paid options, enabling users to enhance their websites' functionality. While many extensions can be installed without backend development skills, customizing or developing new extensions may require developer expertise."
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "yes",
+    "integratedPlatforms": ["VirtueMart", "HikaShop"],
+    "integratedPaymentGateways": ["PayPal", "Stripe", "Authorize.Net"],
+    "summary": "E-commerce functionality in Joomla is available through extensions such as VirtueMart and HikaShop, which integrate with payment gateways like PayPal, Stripe, and Authorize.Net to facilitate online transactions."
+  },
+  "costs": {
+    "paradigm": ["free"],
+    "subscription": 0,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 0,
+    "summary": "Joomla is free to download and use, with no subscription or software license fees. However, users should consider potential costs for hosting, premium extensions, and professional services as needed."
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "title": "OpenCart",
+  "webMarketShare": 0.5,
+  "cmsMarketShare": 0.7,
+  "architecture": {
+    "paradigm": "server install",
+    "serverAdminRequired": true,
+    "backendLanguage": "PHP",
+    "extensionLanguageTech": ["PHP", "JavaScript"],
+    "frontendLanguageTech": ["JavaScript"],
+    "contentStorage": ["SQL"],
+    "hostingOptions": ["shared", "vps", "managed"],
+    "apiOptions": ["REST"],
+    "summary": "OpenCart is a PHP-based, open-source e-commerce platform that requires server installation and administration. It supports extensions written in PHP and JavaScript, stores content in SQL databases, and offers REST API options. Hosting can be on shared, VPS, or managed servers."
+  },
+  "targetUsers": {
+    "individualHobbyist": "kinda",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "kinda",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "yes",
+    "enterpriseCorporation": "yes",
+    "summary": "OpenCart is suitable for single developers, small to large development teams, and content teams, as well as enterprise corporations. Individual hobbyists and single content editors may find it somewhat suitable, though it requires technical knowledge for setup and maintenance."
+  },
+  "legal": {
+    "softwareLicense": "open-source: copyleft",
+    "corporateStructure": "commercial",
+    "summary": "OpenCart is an open-source platform licensed under the GNU General Public License, developed and maintained by OpenCart Limited, a commercial entity."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "OpenCart includes a self-contained user management system for handling user roles and permissions within the platform."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "no",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "no",
+    "previewing": "yes",
+    "editingWorkflows": "no",
+    "realTimeCollaboration": "no",
+    "summary": "OpenCart offers web form-based content editing with support for custom fields and content types, and content previewing. However, it lacks on-site editing, versioning, editing workflows, and real-time collaboration features."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "kinda",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "OpenCart supports packaged themes and on-site display customization. A theme marketplace is available, offering both free and paid themes. While basic customization can be done without a developer, advanced customization may require frontend development skills."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "OpenCart supports responsive design for mobile devices but does not offer features to create progressive web apps or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "OpenCart provides comprehensive support for multilingual content, user interfaces, and editors, facilitating internationalization."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "kinda",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "OpenCart has an extension marketplace with over 13,000 modules and themes, including both free and paid options. While many extensions can be installed without backend development skills, advanced customization may require developer involvement."
+  },
+  "commerce": {
+    "isInCore": "yes",
+    "isInExtensions": "yes",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": ["PayPal", "Sage Pay", "Authorize.Net", "Amazon Payments", "Klarna", "Skrill"],
+    "summary": "E-commerce functionality is included in the core OpenCart system, with additional features available through extensions. It supports multiple integrated payment gateways, including PayPal, Sage Pay, Authorize.Net, Amazon Payments, Klarna, and Skrill."
+  },
+  "costs": {
+    "paradigm": ["free"],
+    "subscription": 0,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 0,
+    "summary": "OpenCart is free to download and use, with no subscription or software license fees. However, users should consider additional costs for hosting, paid themes, extensions, and potential development services, which can vary depending on specific needs."
+  }
+}

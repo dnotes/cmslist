@@ -1,0 +1,85 @@
+{
+  "title": "Sanity",
+  "architecture": {
+    "paradigm": "headless API",
+    "serverAdminRequired": false,
+    "backendLanguage": "Javascript",
+    "extensionLanguageTech": ["Javascript"],
+    "frontendLanguageTech": ["React", "Vue", "Svelte", "Angular", "Next.js", "Nuxt.js", "Gatsby", "Eleventy"],
+    "contentStorage": ["NoSQL"],
+    "hostingOptions": ["managed", "serverless"],
+    "apiOptions": ["REST", "GraphQL"],
+    "summary": "Sanity is a headless CMS that operates as a serverless API, eliminating the need for server administration. It utilizes JavaScript for backend and extensions, and supports various frontend technologies including React, Vue, and Svelte. Content is stored in a NoSQL database, with managed and serverless hosting options. APIs are available in both REST and GraphQL formats."
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "yes",
+    "enterpriseCorporation": "yes",
+    "summary": "Sanity caters to a wide range of users, from individual hobbyists and single developers to large development teams and enterprise corporations. Its flexible and scalable architecture makes it suitable for both small and large content teams."
+  },
+  "legal": {
+    "softwareLicense": "open-source: permissive",
+    "corporateStructure": "commercial",
+    "summary": "Sanity's core components are open-source with a permissive license, allowing for extensive customization. The platform is developed and maintained by a commercial entity, ensuring ongoing support and development."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "Sanity provides built-in user management, allowing administrators to control access and permissions within the platform without relying on external authentication services."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "kinda",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "yes",
+    "previewing": "yes",
+    "editingWorkflows": "yes",
+    "realTimeCollaboration": "yes",
+    "summary": "Sanity offers a web-based content editing interface with support for custom fields and content types. Features include versioning, content previewing, and editing workflows. Real-time collaboration is supported, enhancing team productivity. On-site editing capabilities are limited."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "yes",
+    "supportsPackagedThemes": "no",
+    "themeMarketplace": "no",
+    "paidThemes": "no",
+    "supportsOnSiteDisplayCustomization": "no",
+    "summary": "As a headless CMS, Sanity requires frontend development for content display, offering flexibility in design and implementation. It does not provide packaged themes or a theme marketplace, emphasizing custom frontend solutions."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "kinda",
+    "createsNativeApp": "kinda",
+    "summary": "Sanity supports responsive design through its flexible content delivery, enabling developers to create mobile-friendly websites. While it doesn't directly create PWAs or native apps, its API-driven approach allows integration with frameworks that do."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "Sanity supports internationalization with features for managing multilingual content, a multilingual user interface, and an editor that accommodates multiple languages, facilitating global content strategies."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "kinda",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "no",
+    "summary": "Sanity is highly extensible, with a marketplace offering various extensions. While some customization may require backend development, many extensions can be integrated without extensive coding. All extensions in the marketplace are free."
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "yes",
+    "integratedPlatforms": ["Shopify", "BigCommerce"],
+    "integratedPaymentGateways": ["Stripe", "PayPal"],
+    "summary": "E-commerce functionality is not included in Sanity's core but can be added through extensions. It integrates with platforms like Shopify and BigCommerce, and supports payment gateways such as Stripe and PayPal."
+  },
+  "costs": {
+    "paradigm": ["per site", "free tier"],
+    "subscription": 15,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 180,
+    "summary": "Sanity offers a free tier suitable for small projects, with paid plans starting at $15 per month for additional features and higher usage limits. The open-source nature of its core components means there are no software licensing fees. Estimated cost for the first year on the Growth plan is $180."
+  }
+}

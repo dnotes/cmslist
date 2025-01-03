@@ -1,0 +1,87 @@
+{
+  "title": "Craft CMS",
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.2,
+  "architecture": {
+    "paradigm": "server install",
+    "serverAdminRequired": true,
+    "backendLanguage": "PHP",
+    "extensionLanguageTech": ["PHP", "Twig"],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["SQL"],
+    "hostingOptions": ["shared", "vps", "managed"],
+    "apiOptions": ["GraphQL", "REST"],
+    "summary": "Craft CMS is a server-installed content management system built with PHP, utilizing Twig for templating. It requires server administration and uses SQL databases for content storage. The system supports various hosting options, including shared, VPS, and managed hosting, and offers both GraphQL and REST APIs for integrations."
+  },
+  "targetUsers": {
+    "individualHobbyist": "kinda",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "kinda",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "yes",
+    "enterpriseCorporation": "yes",
+    "summary": "Craft CMS caters to a broad spectrum of users, from single developers to large development teams and enterprises. While individual hobbyists and single content editors can utilize it, its extensive features are particularly advantageous for collaborative environments with multiple content editors and larger teams."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "Craft CMS is a commercially developed content management system with a proprietary license. It offers various pricing tiers to accommodate different project needs, from individual projects to enterprise solutions."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "Craft CMS includes a robust, self-contained user management system that allows for the creation of multiple user accounts with customizable roles and permissions, facilitating effective team collaboration and content management."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "no",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "yes",
+    "previewing": "yes",
+    "editingWorkflows": "yes",
+    "realTimeCollaboration": "no",
+    "summary": "Craft CMS offers a comprehensive web-form-based content editing experience, supporting custom fields and content types, versioning, content previewing, and editing workflows. However, it does not provide on-site editing or real-time collaboration features."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "yes",
+    "supportsPackagedThemes": "no",
+    "themeMarketplace": "no",
+    "paidThemes": "no",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "Craft CMS does not utilize packaged themes or a theme marketplace, requiring frontend development for custom designs. However, it offers extensive flexibility for on-site display customization, allowing developers to create tailored user experiences."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "Craft CMS supports responsive design principles, ensuring websites are accessible on mobile devices. It does not natively support the creation of Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "Craft CMS provides robust internationalization features, including support for multilingual content, a multilingual user interface, and editor, making it suitable for global audiences."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "yes",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "Craft CMS is highly extensible, with a plugin store offering both free and paid extensions. Backend development skills are beneficial for creating custom plugins and modules to extend functionality."
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "yes",
+    "integratedPlatforms": ["Craft Commerce"],
+    "integratedPaymentGateways": ["Stripe", "PayPal"],
+    "summary": "E-commerce functionality is not included in Craft CMS's core but can be added through extensions like Craft Commerce, which integrates with payment gateways such as Stripe and PayPal."
+  },
+  "costs": {
+    "paradigm": ["per site"],
+    "subscription": 299,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 299,
+    "summary": "Craft CMS offers a Pro license at $299 per site, including one year of updates. Subsequent years require a $99 renewal fee for updates. Additional costs may include hosting, premium plugins, and professional support services."
+  }
+}

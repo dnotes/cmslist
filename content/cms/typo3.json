@@ -1,0 +1,87 @@
+{
+  "title": "TYPO3",
+  "webMarketShare": 0.4,
+  "cmsMarketShare": 0.6,
+  "architecture": {
+    "paradigm": "server install",
+    "serverAdminRequired": true,
+    "backendLanguage": "PHP",
+    "extensionLanguageTech": ["PHP", "JavaScript"],
+    "frontendLanguageTech": ["JavaScript"],
+    "contentStorage": ["SQL"],
+    "hostingOptions": ["shared", "vps", "managed"],
+    "apiOptions": ["REST"],
+    "summary": "TYPO3 is a PHP-based, open-source content management system requiring server installation and administration. It supports extensions in PHP and JavaScript, utilizes SQL databases for content storage, and offers REST API options. Hosting can be on shared, VPS, or managed servers."
+  },
+  "targetUsers": {
+    "individualHobbyist": "kinda",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "kinda",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "yes",
+    "enterpriseCorporation": "yes",
+    "summary": "TYPO3 is suitable for single developers, small to large development teams, and enterprise corporations. Individual hobbyists and single content editors may find it somewhat suitable, though it requires technical expertise for setup and maintenance."
+  },
+  "legal": {
+    "softwareLicense": "open-source: copyleft",
+    "corporateStructure": "community",
+    "summary": "TYPO3 is an open-source platform licensed under the GNU General Public License, developed and maintained by a global community of contributors."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "TYPO3 includes a self-contained user management system, allowing for detailed control over user roles and permissions within the platform."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "yes",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "yes",
+    "previewing": "yes",
+    "editingWorkflows": "yes",
+    "realTimeCollaboration": "no",
+    "summary": "TYPO3 offers web form-based content editing with support for on-site editing, custom fields, custom content types, versioning, previewing, and editing workflows. Real-time collaboration is not natively supported."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "kinda",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "TYPO3 supports packaged themes and on-site display customization. A theme marketplace is available, offering both free and paid themes. While basic customization can be achieved without a developer, advanced customization may require frontend development skills."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "Websites built with TYPO3 are responsive by design, ensuring compatibility with mobile devices. The platform does not offer features to create progressive web apps or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "TYPO3 provides comprehensive support for multilingual content, user interfaces, and editors, making it suitable for internationalized websites."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "kinda",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "TYPO3 has an extension marketplace with over 8,100 free extensions, allowing for significant customization. While many extensions can be installed without backend development skills, advanced customization may require developer involvement."
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "yes",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": [],
+    "summary": "E-commerce functionality is available through extensions in TYPO3. Specific integrated platforms and payment gateways depend on the chosen extensions."
+  },
+  "costs": {
+    "paradigm": ["free"],
+    "subscription": 0,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 0,
+    "summary": "TYPO3 is free to download and use, with no subscription or software license fees. However, users should consider additional costs for hosting, paid themes, extensions, and potential development services, which can vary depending on specific needs."
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "title": "Hugo",
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.2,
+  "architecture": {
+    "paradigm": "static site generator",
+    "serverAdminRequired": "kinda",
+    "backendLanguage": "Go",
+    "extensionLanguageTech": ["Go", "JavaScript"],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["Markdown"],
+    "hostingOptions": ["shared", "vps", "managed", "serverless"],
+    "apiOptions": ["none"],
+    "summary": "Hugo is a static site generator built with Go, producing static HTML files from content written in Markdown. It requires minimal server administration and supports various hosting options, including shared, VPS, managed, and serverless environments. Hugo does not natively provide APIs for dynamic content but can integrate with external services if needed."
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "kinda",
+    "smallContentTeam": "kinda",
+    "largeContentTeam": "no",
+    "enterpriseCorporation": "no",
+    "summary": "Hugo is well-suited for individual hobbyists, single developers, and small development teams due to its simplicity and speed. While it can accommodate single content editors and small content teams, it lacks built-in collaborative features, making it less ideal for large content teams or enterprise corporations without additional tooling."
+  },
+  "legal": {
+    "softwareLicense": "open-source: permissive",
+    "corporateStructure": "community",
+    "summary": "Hugo is an open-source project licensed under the Apache License 2.0, allowing free use and modification. It is developed and maintained by a community of contributors, fostering collaborative development."
+  },
+  "userManagement": {
+    "paradigm": ["none"],
+    "summary": "Hugo does not include a user management system, as it generates static sites without dynamic user interactions. User management must be handled externally if required."
+  },
+  "contentEditing": {
+    "paradigm": "text editor",
+    "onSiteEditing": "no",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "yes",
+    "previewing": "yes",
+    "editingWorkflows": "no",
+    "realTimeCollaboration": "no",
+    "summary": "Content in Hugo is edited using text editors, with support for custom fields and content types. Versioning and previewing are managed through integration with version control systems like Git. Hugo lacks built-in editing workflows and real-time collaboration features."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "yes",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "Hugo offers a variety of packaged themes through its theme marketplace, including both free and paid options. Frontend development skills are beneficial for customization, allowing developers to create tailored user experiences."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "Hugo supports responsive design principles, ensuring websites are accessible on mobile devices. It does not natively support the creation of Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "Hugo provides robust internationalization features, including support for multilingual content, a multilingual user interface, and editor, making it suitable for global audiences."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "yes",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "no",
+    "summary": "Hugo is highly extensible, with a community-driven extension marketplace offering various plugins and themes. Backend development skills are beneficial for creating custom functionalities."
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "yes",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": [],
+    "summary": "E-commerce functionalities are not included in Hugo's core but can be added through third-party services and integrations. Specific platforms and payment gateways depend on the chosen integrations."
+  },
+  "costs": {
+    "paradigm": ["free"],
+    "subscription": 0,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 0,
+    "summary": "Hugo is free to use, with no subscription or software license fees. However, costs may arise from hosting, premium themes, or professional support services."
+  }
+}

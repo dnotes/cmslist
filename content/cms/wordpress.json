@@ -1,0 +1,87 @@
+{
+  "title": "WordPress",
+  "webMarketShare": 43.6,
+  "cmsMarketShare": 62.0,
+  "architecture": {
+    "paradigm": "server install",
+    "serverAdminRequired": true,
+    "backendLanguage": "PHP",
+    "extensionLanguageTech": ["PHP", "JavaScript", "HTML", "CSS"],
+    "frontendLanguageTech": ["JavaScript", "HTML", "CSS"],
+    "contentStorage": ["SQL"],
+    "hostingOptions": ["shared", "vps", "managed", "container"],
+    "apiOptions": ["REST", "GraphQL"],
+    "summary": "WordPress is a self-hosted content management system (CMS) that requires server administration. It is built with PHP and stores content in a MySQL or MariaDB database. The platform supports extensions and themes developed using PHP, JavaScript, HTML, and CSS, and offers various hosting options, including shared, VPS, managed, and container-based solutions. WordPress provides REST API capabilities and can be extended to support GraphQL through plugins."
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "yes",
+    "enterpriseCorporation": "yes",
+    "summary": "WordPress caters to a wide range of users, from individual hobbyists and single developers to large development teams and enterprise corporations. Its flexibility and extensive plugin ecosystem make it suitable for various project sizes and complexities, supporting both individual content editors and large content teams."
+  },
+  "legal": {
+    "softwareLicense": "open-source: permissive",
+    "corporateStructure": "non-profit",
+    "summary": "WordPress is an open-source platform licensed under the GNU General Public License (GPL), promoting freedom to use, modify, and distribute the software. It is maintained by a large community of contributors and is overseen by the WordPress Foundation, a non-profit organization dedicated to ensuring free access to the software's projects in perpetuity."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "WordPress includes a built-in user management system that allows administrators to create and manage user accounts with varying roles and permissions, facilitating collaborative content creation and site management."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "kinda",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "yes",
+    "previewing": "yes",
+    "editingWorkflows": "kinda",
+    "realTimeCollaboration": "no",
+    "summary": "WordPress offers a web-based editor for content creation, supporting custom fields and content types. It provides content versioning and previewing features. While basic workflow management is available through plugins, real-time collaboration is not natively supported."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "no",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "WordPress offers a vast selection of packaged themes, both free and paid, through its theme marketplace. Users can customize site appearance without requiring frontend development skills, though advanced customization may benefit from developer involvement."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "kinda",
+    "createsNativeApp": "no",
+    "summary": "WordPress themes often incorporate responsive design to ensure mobile compatibility. While it doesn't natively create Progressive Web Apps (PWAs) or native mobile apps, plugins are available to extend these capabilities."
+  },
+  "internationalization": {
+    "multilingualContent": "kinda",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "WordPress supports multilingual user interfaces and editors. While it doesn't provide built-in multilingual content management, numerous plugins are available to facilitate the creation and management of multilingual content."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "no",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "WordPress boasts a comprehensive plugin ecosystem with both free and paid extensions available through its marketplace. Users can enhance site functionality without backend development expertise, though custom development can further tailor the platform to specific needs."
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "yes",
+    "integratedPlatforms": ["WooCommerce", "Easy Digital Downloads"],
+    "integratedPaymentGateways": ["PayPal", "Stripe", "Square", "Authorize.Net"],
+    "summary": "E-commerce capabilities in WordPress are facilitated through plugins like WooCommerce and Easy Digital Downloads, which integrate seamlessly with the platform. These extensions support various payment gateways, including PayPal, Stripe, Square, and Authorize.Net, enabling robust online store functionalities."
+  },
+  "costs": {
+    "paradigm": ["free", "per site", "per extension"],
+    "subscription": 0,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 0,
+    "summary": "WordPress itself is free to use, with no subscription or licensing fees. However, costs may arise from domain registration, hosting services, premium themes, plugins, and professional development or maintenance services, depending on user requirements."
+  }
+}

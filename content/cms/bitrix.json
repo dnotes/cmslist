@@ -1,0 +1,87 @@
+{
+  "title": "Bitrix",
+  "webMarketShare": 0.5,
+  "cmsMarketShare": 0.8,
+  "architecture": {
+    "paradigm": "server install",
+    "serverAdminRequired": true,
+    "backendLanguage": "PHP",
+    "extensionLanguageTech": ["PHP", "JavaScript"],
+    "frontendLanguageTech": ["JavaScript"],
+    "contentStorage": ["SQL"],
+    "hostingOptions": ["shared", "vps", "managed"],
+    "apiOptions": ["REST"],
+    "summary": "Bitrix is a PHP-based content management system that requires server installation and administration. It supports extensions written in PHP and JavaScript, stores content in SQL databases, and offers REST API options. Hosting can be on shared, VPS, or managed servers."
+  },
+  "targetUsers": {
+    "individualHobbyist": "no",
+    "singleDeveloper": "kinda",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "kinda",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "yes",
+    "enterpriseCorporation": "yes",
+    "summary": "Bitrix is suitable for small to large development teams and content teams, as well as enterprise corporations. It may be less suitable for individual hobbyists or single developers due to its complexity and server requirements."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "Bitrix is a commercially developed, proprietary software solution."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "Bitrix includes a self-contained user management system for handling user roles and permissions."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "kinda",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "yes",
+    "previewing": "yes",
+    "editingWorkflows": "yes",
+    "realTimeCollaboration": "no",
+    "summary": "Bitrix offers web form-based content editing with support for custom fields and content types, versioning, previewing, and editing workflows. On-site editing is partially supported, but real-time collaboration is not available."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "yes",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "no",
+    "paidThemes": "no",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "Bitrix supports packaged themes and on-site display customization, but does not have a theme marketplace or paid themes. Frontend development skills are required for significant customization."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "Bitrix supports responsive design for mobile devices but does not offer features to create progressive web apps or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "Bitrix provides comprehensive support for multilingual content, user interfaces, and editors, facilitating internationalization."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "yes",
+    "extensionMarketplace": "no",
+    "paidExtensions": "no",
+    "summary": "Extending Bitrix requires backend development expertise. There is no official extension marketplace or paid extensions available."
+  },
+  "commerce": {
+    "isInCore": "yes",
+    "isInExtensions": "no",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": [],
+    "summary": "E-commerce functionality is included in the core Bitrix system, with no reliance on extensions. Specific integrated platforms and payment gateways are not detailed."
+  },
+  "costs": {
+    "paradigm": ["per site"],
+    "subscription": 0,
+    "softwareLicense": 3052,
+    "estimatedYearOneTotal": 3052,
+    "summary": "Bitrix offers a free cloud-based plan with limited features. For on-premise installations, the Business 50 plan starts at $3,052 for 50 users. Costs are per site, with no additional subscription fees for the on-premise version."
+  }
+}

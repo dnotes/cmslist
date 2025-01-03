@@ -1,0 +1,87 @@
+{
+  "title": "BigCommerce",
+  "webMarketShare": 0.2,
+  "cmsMarketShare": 0.2,
+  "architecture": {
+    "paradigm": "SaaS",
+    "serverAdminRequired": false,
+    "backendLanguage": "Proprietary",
+    "extensionLanguageTech": ["JavaScript", "HTML", "CSS"],
+    "frontendLanguageTech": ["JavaScript", "React"],
+    "contentStorage": ["Proprietary Database"],
+    "hostingOptions": ["managed"],
+    "apiOptions": ["REST"],
+    "summary": "BigCommerce is a SaaS-based e-commerce platform that provides a comprehensive set of tools for building and managing online stores. It offers a fully managed environment, eliminating the need for server administration. The platform supports customization through JavaScript, HTML, and CSS, and provides RESTful APIs for integration with other services."
+  },
+  "targetUsers": {
+    "individualHobbyist": "kinda",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "yes",
+    "enterpriseCorporation": "yes",
+    "summary": "BigCommerce caters to a wide range of users, from individual entrepreneurs to large enterprises. Its user-friendly interface and scalability make it suitable for businesses at various stages of growth, supporting both small teams and large organizations."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "BigCommerce is a proprietary platform developed and maintained by a commercial entity. Users access its features through subscription-based plans, with various tiers available to accommodate different business needs."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "BigCommerce includes built-in user management features, allowing store owners to manage staff accounts and set permissions directly within the platform. It does not natively support external authentication methods like OAuth."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "kinda",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "kinda",
+    "previewing": "yes",
+    "editingWorkflows": "kinda",
+    "realTimeCollaboration": "no",
+    "summary": "BigCommerce offers a web-based content editor that allows users to manage product listings and page content. It supports custom fields and content types, and provides content previewing. However, features like versioning, editing workflows, and real-time collaboration are limited or require additional customization."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "kinda",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "BigCommerce provides a variety of themes through its marketplace, including both free and paid options. While packaged themes are available for quick setup, frontend developers can further customize the site's appearance as needed."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "BigCommerce ensures responsive design for optimal viewing across devices. However, it does not natively support the creation of Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "BigCommerce supports multilingual content creation, allowing businesses to cater to a global audience. The platform's user interface and editor also accommodate multiple languages, facilitating international collaboration."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "kinda",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "BigCommerce offers extensibility through its marketplace, which includes various extensions and integrations, both free and paid. While many customizations can be implemented without extensive backend development, more complex extensions may require developer involvement."
+  },
+  "commerce": {
+    "isInCore": "yes",
+    "isInExtensions": "yes",
+    "integratedPlatforms": ["Shopify", "WooCommerce"],
+    "integratedPaymentGateways": ["Stripe", "PayPal"],
+    "summary": "BigCommerce provides comprehensive e-commerce functionality within its core platform, including product management, order processing, and payment integration. Additional features and integrations are available through extensions and third-party services."
+  },
+  "costs": {
+    "paradigm": ["per site"],
+    "subscription": 29,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 348,
+    "summary": "BigCommerce offers several pricing plans to accommodate different business needs. The Standard plan starts at $29 per month when billed annually, totaling $348 for the first year. Higher-tier plans with additional features are available at increased subscription rates. [BigCommerce Pricing](https://www.bigcommerce.com/essentials/pricing/)"
+  }
+}

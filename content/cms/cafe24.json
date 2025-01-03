@@ -1,0 +1,87 @@
+{
+  "title": "Cafe24",
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.2,
+  "architecture": {
+    "paradigm": "SaaS",
+    "serverAdminRequired": false,
+    "backendLanguage": "Proprietary",
+    "extensionLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["Proprietary Database"],
+    "hostingOptions": ["managed"],
+    "apiOptions": ["REST"],
+    "summary": "Cafe24 is a SaaS-based e-commerce platform that provides a comprehensive suite of tools for building and managing online stores. It offers a fully managed environment, eliminating the need for server administration. The platform supports customization through HTML, CSS, and JavaScript, and provides RESTful APIs for integration with other services."
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "yes",
+    "enterpriseCorporation": "yes",
+    "summary": "Cafe24 caters to a wide range of users, from individual entrepreneurs to large enterprises. Its user-friendly interface and scalability make it suitable for businesses at various stages of growth, supporting both small teams and large organizations."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "Cafe24 is a proprietary platform developed and maintained by a commercial entity. Users access its features through subscription-based plans, with various tiers available to accommodate different business needs."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "Cafe24 includes built-in user management features, allowing store owners to manage staff accounts and set permissions directly within the platform. It does not natively support external authentication methods like OAuth."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "kinda",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "kinda",
+    "previewing": "yes",
+    "editingWorkflows": "kinda",
+    "realTimeCollaboration": "no",
+    "summary": "Cafe24 offers a web-based content editor that allows users to manage product listings and page content. It supports custom fields and content types, and provides content previewing. However, features like versioning, editing workflows, and real-time collaboration are limited or require additional customization."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "kinda",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "Cafe24 provides a variety of themes through its marketplace, including both free and paid options. While packaged themes are available for quick setup, frontend developers can further customize the site's appearance as needed."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "Cafe24 ensures responsive design for optimal viewing across devices. However, it does not natively support the creation of Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "Cafe24 supports multilingual content creation, allowing businesses to cater to a global audience. The platform's user interface and editor also accommodate multiple languages, facilitating international collaboration."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "kinda",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "Cafe24 offers extensibility through its marketplace, which includes various extensions and integrations, both free and paid. While many customizations can be implemented without extensive backend development, more complex extensions may require developer involvement."
+  },
+  "commerce": {
+    "isInCore": "yes",
+    "isInExtensions": "yes",
+    "integratedPlatforms": ["Amazon", "Alibaba", "Lazada", "Rakuten"],
+    "integratedPaymentGateways": ["PayPal"],
+    "summary": "Cafe24 provides comprehensive e-commerce functionality within its core platform, including product management, order processing, and payment integration. Additional features and integrations are available through extensions and third-party services."
+  },
+  "costs": {
+    "paradigm": ["free"],
+    "subscription": 0,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 0,
+    "summary": "Cafe24 offers a free plan with no registration fees, monthly fees, or hosting fees, allowing users to build and run an online store at no cost. However, additional services, such as payment processing and premium features, may incur fees. [Cafe24 Pricing](https://global.cafe24.com/start/start-for-free/pricing.html)"
+  }
+}

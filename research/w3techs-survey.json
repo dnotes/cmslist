@@ -1,0 +1,322 @@
+{
+"WordPress": {
+  "webMarketShare": 43.6,
+  "cmsMarketShare": 62.0
+},
+"Shopify": {
+  "webMarketShare": 4.7,
+  "cmsMarketShare": 6.7
+},
+"Wix": {
+  "webMarketShare": 3.3,
+  "cmsMarketShare": 4.6
+},
+"Squarespace": {
+  "webMarketShare": 2.2,
+  "cmsMarketShare": 3.2
+},
+"Joomla": {
+  "webMarketShare": 1.6,
+  "cmsMarketShare": 2.2
+},
+"Drupal": {
+  "webMarketShare": 0.9,
+  "cmsMarketShare": 1.3
+},
+"Adobe Systems": {
+  "webMarketShare": 0.8,
+  "cmsMarketShare": 1.2
+},
+"Webflow": {
+  "webMarketShare": 0.8,
+  "cmsMarketShare": 1.1
+},
+"PrestaShop": {
+  "webMarketShare": 0.7,
+  "cmsMarketShare": 1.0
+},
+"Google Systems": {
+  "webMarketShare": 0.6,
+  "cmsMarketShare": 0.9
+},
+"Duda": {
+  "webMarketShare": 0.6,
+  "cmsMarketShare": 0.8
+},
+"Tilda": {
+  "webMarketShare": 0.6,
+  "cmsMarketShare": 0.8
+},
+"Bitrix": {
+  "webMarketShare": 0.5,
+  "cmsMarketShare": 0.8
+},
+"GoDaddy Website Builder": {
+  "webMarketShare": 0.5,
+  "cmsMarketShare": 0.8
+},
+"OpenCart": {
+  "webMarketShare": 0.5,
+  "cmsMarketShare": 0.7
+},
+"Weebly": {
+  "webMarketShare": 0.5,
+  "cmsMarketShare": 0.6
+},
+"TYPO3": {
+  "webMarketShare": 0.4,
+  "cmsMarketShare": 0.6
+},
+"Jimdo": {
+  "webMarketShare": 0.3,
+  "cmsMarketShare": 0.4
+},
+"Nuvemshop": {
+  "webMarketShare": 0.3,
+  "cmsMarketShare": 0.4
+},
+"Microsoft Systems": {
+  "webMarketShare": 0.2,
+  "cmsMarketShare": 0.3
+},
+"HubSpot CMS": {
+  "webMarketShare": 0.2,
+  "cmsMarketShare": 0.3
+},
+"Bigcommerce": {
+  "webMarketShare": 0.2,
+  "cmsMarketShare": 0.2
+},
+"Gatsby": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.2
+},
+"GitHub Pages": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.2
+},
+"Cafe24": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.2
+},
+"Contao": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.2
+},
+"Craft CMS": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.2
+},
+"Moodle": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.2
+},
+"team.blue systems": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.2
+},
+"Hugo": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.2
+},
+"Prom.ua": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.2
+},
+"IONOS MyWebsite": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.2
+},
+"DotNetNuke": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"Shoptet": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"Roundcube": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"phpBB": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"Odoo": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"Yardi": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"Loja Integrada": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"Tray": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"JustSystems Homepage Builder": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"Hostinger Website Builder": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"Lightspeed Systems": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"Shoper": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"Framer": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"Kajabi": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"XenForo": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"MODx": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"Shopware": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"DataLife Engine": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"October CMS": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"Ghost": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"Zendesk": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"Concrete CMS": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"WebSite X5": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"CMS.S3": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"Dealer.com": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"GitBook": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"Color Me Shop": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"Kentico": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"Mobirise": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"One.com Website Builder": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"SpotHopper": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"JouwWeb": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"MediaWiki": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"ProcessWire": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"nopCommerce": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"EC-Cube": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"Open Journal Systems": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"ePages": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"Mono": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"Jekyll": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"Astro": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"JTL-Shop": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"IdeaSoft": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"BaseKit": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"BentoBox": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"IPS Community Suite": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"Ticimax": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+},
+"Salesforce": {
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1
+}
+}

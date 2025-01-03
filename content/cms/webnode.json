@@ -1,0 +1,87 @@
+{
+  "title": "Webnode",
+  "webMarketShare": 0.08,
+  "cmsMarketShare": 0.16,
+  "architecture": {
+    "paradigm": "SaaS",
+    "serverAdminRequired": false,
+    "backendLanguage": "Unknown",
+    "extensionLanguageTech": [],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["Unknown"],
+    "hostingOptions": ["managed"],
+    "apiOptions": ["none"],
+    "summary": "Webnode is a cloud-based website builder (SaaS) that does not require server administration. It offers managed hosting and utilizes standard web technologies for frontend development. The platform does not provide APIs for custom integrations."
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "kinda",
+    "largeDevelopmentTeam": "no",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "kinda",
+    "largeContentTeam": "no",
+    "enterpriseCorporation": "no",
+    "summary": "Webnode is ideal for individual hobbyists, single developers, and single content editors due to its user-friendly interface and simplicity. It can accommodate small development teams and content teams to some extent but lacks the advanced features required by large teams or enterprise-level organizations."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "Webnode is a proprietary, commercially developed platform. Users must comply with Webnode's terms of service and privacy policy when using the platform."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "Webnode includes a self-contained user management system that allows site owners to manage user registrations and restrict access to selected pages through membership registration."
+  },
+  "contentEditing": {
+    "paradigm": "drag and drop",
+    "onSiteEditing": "yes",
+    "customFields": "no",
+    "customContentTypes": "no",
+    "versioning": "no",
+    "previewing": "yes",
+    "editingWorkflows": "no",
+    "realTimeCollaboration": "no",
+    "summary": "Webnode offers a drag-and-drop editor with on-site editing capabilities, allowing users to see changes in real-time. However, it lacks support for custom fields, custom content types, versioning, editing workflows, and real-time collaboration."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "no",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "Webnode provides a variety of packaged themes through its theme marketplace, including both free and paid options. Users can customize the display of their site without the need for frontend development skills."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "Webnode ensures that all websites created on its platform are responsive, providing optimal viewing across various devices. It does not offer features to create Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "Webnode supports the creation of multilingual websites, offering a multilingual user interface and editor, making it suitable for users aiming to reach a global audience."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "no",
+    "extensionMarketplace": "no",
+    "paidExtensions": "no",
+    "summary": "Webnode is a closed system without an extension marketplace, limiting its extensibility. Users cannot add custom backend functionalities or integrate third-party extensions."
+  },
+  "commerce": {
+    "isInCore": "yes",
+    "isInExtensions": "no",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": [],
+    "summary": "Webnode includes basic e-commerce functionality within its core features, allowing users to set up online stores. However, it lacks integration with external e-commerce platforms and has limited payment gateway options."
+  },
+  "costs": {
+    "paradigm": ["per site", "free tier"],
+    "subscription": 8.5,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 102,
+    "summary": "Webnode offers a free tier with basic features and several premium plans. The Mini plan starts at $8.5 per month, billed annually, totaling approximately $102 for the first year. Higher-tier plans with additional features are available at increased costs."
+  }
+}

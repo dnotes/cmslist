@@ -1,0 +1,87 @@
+{
+  "title": "Weebly",
+  "webMarketShare": 0.5,
+  "cmsMarketShare": 0.6,
+  "architecture": {
+    "paradigm": "SaaS",
+    "serverAdminRequired": false,
+    "backendLanguage": "N/A",
+    "extensionLanguageTech": [],
+    "frontendLanguageTech": [],
+    "contentStorage": [],
+    "hostingOptions": ["managed"],
+    "apiOptions": ["none"],
+    "summary": "Weebly is a SaaS-based website builder that provides managed hosting, eliminating the need for server administration. It offers a user-friendly, drag-and-drop interface for website creation, requiring no coding knowledge. The platform does not provide APIs for external integrations."
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "kinda",
+    "largeDevelopmentTeam": "no",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "kinda",
+    "largeContentTeam": "no",
+    "enterpriseCorporation": "no",
+    "summary": "Weebly is ideal for individual hobbyists, single developers, and single content editors due to its simplicity and ease of use. It can accommodate small development and content teams to some extent but lacks the advanced features required by large teams or enterprise corporations."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "Weebly is a proprietary, commercially developed platform owned by Square, Inc."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "The platform includes a self-contained user management system, allowing users to manage roles and permissions within the website builder environment."
+  },
+  "contentEditing": {
+    "paradigm": "drag and drop",
+    "onSiteEditing": "yes",
+    "customFields": "no",
+    "customContentTypes": "no",
+    "versioning": "no",
+    "previewing": "yes",
+    "editingWorkflows": "no",
+    "realTimeCollaboration": "no",
+    "summary": "Weebly offers a drag-and-drop interface with on-site editing capabilities and content previewing. However, it lacks support for custom fields, custom content types, content versioning, editing workflows, and real-time collaboration."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "no",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "The platform provides a selection of packaged themes with on-site display customization options, allowing users to modify their site's appearance without requiring frontend development skills. A theme marketplace is available, offering both free and paid themes."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "Websites built with Weebly are responsive by design, ensuring compatibility with mobile devices. The platform does not offer features to create progressive web apps or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "no",
+    "multilingualUI": "no",
+    "multilingualEditor": "no",
+    "summary": "Weebly does not provide built-in support for multilingual content, user interfaces, or editors, limiting its suitability for internationalized websites."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "no",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "Weebly offers an extension marketplace with various apps to enhance website functionality. Users can add features without backend development skills, though the range of extensions is more limited compared to some other platforms."
+  },
+  "commerce": {
+    "isInCore": "yes",
+    "isInExtensions": "no",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": ["Square"],
+    "summary": "E-commerce functionality is included in the core platform, with support for Square as the primary payment gateway. Integration with other platforms or payment gateways is limited."
+  },
+  "costs": {
+    "paradigm": ["subscription", "free tier"],
+    "subscription": 10,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 120,
+    "summary": "Weebly offers a free tier with basic features and paid subscription plans starting at $10 per month when billed annually. There are no separate software license fees. The estimated total cost for the first year on the Personal plan is $120. Users should consider additional costs for domain registration and any paid extensions or themes."
+  }
+}

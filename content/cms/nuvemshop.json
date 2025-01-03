@@ -1,0 +1,87 @@
+{
+  "title": "Nuvemshop",
+  "webMarketShare": 0.3,
+  "cmsMarketShare": 0.4,
+  "architecture": {
+    "paradigm": "SaaS",
+    "serverAdminRequired": false,
+    "backendLanguage": "N/A",
+    "extensionLanguageTech": [],
+    "frontendLanguageTech": [],
+    "contentStorage": [],
+    "hostingOptions": ["managed"],
+    "apiOptions": ["REST"],
+    "summary": "Nuvemshop is a SaaS-based e-commerce platform that provides managed hosting, eliminating the need for server administration. It offers a user-friendly interface for creating and managing online stores, with REST API options available for developers. The platform does not require knowledge of backend or frontend technologies for general use."
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "kinda",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "kinda",
+    "enterpriseCorporation": "kinda",
+    "summary": "Nuvemshop is suitable for individual hobbyists, single developers, and small to medium-sized businesses. While it can accommodate larger teams and enterprise corporations, its feature set is primarily tailored to small and medium-sized enterprises (SMEs)."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "Nuvemshop is a proprietary, commercially developed platform owned by Nuvemshop (also known as Tiendanube in Spanish-speaking countries)."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "The platform includes a self-contained user management system, allowing users to manage roles and permissions within the e-commerce environment."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "yes",
+    "customFields": "no",
+    "customContentTypes": "no",
+    "versioning": "no",
+    "previewing": "yes",
+    "editingWorkflows": "no",
+    "realTimeCollaboration": "no",
+    "summary": "Nuvemshop offers a web form-based interface with on-site editing capabilities and content previewing. However, it lacks support for custom fields, custom content types, content versioning, editing workflows, and real-time collaboration."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "no",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "The platform provides a selection of packaged themes with on-site display customization options, allowing users to modify their store's appearance without requiring frontend development skills. A theme marketplace is available, offering both free and paid themes."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "Stores built with Nuvemshop are responsive by design, ensuring compatibility with mobile devices. The platform does not offer features to create progressive web apps or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "no",
+    "multilingualUI": "no",
+    "multilingualEditor": "no",
+    "summary": "Nuvemshop does not provide built-in support for multilingual content, user interfaces, or editors, limiting its suitability for internationalized stores."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "no",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "Nuvemshop offers an extension marketplace with various apps to enhance store functionality. Users can add features without backend development skills, though the range of extensions is more limited compared to some other platforms."
+  },
+  "commerce": {
+    "isInCore": "yes",
+    "isInExtensions": "no",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": ["Mercado Pago", "PayPal", "PagSeguro"],
+    "summary": "E-commerce functionality is included in the core platform, with support for multiple integrated payment gateways, including Mercado Pago, PayPal, and PagSeguro. Integration with other platforms or payment gateways may be limited."
+  },
+  "costs": {
+    "paradigm": ["subscription", "free tier"],
+    "subscription": 59,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 708,
+    "summary": "Nuvemshop offers a free tier with basic features and paid subscription plans starting at R$59 per month when billed annually. There are no separate software license fees. The estimated total cost for the first year on the Essencial plan is R$708. Users should consider additional costs for domain registration and any paid extensions or themes."
+  }
+}

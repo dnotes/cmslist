@@ -1,0 +1,87 @@
+{
+  "title": "Webflow",
+  "webMarketShare": 0.8,
+  "cmsMarketShare": 1.1,
+  "architecture": {
+    "paradigm": "SaaS",
+    "serverAdminRequired": false,
+    "backendLanguage": "Not publicly disclosed",
+    "extensionLanguageTech": ["JavaScript"],
+    "frontendLanguageTech": ["JavaScript"],
+    "contentStorage": ["Not publicly disclosed"],
+    "hostingOptions": ["managed"],
+    "apiOptions": ["REST"],
+    "summary": "Webflow is a SaaS-based website builder and content management system that enables users to design, build, and manage responsive websites without server administration. While the specific backend technologies and content storage methods are proprietary and not publicly disclosed, the platform offers managed hosting and provides a RESTful API for developers. Customization is primarily achieved through JavaScript."
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "kinda",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "kinda",
+    "enterpriseCorporation": "kinda",
+    "summary": "Webflow caters to a broad spectrum of users, including individual hobbyists, single developers, and small to medium-sized teams, due to its intuitive interface and robust feature set. While it can support larger teams and enterprise corporations, they may encounter limitations in scalability and advanced functionalities compared to more enterprise-focused platforms."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "Webflow operates under a proprietary software license and is structured as a commercial entity, offering its services through various subscription-based plans."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "Webflow includes a built-in user management system that allows site owners to manage user access and roles directly within the platform, facilitating collaboration without the need for external authentication services."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "yes",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "kinda",
+    "previewing": "yes",
+    "editingWorkflows": "kinda",
+    "realTimeCollaboration": "no",
+    "summary": "Webflow offers a web-based content editing experience with on-site editing capabilities and previewing. It supports custom fields and content types, allowing for flexible content structures. While it provides basic versioning and workflow features, it lacks advanced editing workflows and real-time collaboration functionalities."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "no",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "Webflow does not require frontend development skills, offering a variety of packaged themes through its marketplace, including paid options. Users can customize the display of their site directly through the platform's visual editor, providing extensive design flexibility."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "Webflow supports responsive design to ensure websites are mobile-friendly. However, it does not offer native functionality to create Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "kinda",
+    "multilingualUI": "kinda",
+    "multilingualEditor": "kinda",
+    "summary": "Webflow provides limited support for internationalization. While it is possible to create multilingual content and user interfaces, it requires manual setup and workarounds, as the platform does not offer comprehensive multilingual features out of the box."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "kinda",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "Webflow offers an extension marketplace with both free and paid options, enabling users to enhance their websites' functionality. While many extensions can be integrated without backend development skills, more complex customizations may require developer expertise."
+  },
+  "commerce": {
+    "isInCore": "yes",
+    "isInExtensions": "no",
+    "integratedPlatforms": ["Webflow Ecommerce"],
+    "integratedPaymentGateways": ["Stripe", "PayPal"],
+    "summary": "E-commerce functionality is built into Webflow's core platform through Webflow Ecommerce, which integrates with payment gateways like Stripe and PayPal to facilitate online transactions."
+  },
+  "costs": {
+    "paradigm": ["per site"],
+    "subscription": 23,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 276,
+    "summary": "Webflow operates on a per-site subscription model, with the CMS plan priced at $23 per month when billed annually. There is no separate software license fee, making the estimated total cost for the first year approximately $276. Higher-tier plans with additional features are available at increased subscription rates."
+  }
+}

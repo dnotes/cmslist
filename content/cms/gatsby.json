@@ -1,0 +1,87 @@
+{
+  "title": "Gatsby",
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.2,
+  "architecture": {
+    "paradigm": "static site generator",
+    "serverAdminRequired": false,
+    "backendLanguage": "JavaScript",
+    "extensionLanguageTech": ["JavaScript", "GraphQL"],
+    "frontendLanguageTech": ["React", "JavaScript"],
+    "contentStorage": ["Markdown", "JSON", "Headless CMS"],
+    "hostingOptions": ["serverless", "container"],
+    "apiOptions": ["GraphQL", "REST"],
+    "summary": "Gatsby is a React-based open-source framework that functions as a static site generator. It allows developers to build fast, secure, and scalable websites by pre-compiling pages into static files. Gatsby integrates seamlessly with various data sources, including headless CMSs, APIs, databases, and file systems, using GraphQL to manage data. Hosting is flexible, with options ranging from serverless platforms to containerized environments."
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "kinda",
+    "smallContentTeam": "kinda",
+    "largeContentTeam": "kinda",
+    "enterpriseCorporation": "yes",
+    "summary": "Gatsby is suitable for a wide range of users, from individual hobbyists to large enterprise teams. Developers appreciate its modern stack and performance benefits. While content editors can work with Gatsby through integrations with headless CMSs, the setup may require initial developer assistance to establish workflows."
+  },
+  "legal": {
+    "softwareLicense": "open-source: permissive",
+    "corporateStructure": "commercial",
+    "summary": "Gatsby is released under the MIT License, a permissive open-source license. The framework is maintained by Gatsby, Inc., a commercial entity that offers additional services like Gatsby Cloud for hosting and builds."
+  },
+  "userManagement": {
+    "paradigm": ["none"],
+    "summary": "Gatsby does not include built-in user management. Authentication and user roles must be implemented through third-party services or custom solutions, often integrated via APIs."
+  },
+  "contentEditing": {
+    "paradigm": "text editor",
+    "onSiteEditing": "no",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "kinda",
+    "previewing": "kinda",
+    "editingWorkflows": "no",
+    "realTimeCollaboration": "no",
+    "summary": "Content editing in Gatsby is typically managed through external headless CMSs or directly via code using Markdown or JSON files. Features like custom fields and content types depend on the chosen CMS. Versioning and previewing capabilities vary and may require additional configuration. Advanced editing workflows and real-time collaboration are not inherent to Gatsby but can be achieved through integrated services."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "yes",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "Gatsby offers a variety of starters and themes to jumpstart development, with both free and paid options available. However, implementing and customizing these themes typically requires frontend development expertise. On-site display customization is possible but depends on the developer's implementation."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "yes",
+    "createsNativeApp": "no",
+    "summary": "Gatsby supports responsive design principles and can be configured to create Progressive Web Apps (PWAs) out of the box. However, it does not natively support the creation of native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "kinda",
+    "summary": "Gatsby supports internationalization and localization, allowing developers to create multilingual websites. The user interface can be adapted for multiple languages. The multilingual capabilities of the content editor depend on the integrated CMS."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "yes",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "Gatsby is highly extensible, with a rich ecosystem of plugins and starters that add functionality. Implementing and customizing extensions typically requires backend development skills. The community and third-party developers offer both free and paid extensions."
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "yes",
+    "integratedPlatforms": ["Shopify", "BigCommerce", "Snipcart"],
+    "integratedPaymentGateways": ["Stripe", "PayPal"],
+    "summary": "E-commerce functionality is not included in Gatsby's core but can be added through integrations with platforms like Shopify, BigCommerce, and Snipcart. These integrations support various payment gateways, including Stripe and PayPal, enabling robust e-commerce capabilities."
+  },
+  "costs": {
+    "paradigm": ["free"],
+    "subscription": 0,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 0,
+    "summary": "Gatsby is free to use under the MIT License, with no associated subscription or licensing costs. However, deploying a Gatsby site may incur hosting and service expenses, especially if using premium hosting providers or third-party integrations."
+  }
+}

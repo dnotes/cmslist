@@ -1,0 +1,87 @@
+{
+  "title": "Tilda",
+  "webMarketShare": 0.6,
+  "cmsMarketShare": 0.8,
+  "architecture": {
+    "paradigm": "SaaS",
+    "serverAdminRequired": false,
+    "backendLanguage": "Not publicly disclosed",
+    "extensionLanguageTech": ["JavaScript"],
+    "frontendLanguageTech": ["JavaScript"],
+    "contentStorage": ["Not publicly disclosed"],
+    "hostingOptions": ["managed"],
+    "apiOptions": ["None"],
+    "summary": "Tilda is a cloud-based website builder and content management system (CMS) that enables users to create and manage websites without requiring server administration. While the specific backend technologies and content storage methods are proprietary and not publicly disclosed, the platform offers managed hosting. Customization is primarily achieved through a user-friendly interface, with support for embedding custom HTML, CSS, and JavaScript code."
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "kinda",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "kinda",
+    "enterpriseCorporation": "kinda",
+    "summary": "Tilda caters to a broad spectrum of users, including individual hobbyists, single developers, and small to medium-sized teams, due to its intuitive interface and robust feature set. While it can support larger teams and enterprise corporations, they may encounter limitations in scalability and advanced functionalities compared to more enterprise-focused platforms."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "Tilda operates under a proprietary software license and is structured as a commercial entity, offering its services through various subscription-based plans."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "Tilda includes a built-in user management system that allows site owners to manage user access and roles directly within the platform, facilitating collaboration without the need for external authentication services."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "yes",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "kinda",
+    "previewing": "yes",
+    "editingWorkflows": "kinda",
+    "realTimeCollaboration": "no",
+    "summary": "Tilda offers a web-based content editing experience with on-site editing capabilities and previewing. It supports custom fields and content types, allowing for flexible content structures. While it provides basic versioning and workflow features, it lacks advanced editing workflows and real-time collaboration functionalities."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "no",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "no",
+    "paidThemes": "no",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "Tilda provides a variety of pre-designed blocks and templates, allowing users to create visually appealing websites without frontend development skills. While there is no official theme marketplace or paid themes, users can customize the display of their site directly through the platform's visual editor."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "Tilda supports responsive design to ensure websites are mobile-friendly. However, it does not offer native functionality to create Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "kinda",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "Tilda provides limited support for internationalization. While the user interface and editor support multiple languages, managing multilingual content requires manual setup and workarounds, as the platform does not offer comprehensive multilingual features out of the box."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "no",
+    "extensionMarketplace": "no",
+    "paidExtensions": "no",
+    "summary": "Tilda has limited extensibility, with no official extension marketplace or support for paid extensions. Customization is primarily achieved through the platform's built-in features and the ability to embed custom HTML, CSS, and JavaScript code. Advanced functionality may require integration with third-party services."
+  },
+  "commerce": {
+    "isInCore": "yes",
+    "isInExtensions": "no",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": ["Stripe", "PayPal", "Cloudpayments", "Robokassa"],
+    "summary": "E-commerce functionality is built into Tilda's core platform, allowing users to create online stores and accept payments through integrated gateways such as Stripe, PayPal, Cloudpayments, and Robokassa. The platform supports features like campaign and promo code management, order confirmation automation, and a price calculator."
+  },
+  "costs": {
+    "paradigm": ["subscription", "free tier"],
+    "subscription": 10,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 120,
+    "summary": "Tilda offers a free tier with limited features, as well as subscription-based plans. The Personal Plan is priced at $10 per month when billed annually, totaling approximately $120 per year, and allows for one website with all features included. The Business Plan, suitable for up to five websites, is available at $20 per month when billed annually. There are no additional software license fees."
+  }
+}

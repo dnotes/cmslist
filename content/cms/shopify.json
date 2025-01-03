@@ -1,0 +1,87 @@
+{
+  "title": "Shopify",
+  "webMarketShare": 4.7,
+  "cmsMarketShare": 6.7,
+  "architecture": {
+    "paradigm": "SaaS",
+    "serverAdminRequired": false,
+    "backendLanguage": "Ruby",
+    "extensionLanguageTech": ["Ruby", "Liquid", "JavaScript"],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["SQL"],
+    "hostingOptions": ["managed"],
+    "apiOptions": ["REST", "GraphQL"],
+    "summary": "Shopify is a SaaS-based e-commerce platform that allows users to create and manage online stores without the need for server administration. It utilizes Ruby on Rails for its backend and offers customization through Liquid templating and JavaScript. Content is stored in SQL databases, and the platform provides managed hosting. Developers can interact with Shopify's functionalities via REST and GraphQL APIs."
+  },
+  "targetUsers": {
+    "individualHobbyist": "kinda",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "yes",
+    "enterpriseCorporation": "yes",
+    "summary": "Shopify caters to a wide range of users, from individual entrepreneurs to large enterprises. While it offers tools suitable for hobbyists, its robust features and scalability make it particularly advantageous for businesses aiming to establish or expand their online presence."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "Shopify operates under a proprietary software license and is a commercial entity. Users subscribe to access its services, and the platform is maintained and updated by Shopify Inc., a Canadian multinational e-commerce company."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "Shopify includes a built-in user management system that allows store owners to manage staff accounts with varying levels of permissions. It also manages customer accounts for those who purchase through the platform."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "kinda",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "kinda",
+    "previewing": "yes",
+    "editingWorkflows": "kinda",
+    "realTimeCollaboration": "no",
+    "summary": "Shopify provides a web-based interface for content editing, allowing users to create and manage product listings, blog posts, and pages. While it supports custom fields and content types, features like versioning and editing workflows are limited. Real-time collaboration is not natively supported."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "kinda",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "Shopify offers a variety of themes, both free and paid, through its theme marketplace. While many customization options are available through the user interface, advanced customizations may require frontend development skills. The platform supports on-site display customization to tailor the storefront to specific branding needs."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "kinda",
+    "createsNativeApp": "no",
+    "summary": "Shopify themes are designed to be responsive, ensuring optimal display across various devices. While it doesn't natively create Progressive Web Apps (PWAs) or native mobile apps, third-party solutions are available to extend these capabilities."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "Shopify supports multiple languages for both the storefront and the administrative interface, facilitating internationalization. This enables merchants to offer multilingual content and manage their stores in various languages."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "kinda",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "Shopify's extensibility is facilitated through its App Store, offering a wide range of extensions and plugins, both free and paid. While many functionalities can be added without backend development, custom app development may require backend expertise."
+  },
+  "commerce": {
+    "isInCore": "yes",
+    "isInExtensions": "yes",
+    "integratedPlatforms": ["Facebook", "Instagram", "Amazon", "eBay"],
+    "integratedPaymentGateways": ["Shopify Payments", "PayPal", "Stripe", "Authorize.net"],
+    "summary": "Commerce functionalities are central to Shopify, with core features supporting product management, payment processing, and order fulfillment. The platform integrates with various sales channels like Facebook and Amazon, and supports multiple payment gateways, including its own Shopify Payments."
+  },
+  "costs": {
+    "paradigm": ["per site", "subscription"],
+    "subscription": 29,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 348,
+    "summary": "Shopify operates on a subscription model, with plans starting at $29 per month for the Basic plan. There are no additional software license fees. Depending on the chosen plan and additional services, the estimated total cost for the first year starts at approximately $348. Higher-tier plans and additional apps or themes can increase overall costs."
+  }
+}

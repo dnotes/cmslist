@@ -1,0 +1,87 @@
+{
+  "title": "PrestaShop",
+  "webMarketShare": 0.7,
+  "cmsMarketShare": 1.0,
+  "architecture": {
+    "paradigm": "server install",
+    "serverAdminRequired": true,
+    "backendLanguage": "PHP",
+    "extensionLanguageTech": ["PHP", "JavaScript"],
+    "frontendLanguageTech": ["JavaScript"],
+    "contentStorage": ["SQL"],
+    "hostingOptions": ["shared", "vps", "managed", "container"],
+    "apiOptions": ["REST"],
+    "summary": "PrestaShop is an open-source e-commerce platform that requires server installation and administration. Built primarily with PHP, it utilizes SQL databases for content storage. The platform supports extensions developed in PHP and JavaScript, offering flexibility in hosting options, including shared, VPS, managed, and container environments. PrestaShop provides RESTful APIs for developers to interact with the system."
+  },
+  "targetUsers": {
+    "individualHobbyist": "kinda",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "kinda",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "yes",
+    "enterpriseCorporation": "yes",
+    "summary": "PrestaShop caters to a wide range of users, from single developers to large development teams and enterprise corporations, due to its scalability and extensive feature set. While individual hobbyists and single content editors can use PrestaShop, they may encounter a steeper learning curve compared to more user-friendly platforms."
+  },
+  "legal": {
+    "softwareLicense": "open-source: permissive",
+    "corporateStructure": "commercial",
+    "summary": "PrestaShop is released under the Open Software License (OSL), a permissive open-source license, and is maintained by a commercial entity."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "PrestaShop includes a robust, self-contained user management system that allows administrators to define roles and permissions, facilitating complex access control and user management."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "yes",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "kinda",
+    "previewing": "yes",
+    "editingWorkflows": "kinda",
+    "realTimeCollaboration": "no",
+    "summary": "PrestaShop offers a comprehensive web-based content editing experience with on-site editing capabilities. It supports custom fields and content types, allowing for flexible content structures. While it provides basic versioning and workflow features, it lacks advanced editing workflows and real-time collaboration functionalities."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "kinda",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "PrestaShop provides a variety of packaged themes and access to a theme marketplace with both free and paid options. On-site display customization is supported, allowing users to modify the appearance of their site. While basic customization can be done without frontend development skills, advanced customization may require developer involvement."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "PrestaShop supports responsive design, ensuring websites are mobile-friendly. However, it does not natively offer functionality to create Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "PrestaShop provides robust multilingual support, allowing for multilingual content, user interfaces, and editor settings, facilitating the creation of websites in multiple languages."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "kinda",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "PrestaShop offers an extensive extension marketplace with both free and paid options, enabling users to enhance their websites' functionality. While many extensions can be installed without backend development skills, customizing or developing new extensions may require developer expertise."
+  },
+  "commerce": {
+    "isInCore": "yes",
+    "isInExtensions": "yes",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": ["PayPal", "Stripe", "Authorize.Net"],
+    "summary": "E-commerce functionality is built into PrestaShop's core platform, with additional features available through extensions. It integrates with various payment gateways such as PayPal, Stripe, and Authorize.Net to facilitate online transactions."
+  },
+  "costs": {
+    "paradigm": ["free"],
+    "subscription": 0,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 0,
+    "summary": "PrestaShop is free to download and use, with no subscription or software license fees. However, users should consider potential costs for hosting, domain registration, premium extensions, themes, and professional services as needed."
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "title": "HubSpot CMS",
+  "webMarketShare": 0.2,
+  "cmsMarketShare": 0.3,
+  "architecture": {
+    "paradigm": "SaaS",
+    "serverAdminRequired": false,
+    "backendLanguage": "HubL (HubSpot Markup Language)",
+    "extensionLanguageTech": ["JavaScript", "HTML", "CSS"],
+    "frontendLanguageTech": ["JavaScript", "React"],
+    "contentStorage": ["Proprietary Database"],
+    "hostingOptions": ["managed"],
+    "apiOptions": ["REST"],
+    "summary": "HubSpot CMS is a SaaS-based content management system that integrates seamlessly with HubSpot's CRM and marketing tools. It utilizes HubL, HubSpot's proprietary markup language, for backend development, and supports JavaScript and React for frontend customization. As a fully managed platform, it eliminates the need for server administration, offering built-in security, scalability, and performance optimization."
+  },
+  "targetUsers": {
+    "individualHobbyist": "no",
+    "singleDeveloper": "kinda",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "yes",
+    "enterpriseCorporation": "yes",
+    "summary": "HubSpot CMS is designed for businesses of varying sizes, from small teams to large enterprises. While it may be overkill for individual hobbyists, it provides robust tools for developers and content creators, facilitating collaboration and efficient content management across organizations."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "HubSpot CMS is a proprietary, commercially licensed platform developed and maintained by HubSpot, a commercial entity. Users subscribe to access its features, with various pricing tiers available to suit different business needs."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "HubSpot CMS includes built-in user management, allowing administrators to control access and permissions within the platform. It does not natively support external authentication methods like OAuth."
+  },
+  "contentEditing": {
+    "paradigm": "drag and drop",
+    "onSiteEditing": "yes",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "yes",
+    "previewing": "yes",
+    "editingWorkflows": "yes",
+    "realTimeCollaboration": "kinda",
+    "summary": "HubSpot CMS offers a user-friendly drag-and-drop editor with on-site editing capabilities. It supports custom fields and content types, versioning, and content previewing. While it includes editing workflows, real-time collaboration features are limited."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "kinda",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "HubSpot CMS provides a variety of themes through its marketplace, including both free and paid options. While packaged themes are available for quick setup, frontend developers can further customize site appearance as needed."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "HubSpot CMS ensures responsive design for optimal viewing across devices. However, it does not natively support the creation of Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "HubSpot CMS supports multilingual content creation, allowing businesses to cater to a global audience. The platform's user interface and editor also accommodate multiple languages, facilitating international collaboration."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "kinda",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "HubSpot CMS offers extensibility through its marketplace, which includes various extensions and integrations, both free and paid. While many customizations can be implemented without extensive backend development, more complex extensions may require developer involvement."
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "yes",
+    "integratedPlatforms": ["Shopify", "WooCommerce"],
+    "integratedPaymentGateways": ["Stripe", "PayPal"],
+    "summary": "E-commerce functionality is not included in the core HubSpot CMS but can be added via integrations with platforms like Shopify and WooCommerce. These integrations support payment gateways such as Stripe and PayPal, enabling online transactions."
+  },
+  "costs": {
+    "paradigm": ["per site", "free tier"],
+    "subscription": 25,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 300,
+    "summary": "HubSpot CMS offers a free tier with limited features, suitable for basic use. Paid plans start at $25 per month, billed annually, for the Starter tier, with higher tiers available for advanced features and larger teams. The estimated first-year cost for the Starter plan is $300. :contentReference[oaicite:0]{index=0}"
+  }
+}

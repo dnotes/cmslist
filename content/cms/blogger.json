@@ -1,0 +1,87 @@
+{
+  "title": "Blogger",
+  "webMarketShare": 0.45,
+  "cmsMarketShare": 0.68,
+  "architecture": {
+    "paradigm": "SaaS",
+    "serverAdminRequired": false,
+    "backendLanguage": "N/A",
+    "extensionLanguageTech": [],
+    "frontendLanguageTech": [],
+    "contentStorage": [],
+    "hostingOptions": ["managed"],
+    "apiOptions": ["none"],
+    "summary": "Blogger is a SaaS-based platform that provides managed hosting, eliminating the need for server administration. It offers a user-friendly interface for creating and managing blogs without requiring coding knowledge. The platform does not provide APIs for external integrations."
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "kinda",
+    "largeDevelopmentTeam": "no",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "kinda",
+    "largeContentTeam": "no",
+    "enterpriseCorporation": "no",
+    "summary": "Blogger is ideal for individual hobbyists, single developers, and single content editors due to its simplicity and ease of use. It can accommodate small teams to some extent but lacks the advanced features required by large teams or enterprise corporations."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "Blogger is a proprietary platform owned by Google, Inc."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "The platform includes a self-contained user management system, allowing users to manage roles and permissions within the blogging environment."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "yes",
+    "customFields": "no",
+    "customContentTypes": "no",
+    "versioning": "no",
+    "previewing": "yes",
+    "editingWorkflows": "no",
+    "realTimeCollaboration": "no",
+    "summary": "Blogger offers a web form-based interface with on-site editing capabilities and content previewing. However, it lacks support for custom fields, custom content types, content versioning, editing workflows, and real-time collaboration."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "no",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "no",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "The platform provides a selection of packaged themes with on-site display customization options, allowing users to modify their blog's appearance without requiring frontend development skills. A theme marketplace is available, offering free themes."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "Blogs created with Blogger are responsive by design, ensuring compatibility with mobile devices. The platform does not offer features to create progressive web apps or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "no",
+    "multilingualUI": "no",
+    "multilingualEditor": "no",
+    "summary": "Blogger does not provide built-in support for multilingual content, user interfaces, or editors, limiting its suitability for internationalized blogs."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "no",
+    "extensionMarketplace": "no",
+    "paidExtensions": "no",
+    "summary": "Blogger does not offer an extension marketplace. Users can add basic features through widgets and gadgets without backend development skills, but the range of extensions is limited compared to other platforms."
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "no",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": [],
+    "summary": "E-commerce functionality is not included in Blogger's core platform, and there are no official extensions to add such features. Users seeking e-commerce capabilities would need to explore third-party solutions or consider alternative platforms."
+  },
+  "costs": {
+    "paradigm": ["free"],
+    "subscription": 0,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 0,
+    "summary": "Blogger is completely free to use, with no subscription or software license fees. Users can create and host blogs without incurring any costs. However, additional expenses may arise if users choose to purchase a custom domain or invest in third-party services."
+  }
+}

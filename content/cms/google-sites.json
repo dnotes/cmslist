@@ -1,0 +1,87 @@
+{
+  "title": "Google Sites",
+  "webMarketShare": 0.15,
+  "cmsMarketShare": 0.22,
+  "architecture": {
+    "paradigm": "SaaS",
+    "serverAdminRequired": false,
+    "backendLanguage": "Not publicly disclosed",
+    "extensionLanguageTech": ["JavaScript"],
+    "frontendLanguageTech": ["JavaScript"],
+    "contentStorage": ["Not publicly disclosed"],
+    "hostingOptions": ["managed"],
+    "apiOptions": ["None"],
+    "summary": "Google Sites is a cloud-based website builder and content management system (CMS) that enables users to create and manage websites without requiring server administration. While the specific backend technologies and content storage methods are proprietary and not publicly disclosed, the platform offers managed hosting. Customization is primarily achieved through a user-friendly interface, with limited support for JavaScript extensions."
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "kinda",
+    "smallDevelopmentTeam": "kinda",
+    "largeDevelopmentTeam": "no",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "kinda",
+    "largeContentTeam": "no",
+    "enterpriseCorporation": "no",
+    "summary": "Google Sites is designed for individual users, small teams, and educational purposes, offering an intuitive interface suitable for creating simple websites. It may not meet the advanced needs of large development teams or enterprise corporations due to its limited scalability and feature set."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "Google Sites is proprietary software developed and maintained by Google, a commercial entity. It is available as part of Google Workspace, which operates on a subscription-based model."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "Google Sites includes a built-in user management system that allows site owners to manage user access and roles directly within the platform, facilitating collaboration without the need for external authentication services."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "yes",
+    "customFields": "no",
+    "customContentTypes": "no",
+    "versioning": "yes",
+    "previewing": "yes",
+    "editingWorkflows": "no",
+    "realTimeCollaboration": "yes",
+    "summary": "Google Sites offers a web-based content editing experience with on-site editing capabilities and real-time collaboration. It supports versioning and previewing but lacks support for custom fields, custom content types, and advanced editing workflows."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "no",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "no",
+    "paidThemes": "no",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "Google Sites provides a selection of packaged themes and allows for on-site display customization through its visual editor. It does not require frontend development skills, but customization options are limited compared to more advanced platforms. There is no official theme marketplace or paid themes."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "Google Sites supports responsive design, ensuring websites are mobile-friendly. However, it does not offer functionality to create Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "no",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "While the user interface and editor of Google Sites support multiple languages, the platform does not provide built-in features for managing multilingual content, requiring manual workarounds to create multilingual websites."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "no",
+    "extensionMarketplace": "no",
+    "paidExtensions": "no",
+    "summary": "Google Sites has limited extensibility, with no official extension marketplace or support for paid extensions. Customization is primarily achieved through the platform's built-in features, and advanced functionality may require integration with other Google Workspace tools."
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "no",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": [],
+    "summary": "Google Sites does not include e-commerce functionality in its core platform, nor does it support extensions to add such features. Users seeking e-commerce capabilities would need to integrate third-party solutions externally."
+  },
+  "costs": {
+    "paradigm": ["subscription", "free tier"],
+    "subscription": 6,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 72,
+    "summary": "Google Sites is available as part of Google Workspace, with subscription plans starting at $6 per user per month when billed annually, totaling approximately $72 per year. A free tier with limited features is also available. There are no additional software license fees."
+  }
+}

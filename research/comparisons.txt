@@ -1,0 +1,180 @@
+Created on 2 Jan 2025, in collaboration with ChatGPT.
+Not all suggestions were used.
+
+Architecture
+
+    Paradigm
+        SaaS, server install, static site generator, serverless API with frontend, etc.
+
+    Server Admin Required?
+        Yes/No.
+
+    Backend Language
+        PHP, JavaScript, Ruby, Python, etc.
+
+    Frontend Language or Technology
+        Description of the primary frontend tools, e.g., "HTML/CSS with JavaScript, supports React for dynamic components."
+
+    Extension Language or Technology
+        How extensions/plugins are created, e.g., "PHP-based plugins" or "JavaScript and API-driven."
+
+    Content Storage
+        SQL (e.g., MySQL, PostgreSQL), NoSQL (e.g., MongoDB), file-based, cloud-based, etc.
+
+    Performance Scalability
+        Description of how well the CMS scales for high traffic or content volume.
+
+    Hosting Options
+        Shared hosting, managed hosting, self-hosted, cloud services (AWS, Azure), etc.
+
+Target Users
+
+    Individual Hobbyist
+        Yes / Kinda / No.
+
+    Single Developer
+        Yes / Kinda / No.
+
+    Small Development Team (<5 People)
+        Yes / Kinda / No.
+
+    Large Development Team (>50 People)
+        Yes / Kinda / No.
+
+    Single Editor
+        Yes / Kinda / No.
+
+    Small Editing Team (<5 People)
+        Yes / Kinda / No.
+
+    Large Editing Team (>50 People)
+        Yes / Kinda / No.
+
+    Enterprise/Corporate Use
+        Yes / Kinda / No.
+
+Legal
+
+    Software License
+        Open source (MIT, GPL, etc.), copyleft, proprietary.
+
+    Corporate Infrastructure
+        Brief description of corporate backing, e.g., "Supported by a large community," "Backed by Adobe for enterprise use."
+
+    Compliance
+        GDPR, HIPAA, ADA/WCAG (accessibility), and other legal frameworks.
+
+Content Editing
+
+    Editing Paradigm
+        Web form, in-place editing, drag-and-drop, WYSIWYG, Markdown, etc.
+
+    On-Site Editing
+        Yes/No (Can content be edited directly on the live site?).
+
+    Multilingual Support
+        Built-in or through extensions.
+
+    Custom Fields/Content Types
+        Description of how content types are handled.
+
+    Content Versioning
+        Yes/No (Supports tracking and restoring older content versions).
+
+    Estimated Content Editing Costs
+        For 1,000 posts, 3 content types, over 1 year.
+
+    Collaboration Tools
+        Yes/No, description (e.g., "Real-time editing, editorial workflows").
+
+Content Display
+
+    Requires Front-End Coding Work
+        Yes/No (for basic setup and advanced customization).
+
+    Supports Installable Themes
+        Yes/No (Marketplaces or built-in support).
+
+    On-Site Display Customization
+        Yes/No (via drag-and-drop, visual builders, or code).
+
+    Multilingual Display
+        Yes/No, description (e.g., "Language switcher included, requires extensions").
+
+    Estimated Theming Costs
+        For 1,000 posts, 3 content types, over 1 year.
+
+    Mobile Optimization
+        Yes/No (e.g., "Responsive themes out of the box").
+
+Extensibility
+
+    Plugin/Module System
+        Yes/No, description (e.g., "Comprehensive plugin ecosystem for adding features").
+
+    Custom Development
+        Yes/No, description (e.g., "Developers can build custom modules via APIs").
+
+    API Availability
+        Rest API, GraphQL, custom APIs, etc.
+
+    Marketplace/Store
+        Yes/No, description (e.g., "Official plugin marketplace with free and paid options").
+
+E-Commerce Support
+
+    Native E-Commerce Features
+        Yes/No, description (e.g., "Built-in cart, checkout, payment processing").
+
+    Integration with E-Commerce Platforms
+        Shopify, WooCommerce, BigCommerce, etc.
+
+    Payment Gateway Support
+        List of supported gateways (e.g., Stripe, PayPal).
+
+    Estimated Setup Costs
+        For a store with 100 products.
+
+Cost Analysis
+
+    Startup Costs
+        Typical range for initial setup.
+
+    Monthly/Recurring Costs
+        Hosting, subscriptions, plugins, themes.
+
+    Customization Costs
+        Ballpark estimates for typical site builds.
+
+Community and Support
+
+    Community Size
+        Large, medium, small, or description.
+
+    Support Options
+        Free forums, paid support, community-driven, enterprise-grade SLAs.
+
+    Documentation Quality
+        Beginner-friendly, developer-focused, comprehensive.
+
+SEO and Marketing
+
+    SEO Features
+        Meta tags, sitemaps, URL customization, etc.
+
+    Integration with Marketing Tools
+        Google Analytics, HubSpot, Mailchimp, etc.
+
+    Social Media Integration
+        Built-in sharing, social widgets, etc.
+
+Performance
+
+    Caching Options
+        Built-in, extension-based, or third-party integration.
+
+    Page Load Speed
+        General performance benchmarks or tools used.
+
+    Scalability for Traffic
+        Suitable for high-traffic sites (Yes/No, description).

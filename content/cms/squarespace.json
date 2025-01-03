@@ -1,0 +1,87 @@
+{
+  "title": "Squarespace",
+  "webMarketShare": 2.2,
+  "cmsMarketShare": 3.2,
+  "architecture": {
+    "paradigm": "SaaS",
+    "serverAdminRequired": false,
+    "backendLanguage": "Not publicly disclosed",
+    "extensionLanguageTech": ["Javascript"],
+    "frontendLanguageTech": ["Javascript"],
+    "contentStorage": ["Not publicly disclosed"],
+    "hostingOptions": ["managed"],
+    "apiOptions": ["REST"],
+    "summary": "Squarespace is a SaaS-based website builder and hosting service that allows users to create and manage websites without the need for server administration. While the specific backend technologies and content storage methods are proprietary and not publicly disclosed, the platform offers managed hosting and provides RESTful APIs for developers. Customization is primarily achieved through JavaScript."
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "kinda",
+    "largeDevelopmentTeam": "no",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "kinda",
+    "largeContentTeam": "no",
+    "enterpriseCorporation": "no",
+    "summary": "Squarespace is well-suited for individual hobbyists, single developers, and single content editors due to its user-friendly interface and comprehensive features. It can accommodate small development and content teams to some extent but may not meet the complex needs of large teams or enterprise corporations."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "Squarespace operates under a proprietary software license and is structured as a commercial entity, providing its services through a subscription-based model."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "Squarespace includes built-in user management, allowing site owners to manage user access and roles directly within the platform without the need for external authentication services."
+  },
+  "contentEditing": {
+    "paradigm": "drag and drop",
+    "onSiteEditing": "yes",
+    "customFields": "kinda",
+    "customContentTypes": "kinda",
+    "versioning": "no",
+    "previewing": "yes",
+    "editingWorkflows": "no",
+    "realTimeCollaboration": "no",
+    "summary": "Squarespace offers a drag-and-drop editor with on-site editing capabilities and previewing. While it provides some support for custom fields and content types, it lacks versioning, advanced editing workflows, and real-time collaboration features."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "no",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "Squarespace does not require frontend development skills, offering a variety of packaged themes through its marketplace, including paid options. Users can customize the display of their site directly through the platform's intuitive interface."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "Squarespace supports responsive design to ensure websites are mobile-friendly. However, it does not offer functionality to create Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "Squarespace provides support for internationalization, allowing for multilingual content, user interfaces, and editor settings, facilitating the creation of websites in multiple languages."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "no",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "Squarespace offers an extension marketplace with both free and paid options, enabling users to enhance their websites without the need for backend development expertise."
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "yes",
+    "integratedPlatforms": ["Squarespace Commerce"],
+    "integratedPaymentGateways": ["PayPal", "Stripe", "Square"],
+    "summary": "E-commerce functionality in Squarespace is available through its integrated platform, Squarespace Commerce, which supports payment gateways such as PayPal, Stripe, and Square to facilitate online transactions."
+  },
+  "costs": {
+    "paradigm": ["per site"],
+    "subscription": 16,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 192,
+    "summary": "Squarespace operates on a per-site subscription model, with plans starting at $16 per month when billed annually. There is no separate software license fee, making the estimated total cost for the first year approximately $192."
+  }
+}
