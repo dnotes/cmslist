@@ -2,8 +2,8 @@ import { json } from '@sveltejs/kit';
 import type { CMSRecord } from '$lib/index.d'
 import { sortBy } from 'lodash-es'
 
-const research = import.meta.glob('/research/*.json', { eager: true })
-const survey = research['/research/w3techs-survey.json'] as {
+const research = import.meta.glob('/research/*.json', { eager: true }) as Record<string,{default:any}>
+const survey = research['/research/w3techs-survey.json'].default as {
   [key:string]: {
     webMarketShare: number
     cmsMarketShare: number
@@ -17,20 +17,19 @@ export async function GET() {
   const collatedData = sortBy(
     Object.entries(files).map(([filepath, content]) => ({
       id: filepath.split('/').pop()?.replace('.json', ''),
-      webMarketShare: survey[content.title].webMarketShare || 0,
-      cmsMarketShare: survey[content.title].cmsMarketShare || 0,
+      webMarketShare: survey[content.title]?.webMarketShare || 0,
+      cmsMarketShare: survey[content.title]?.cmsMarketShare || 0,
+      w3techsSort: -(content.cmsMarketShare ?? survey[content.title]?.cmsMarketShare) || 0,
       w3techsRank: w3techsRanks.indexOf(content.title) + 1,
       ...content
     })),
-    'webMarketShare'
+    ['w3techsSort', 'w3techsRank']
   )
-  .reverse()
   .map((record, idx) => ({
     ...record,
     rank: record.webMarketShare ? idx + 1 : "N/A",
     webMarketShare: record.webMarketShare || "N/A",
     cmsMarketShare: record.cmsMarketShare || "N/A",
   }))
-
   return json(collatedData);
 }
