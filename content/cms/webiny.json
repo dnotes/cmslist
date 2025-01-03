@@ -1,0 +1,85 @@
+{
+  "title": "Webiny",
+  "architecture": {
+    "paradigm": "headless API",
+    "serverAdminRequired": true,
+    "backendLanguage": "JavaScript",
+    "extensionLanguageTech": ["JavaScript", "TypeScript"],
+    "frontendLanguageTech": ["JavaScript", "React"],
+    "contentStorage": ["MongoDB", "PostgreSQL", "MySQL"],
+    "hostingOptions": ["self-hosted"],
+    "apiOptions": ["GraphQL"],
+    "summary": "Webiny is an open-source, serverless content management platform designed for enterprises. Built with JavaScript and TypeScript, it offers a headless CMS with a GraphQL API, enabling developers to create scalable and secure applications. Webiny is self-hosted, providing full control over data and infrastructure, and supports various databases, including MongoDB, PostgreSQL, and MySQL. It also includes features like a page builder, form builder, and file manager, making it a comprehensive solution for content management and application development. :contentReference[oaicite:0]{index=0}"
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "yes",
+    "enterpriseCorporation": "yes",
+    "summary": "Webiny caters to a broad spectrum of users, from individual developers to large enterprises. Its scalable architecture and extensive feature set make it suitable for various project sizes and team structures, facilitating efficient content management and application development. :contentReference[oaicite:1]{index=1}"
+  },
+  "legal": {
+    "softwareLicense": "open-source: permissive",
+    "corporateStructure": "commercial",
+    "summary": "Webiny is released under the MIT License, promoting open-source development and community collaboration. It is maintained by a commercial entity that offers additional enterprise features and support services. :contentReference[oaicite:2]{index=2}"
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "Webiny includes a built-in user management system with role-based access control, enabling administrators to define permissions and manage user roles within the CMS. :contentReference[oaicite:3]{index=3}"
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "no",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "yes",
+    "previewing": "yes",
+    "editingWorkflows": "yes",
+    "realTimeCollaboration": "no",
+    "summary": "Webiny provides a web-based interface for content creation and management, supporting custom fields and content types. It offers versioning, previewing, and editing workflows to facilitate content management, though it lacks real-time collaboration features. :contentReference[oaicite:4]{index=4}"
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "yes",
+    "supportsPackagedThemes": "no",
+    "themeMarketplace": "no",
+    "paidThemes": "no",
+    "supportsOnSiteDisplayCustomization": "no",
+    "summary": "As a headless CMS, Webiny does not include packaged themes or on-site display customization. Frontend development is required to design and implement the presentation layer, providing flexibility in delivering content across various platforms. :contentReference[oaicite:5]{index=5}"
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "not applicable",
+    "createsPWA": "not applicable",
+    "createsNativeApp": "not applicable",
+    "summary": "Webiny delivers content via APIs, allowing developers to build responsive designs, Progressive Web Apps (PWAs), or native mobile applications as needed. The CMS itself does not directly create these applications but serves as a backend content provider. :contentReference[oaicite:6]{index=6}"
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "Webiny supports internationalization, enabling the management of multilingual content, user interfaces, and editor tools, making it suitable for global audiences. :contentReference[oaicite:7]{index=7}"
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "yes",
+    "extensionMarketplace": "no",
+    "paidExtensions": "no",
+    "summary": "Webiny is highly extensible through its plugin system, allowing developers to enhance functionality with custom plugins. Significant customizations typically require backend development expertise. :contentReference[oaicite:8]{index=8}"
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "no",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": [],
+    "summary": "Webiny does not include e-commerce features in its core offering and does not provide official extensions for commerce. Integration with e-commerce platforms would require custom development to meet specific business needs. :contentReference[oaicite:9]{index=9}"
+  },
+  "costs": {
+    "paradigm": ["free", "subscription"],
+    "subscription": 9,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 0,
+    "summary": "Webiny offers a free, open-source Community Edition under the MIT License. For advanced features and support, paid plans start at $9 per user per month. Users should also consider potential costs for hosting, plugins, and custom development. :contentReference[oaicite:10]{index=10}"
+  }
+}

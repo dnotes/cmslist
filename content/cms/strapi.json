@@ -1,0 +1,85 @@
+{
+  "title": "Strapi",
+  "architecture": {
+    "paradigm": "headless API",
+    "serverAdminRequired": true,
+    "backendLanguage": "JavaScript",
+    "extensionLanguageTech": ["JavaScript"],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["SQL"],
+    "hostingOptions": ["self-hosted", "managed"],
+    "apiOptions": ["REST", "GraphQL"],
+    "summary": "Strapi is an open-source headless CMS built with JavaScript, offering flexibility in content management and delivery through RESTful and GraphQL APIs. It supports SQL databases and can be self-hosted or deployed via managed services. Customization is achieved through JavaScript, providing developers with control over both backend and frontend integrations."
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "yes",
+    "enterpriseCorporation": "yes",
+    "summary": "Strapi caters to a broad spectrum of users, from individual hobbyists to large enterprises, offering scalability and customization to meet diverse content management needs. Its open-source nature and extensibility make it suitable for various project sizes and team structures."
+  },
+  "legal": {
+    "softwareLicense": "open-source: permissive",
+    "corporateStructure": "commercial",
+    "summary": "Strapi is released under the MIT License, allowing for extensive customization and use. It is maintained by Strapi, a commercial entity that offers additional enterprise features and support services."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "Strapi includes a built-in user management system with role-based access control, enabling administrators to define permissions and manage user roles within the CMS."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "no",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "yes",
+    "previewing": "yes",
+    "editingWorkflows": "yes",
+    "realTimeCollaboration": "no",
+    "summary": "Strapi provides a web-based interface for content creation, supporting custom fields and content types. It offers versioning, previewing, and editing workflows to facilitate content management, though it lacks real-time collaboration features."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "yes",
+    "supportsPackagedThemes": "no",
+    "themeMarketplace": "no",
+    "paidThemes": "no",
+    "supportsOnSiteDisplayCustomization": "no",
+    "summary": "As a headless CMS, Strapi does not include packaged themes or on-site display customization. Frontend development is required to design and implement the presentation layer, providing flexibility in delivering content across various platforms."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "not applicable",
+    "createsPWA": "not applicable",
+    "createsNativeApp": "not applicable",
+    "summary": "Strapi delivers content via APIs, allowing developers to build responsive designs, Progressive Web Apps (PWAs), or native mobile applications as needed. The CMS itself does not directly create these applications but serves as a backend content provider."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "Strapi supports internationalization, enabling the management of multilingual content, user interfaces, and editor tools, making it suitable for global audiences."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "yes",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "Strapi is highly extensible through its plugin system, allowing developers to enhance functionality with custom plugins or those available in the Strapi Market. Significant customizations typically require backend development expertise."
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "yes",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": [],
+    "summary": "Strapi does not include e-commerce features in its core but can integrate with various e-commerce platforms through extensions and custom development, enabling tailored commerce solutions."
+  },
+  "costs": {
+    "paradigm": ["free", "subscription"],
+    "subscription": 9,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 0,
+    "summary": "Strapi offers a free, open-source Community Edition under the MIT License. For advanced features and support, paid plans start at $9 per user per month. Users should also consider potential costs for hosting, plugins, and custom development."
+  }
+}

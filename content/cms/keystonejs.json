@@ -1,0 +1,85 @@
+{
+  "title": "KeystoneJS",
+  "architecture": {
+    "paradigm": "headless API",
+    "serverAdminRequired": true,
+    "backendLanguage": "JavaScript",
+    "extensionLanguageTech": ["JavaScript", "TypeScript"],
+    "frontendLanguageTech": ["JavaScript", "React"],
+    "contentStorage": ["MongoDB", "PostgreSQL", "MySQL"],
+    "hostingOptions": ["self-hosted"],
+    "apiOptions": ["GraphQL"],
+    "summary": "KeystoneJS is an open-source headless content management system (CMS) and application framework built with Node.js. It allows developers to define custom schemas and provides a powerful GraphQL API along with a customizable Admin UI for managing content and data. KeystoneJS supports various databases, including MongoDB, PostgreSQL, and MySQL, offering flexibility in content storage. It is designed for self-hosting, giving developers full control over their application's infrastructure. :contentReference[oaicite:0]{index=0}"
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "yes",
+    "enterpriseCorporation": "yes",
+    "summary": "KeystoneJS caters to a wide range of users, from individual developers to large enterprises. Its flexible architecture and customizable features make it suitable for various project sizes and team structures, facilitating efficient content management and application development. :contentReference[oaicite:1]{index=1}"
+  },
+  "legal": {
+    "softwareLicense": "open-source: permissive",
+    "corporateStructure": "community",
+    "summary": "KeystoneJS is released under the MIT License, promoting open-source development and community collaboration. It is maintained by a community of contributors, ensuring continuous improvement and support. :contentReference[oaicite:2]{index=2}"
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "KeystoneJS includes a built-in user management system with role-based access control, enabling administrators to define permissions and manage user roles within the CMS. :contentReference[oaicite:3]{index=3}"
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "no",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "yes",
+    "previewing": "yes",
+    "editingWorkflows": "yes",
+    "realTimeCollaboration": "no",
+    "summary": "KeystoneJS provides a web-based Admin UI for content creation and management, supporting custom fields and content types. It offers versioning, previewing, and editing workflows to facilitate content management, though it lacks real-time collaboration features. :contentReference[oaicite:4]{index=4}"
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "yes",
+    "supportsPackagedThemes": "no",
+    "themeMarketplace": "no",
+    "paidThemes": "no",
+    "supportsOnSiteDisplayCustomization": "no",
+    "summary": "As a headless CMS, KeystoneJS does not include packaged themes or on-site display customization. Frontend development is required to design and implement the presentation layer, providing flexibility in delivering content across various platforms. :contentReference[oaicite:5]{index=5}"
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "not applicable",
+    "createsPWA": "not applicable",
+    "createsNativeApp": "not applicable",
+    "summary": "KeystoneJS delivers content via APIs, allowing developers to build responsive designs, Progressive Web Apps (PWAs), or native mobile applications as needed. The CMS itself does not directly create these applications but serves as a backend content provider. :contentReference[oaicite:6]{index=6}"
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "KeystoneJS supports internationalization, enabling the management of multilingual content, user interfaces, and editor tools, making it suitable for global audiences. :contentReference[oaicite:7]{index=7}"
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "yes",
+    "extensionMarketplace": "no",
+    "paidExtensions": "no",
+    "summary": "KeystoneJS is highly extensible through its plugin system, allowing developers to enhance functionality with custom plugins. Significant customizations typically require backend development expertise. :contentReference[oaicite:8]{index=8}"
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "no",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": [],
+    "summary": "KeystoneJS does not include e-commerce features in its core offering and does not provide official extensions for commerce. Integration with e-commerce platforms would require custom development to meet specific business needs. :contentReference[oaicite:9]{index=9}"
+  },
+  "costs": {
+    "paradigm": ["free"],
+    "subscription": 0,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 0,
+    "summary": "KeystoneJS is free to use under the MIT License, with no subscription or software licensing fees. Users should consider potential costs for hosting, custom development, and maintenance when planning their projects. :contentReference[oaicite:10]{index=10}"
+  }
+}
