@@ -1,7 +1,5 @@
 {
   "title": "BigCommerce",
-  "webMarketShare": 0.2,
-  "cmsMarketShare": 0.2,
   "architecture": {
     "paradigm": "SaaS",
     "serverAdminRequired": false,

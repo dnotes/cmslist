@@ -1,7 +1,5 @@
 {
   "title": "PrestaShop",
-  "webMarketShare": 0.7,
-  "cmsMarketShare": 1.0,
   "architecture": {
     "paradigm": "server install",
     "serverAdminRequired": true,

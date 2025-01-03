@@ -1,7 +1,5 @@
 {
   "title": "Shopify",
-  "webMarketShare": 4.7,
-  "cmsMarketShare": 6.7,
   "architecture": {
     "paradigm": "SaaS",
     "serverAdminRequired": false,

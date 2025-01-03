@@ -1,7 +1,5 @@
 {
   "title": "Weebly",
-  "webMarketShare": 0.5,
-  "cmsMarketShare": 0.6,
   "architecture": {
     "paradigm": "SaaS",
     "serverAdminRequired": false,

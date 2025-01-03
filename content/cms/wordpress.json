@@ -1,7 +1,5 @@
 {
   "title": "WordPress",
-  "webMarketShare": 43.6,
-  "cmsMarketShare": 62.0,
   "architecture": {
     "paradigm": "server install",
     "serverAdminRequired": true,

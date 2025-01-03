@@ -1,7 +1,5 @@
 {
   "title": "Joomla",
-  "webMarketShare": 1.6,
-  "cmsMarketShare": 2.2,
   "architecture": {
     "paradigm": "server install",
     "serverAdminRequired": true,

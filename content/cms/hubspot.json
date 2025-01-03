@@ -1,7 +1,5 @@
 {
   "title": "HubSpot CMS",
-  "webMarketShare": 0.2,
-  "cmsMarketShare": 0.3,
   "architecture": {
     "paradigm": "SaaS",
     "serverAdminRequired": false,

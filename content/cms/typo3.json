@@ -1,7 +1,5 @@
 {
   "title": "TYPO3",
-  "webMarketShare": 0.4,
-  "cmsMarketShare": 0.6,
   "architecture": {
     "paradigm": "server install",
     "serverAdminRequired": true,

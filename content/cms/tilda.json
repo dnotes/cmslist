@@ -1,7 +1,5 @@
 {
   "title": "Tilda",
-  "webMarketShare": 0.6,
-  "cmsMarketShare": 0.8,
   "architecture": {
     "paradigm": "SaaS",
     "serverAdminRequired": false,

@@ -1,7 +1,5 @@
 {
   "title": "Wix",
-  "webMarketShare": 3.3,
-  "cmsMarketShare": 4.6,
   "architecture": {
     "paradigm": "SaaS",
     "serverAdminRequired": false,

@@ -90,5 +90,7 @@ export type CMSComparison = {
 }
 
 export type CMSRecord = {
+  webMarketShare: number|'N/A'
+  cmsMarketShare: number|'N/A'
   rank: number|'N/A'
 } & CMSComparison

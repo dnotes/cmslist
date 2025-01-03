@@ -1,7 +1,5 @@
 {
   "title": "Nuvemshop",
-  "webMarketShare": 0.3,
-  "cmsMarketShare": 0.4,
   "architecture": {
     "paradigm": "SaaS",
     "serverAdminRequired": false,

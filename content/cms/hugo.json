@@ -1,7 +1,5 @@
 {
   "title": "Hugo",
-  "webMarketShare": 0.1,
-  "cmsMarketShare": 0.2,
   "architecture": {
     "paradigm": "static site generator",
     "serverAdminRequired": "kinda",

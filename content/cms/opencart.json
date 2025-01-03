@@ -1,7 +1,5 @@
 {
   "title": "OpenCart",
-  "webMarketShare": 0.5,
-  "cmsMarketShare": 0.7,
   "architecture": {
     "paradigm": "server install",
     "serverAdminRequired": true,

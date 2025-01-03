@@ -1,7 +1,5 @@
 {
   "title": "Cafe24",
-  "webMarketShare": 0.1,
-  "cmsMarketShare": 0.2,
   "architecture": {
     "paradigm": "SaaS",
     "serverAdminRequired": false,

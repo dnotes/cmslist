@@ -1,7 +1,5 @@
 {
   "title": "Craft CMS",
-  "webMarketShare": 0.1,
-  "cmsMarketShare": 0.2,
   "architecture": {
     "paradigm": "server install",
     "serverAdminRequired": true,

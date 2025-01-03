@@ -1,7 +1,5 @@
 {
   "title": "Drupal",
-  "webMarketShare": 0.9,
-  "cmsMarketShare": 1.3,
   "architecture": {
     "paradigm": "server install",
     "serverAdminRequired": true,

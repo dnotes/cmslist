@@ -1,7 +1,5 @@
 {
   "title": "Webflow",
-  "webMarketShare": 0.8,
-  "cmsMarketShare": 1.1,
   "architecture": {
     "paradigm": "SaaS",
     "serverAdminRequired": false,
