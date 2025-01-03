@@ -1,0 +1,85 @@
+{
+  "title": "SpotHopper",
+  "architecture": {
+    "paradigm": "SaaS",
+    "serverAdminRequired": false,
+    "backendLanguage": "Not Applicable",
+    "extensionLanguageTech": ["Not Specified"],
+    "frontendLanguageTech": ["Not Specified"],
+    "contentStorage": ["Proprietary"],
+    "hostingOptions": ["managed"],
+    "apiOptions": ["Not Specified"],
+    "summary": "SpotHopper is a cloud-based marketing and online revenue platform tailored for restaurants. It offers managed hosting and proprietary content storage, eliminating the need for server administration. While specific backend and frontend technologies are proprietary, SpotHopper provides a comprehensive suite of tools for website management, social media, email marketing, online ordering, reservations, and more."
+  },
+  "targetUsers": {
+    "individualHobbyist": "no",
+    "singleDeveloper": "no",
+    "smallDevelopmentTeam": "kinda",
+    "largeDevelopmentTeam": "kinda",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "yes",
+    "enterpriseCorporation": "yes",
+    "summary": "SpotHopper is designed specifically for the restaurant industry, catering to businesses ranging from small local coffee shops to large hospitality groups. Its features support content teams of various sizes, making it suitable for enterprises seeking to enhance their online presence and marketing efforts."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "SpotHopper is proprietary software developed and maintained by SpotHopper LLC, a commercial entity specializing in marketing technology solutions for the restaurant industry."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "SpotHopper includes an integrated user management system, allowing administrators to manage user roles and permissions within the platform. This facilitates collaboration among team members with varying levels of access."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "no",
+    "customFields": "kinda",
+    "customContentTypes": "kinda",
+    "versioning": "no",
+    "previewing": "yes",
+    "editingWorkflows": "no",
+    "realTimeCollaboration": "no",
+    "summary": "SpotHopper offers a web-based interface for content creation and management, supporting basic customization options. While it provides previewing capabilities, advanced features like on-site editing, versioning, and real-time collaboration are limited."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "no",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "no",
+    "paidThemes": "no",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "SpotHopper provides customizable website designs tailored for restaurants, allowing users to adjust site appearance without requiring frontend development skills. While it doesn't offer a theme marketplace, the available customization options are sufficient for most restaurant marketing needs."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "SpotHopper supports responsive design, ensuring that restaurant websites are accessible and functional across various devices. However, it does not natively support the creation of Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "no",
+    "multilingualUI": "no",
+    "multilingualEditor": "no",
+    "summary": "SpotHopper does not provide built-in support for multilingual content or interfaces. Its features are primarily tailored to the needs of English-speaking users in the restaurant industry."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "no",
+    "extensionMarketplace": "no",
+    "paidExtensions": "no",
+    "summary": "SpotHopper offers a comprehensive set of integrated tools for restaurant marketing and online revenue management. While it does not provide an extension marketplace or support for third-party plugins, its built-in features cover a wide range of marketing needs without requiring backend development."
+  },
+  "commerce": {
+    "isInCore": "yes",
+    "isInExtensions": "no",
+    "integratedPlatforms": ["Not Specified"],
+    "integratedPaymentGateways": ["Not Specified"],
+    "summary": "SpotHopper includes built-in e-commerce features tailored for restaurants, such as online ordering and reservations. Specific integrated platforms and payment gateways are not detailed in the provided information."
+  },
+  "costs": {
+    "paradigm": ["subscription"],
+    "subscription": "Not Specified",
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": "Not Specified",
+    "summary": "SpotHopper operates on a subscription-based model, with pricing varying according to the features and services selected. Specific pricing details are not publicly provided and may require direct inquiry with the provider. Additional costs may include premium services and customizations."
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "title": "CMS.S3",
+  "architecture": {
+    "paradigm": "SaaS",
+    "serverAdminRequired": false,
+    "backendLanguage": "Not Applicable",
+    "extensionLanguageTech": ["Not Specified"],
+    "frontendLanguageTech": ["Not Specified"],
+    "contentStorage": ["Proprietary"],
+    "hostingOptions": ["managed"],
+    "apiOptions": ["Not Specified"],
+    "summary": "CMS.S3 is a cloud-based content management system provided by Megagroup.ru, designed to facilitate website creation and management without the need for server administration. As a SaaS platform, it offers managed hosting and proprietary content storage solutions. Specific details about its backend and frontend technologies, as well as API options, are not publicly specified."
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "kinda",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "kinda",
+    "enterpriseCorporation": "kinda",
+    "summary": "CMS.S3 is tailored for a diverse user base, including individual hobbyists, single developers, and small to medium-sized teams. While it can accommodate larger teams and enterprises, its feature set is primarily optimized for small to medium-scale website projects."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "CMS.S3 is proprietary software developed and maintained by Megagroup.ru, a commercial company specializing in web solutions and services."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "CMS.S3 includes an integrated user management system, enabling administrators to manage user roles, permissions, and access controls within the platform."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "yes",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "kinda",
+    "previewing": "yes",
+    "editingWorkflows": "kinda",
+    "realTimeCollaboration": "no",
+    "summary": "CMS.S3 offers a web-based editor for content creation, supporting on-site editing, custom fields, and content types. It provides previewing capabilities and basic versioning and workflow management, though these features may have limitations. Real-time collaboration is not a native feature."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "no",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "CMS.S3 provides a variety of packaged themes through its marketplace, including both free and paid options. Users can customize site appearance without requiring frontend development skills, though advanced customization may necessitate technical expertise."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "CMS.S3 supports responsive design, ensuring websites are accessible across various devices. However, it does not natively support the creation of Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "kinda",
+    "multilingualUI": "kinda",
+    "multilingualEditor": "kinda",
+    "summary": "CMS.S3 offers limited support for multilingual content and interfaces. Implementing full multilingual capabilities may require additional configuration or custom development."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "kinda",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "CMS.S3 provides an extension marketplace with various plugins to enhance functionality. While many extensions can be implemented without backend development, advanced customizations or the creation of bespoke plugins may require developer expertise."
+  },
+  "commerce": {
+    "isInCore": "yes",
+    "isInExtensions": "yes",
+    "integratedPlatforms": ["Not Specified"],
+    "integratedPaymentGateways": ["Not Specified"],
+    "summary": "CMS.S3 includes built-in e-commerce features, enabling users to create online stores. Additional e-commerce functionalities can be added through extensions. Specific integrated platforms and payment gateways are not publicly specified."
+  },
+  "costs": {
+    "paradigm": ["subscription"],
+    "subscription": "Not Specified",
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": "Not Specified",
+    "summary": "CMS.S3 operates on a subscription-based model. Specific pricing details are not publicly specified and may vary based on selected features and services. Additional costs may include premium plugins, themes, and professional support."
+  }
+}

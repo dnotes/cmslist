@@ -1,0 +1,85 @@
+{
+  "title": "DotNetNuke",
+  "architecture": {
+    "paradigm": "server install",
+    "serverAdminRequired": true,
+    "backendLanguage": "C#",
+    "extensionLanguageTech": ["C#", "VB.NET"],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["SQL"],
+    "hostingOptions": ["shared", "vps", "managed", "cloud"],
+    "apiOptions": ["REST"],
+    "summary": "DotNetNuke (DNN Platform) is an open-source web content management system built on the Microsoft .NET framework. It requires server administration and utilizes C# for backend development. Extensions can be developed using C# or VB.NET, while frontend development involves standard web technologies like HTML, CSS, and JavaScript. Content is stored in SQL databases, and the platform supports various hosting options, including shared, VPS, managed, and cloud services. DNN provides REST API options for integration and customization."
+  },
+  "targetUsers": {
+    "individualHobbyist": "kinda",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "kinda",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "yes",
+    "enterpriseCorporation": "yes",
+    "summary": "DNN Platform caters to a wide range of users, from single developers to large enterprise corporations. While individual hobbyists and single content editors can use the platform, it is particularly well-suited for development teams and organizations requiring robust content management capabilities. Its scalability and extensibility make it a strong choice for enterprises and large content teams."
+  },
+  "legal": {
+    "softwareLicense": "open-source: permissive",
+    "corporateStructure": "commercial",
+    "summary": "DNN Platform is distributed under the MIT License, a permissive open-source license. The platform is managed by DNN Corporation, a commercial entity that offers both the open-source DNN Platform and proprietary solutions like Evoq for enterprise clients."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained", "oauth"],
+    "summary": "DNN Platform includes a comprehensive user management system with role-based security and granular user permissions. It supports self-contained user authentication and can integrate with external authentication providers, such as OAuth, to accommodate various user management needs."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "kinda",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "yes",
+    "previewing": "yes",
+    "editingWorkflows": "yes",
+    "realTimeCollaboration": "no",
+    "summary": "DNN Platform offers a web-based content editing interface with support for custom fields and content types. It includes features like versioning, content previewing, and configurable editing workflows. While it provides robust content management capabilities, it lacks real-time collaboration and has limited on-site editing features."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "kinda",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "DNN Platform supports packaged themes and offers a theme marketplace with both free and paid options. While basic site customization can be performed without a frontend developer, advanced customization and unique designs may require frontend development expertise. The platform allows on-site display customization to tailor the appearance and functionality of websites."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "DNN Platform supports responsive design, ensuring websites are accessible and functional across various devices and screen sizes. However, it does not natively support the creation of Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "DNN Platform offers robust internationalization features, including support for multilingual content, user interfaces, and editors. This makes it suitable for organizations operating in multiple languages and catering to diverse audiences."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "yes",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "DNN Platform is highly extensible, allowing developers to create custom modules and extensions to enhance functionality. A marketplace is available for both free and paid extensions. Implementing custom extensions typically requires backend development expertise, particularly in C# or VB.NET."
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "yes",
+    "integratedPlatforms": ["Evoq Engage", "Evoq Content"],
+    "integratedPaymentGateways": [],
+    "summary": "E-commerce functionality is not included in the core DNN Platform but can be added through extensions and third-party modules. Integrated platforms like Evoq Engage and Evoq Content offer additional features for content management and community engagement. Specific integrated payment gateways depend on the chosen e-commerce extensions."
+  },
+  "costs": {
+    "paradigm": ["free"],
+    "subscription": 0,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 0,
+    "summary": "DNN Platform is free to use under the MIT open-source license, with no subscription or software license fees. However, costs may arise from hosting, development, and purchasing premium extensions or themes. For advanced features and enterprise support, DNN Corporation offers proprietary solutions like Evoq Content, which involve subscription fees."
+  }
+}

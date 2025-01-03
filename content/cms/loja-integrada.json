@@ -1,0 +1,85 @@
+{
+  "title": "Loja Integrada",
+  "architecture": {
+    "paradigm": "SaaS",
+    "serverAdminRequired": false,
+    "backendLanguage": "proprietary",
+    "extensionLanguageTech": [],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["SQL"],
+    "hostingOptions": ["managed"],
+    "apiOptions": ["REST"],
+    "summary": "Loja Integrada is a cloud-based e-commerce platform designed for creating and managing online stores. It operates as a SaaS solution, eliminating the need for server administration. The backend utilizes proprietary technologies, while frontend customization can be achieved using standard web technologies like HTML, CSS, and JavaScript. Data is stored in SQL databases, and hosting is fully managed by Loja Integrada. The platform offers REST APIs for integration and customization."
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "kinda",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "kinda",
+    "enterpriseCorporation": "kinda",
+    "summary": "Loja Integrada caters to a wide range of users, from individual hobbyists and single developers to small development teams and content editors. While it supports larger teams and enterprises to some extent, its feature set is primarily tailored for small to medium-sized businesses looking to establish an online presence."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "Loja Integrada is a proprietary platform developed and maintained by a commercial entity, focusing on providing e-commerce solutions for the Brazilian market."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "User management in Loja Integrada is self-contained, offering built-in tools for managing customer accounts and permissions. Integration with external authentication systems is not a standard feature."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "no",
+    "customFields": "yes",
+    "customContentTypes": "kinda",
+    "versioning": "no",
+    "previewing": "yes",
+    "editingWorkflows": "no",
+    "realTimeCollaboration": "no",
+    "summary": "Loja Integrada provides a web-based interface for content editing, supporting custom fields and basic content type customization. It includes a preview feature but lacks versioning, advanced editing workflows, on-site editing, and real-time collaboration capabilities."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "no",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "Loja Integrada offers a variety of packaged themes through its marketplace, including both free and paid options. Users can customize their site's appearance without requiring frontend development skills, though advanced customization may benefit from developer involvement."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "Loja Integrada ensures responsive design for online stores, providing a consistent user experience across devices. It does not offer features to create Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "kinda",
+    "multilingualUI": "kinda",
+    "multilingualEditor": "no",
+    "summary": "Loja Integrada offers limited support for multilingual content and user interfaces, primarily focusing on the Brazilian market. Full multilingual capabilities may require additional customization or third-party integrations."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "no",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "Loja Integrada provides an extension marketplace with various add-ons, both free and paid, to enhance store functionality. Backend development is not required for typical extensions, but advanced customizations may necessitate developer expertise."
+  },
+  "commerce": {
+    "isInCore": "yes",
+    "isInExtensions": "yes",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": ["Pagali"],
+    "summary": "E-commerce functionality is central to Loja Integrada, with core features supporting online store operations. Additional capabilities can be added via extensions. The platform offers its own payment gateway, Pagali, integrated into the system."
+  },
+  "costs": {
+    "paradigm": ["subscription", "free tier"],
+    "subscription": 54,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 648,
+    "summary": "Loja Integrada operates on a subscription model with various pricing tiers to accommodate different business needs. A free plan is available with limited features, and paid plans start at R$54 per month, offering additional capabilities. Detailed pricing information is available on their official website."
+  }
+}

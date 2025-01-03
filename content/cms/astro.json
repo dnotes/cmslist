@@ -1,0 +1,85 @@
+{
+  "title": "Astro",
+  "architecture": {
+    "paradigm": "static site generator",
+    "serverAdminRequired": false,
+    "backendLanguage": "JavaScript",
+    "extensionLanguageTech": ["JavaScript", "TypeScript"],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["Markdown", "MDX"],
+    "hostingOptions": ["shared", "vps", "managed", "serverless"],
+    "apiOptions": ["none"],
+    "summary": "Astro is a modern static site generator that allows developers to build fast websites using familiar technologies like HTML, CSS, and JavaScript, while also supporting various front-end frameworks. It focuses on performance by shipping less JavaScript to the browser and supports multiple rendering methods, including static site generation and server-side rendering. :contentReference[oaicite:0]{index=0}"
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "kinda",
+    "singleContentEditor": "kinda",
+    "smallContentTeam": "kinda",
+    "largeContentTeam": "no",
+    "enterpriseCorporation": "no",
+    "summary": "Astro is ideal for individual developers, hobbyists, and small teams looking to create fast, content-driven websites. Its flexibility allows developers to use their preferred front-end frameworks, making it suitable for various project sizes, though larger teams or enterprises may require additional tooling for collaboration and workflows. :contentReference[oaicite:1]{index=1}"
+  },
+  "legal": {
+    "softwareLicense": "open-source: permissive",
+    "corporateStructure": "community",
+    "summary": "Astro is an open-source project licensed under the MIT License, allowing for free use, modification, and distribution. It is maintained by a community of contributors dedicated to building a more sustainable future for open-source software. :contentReference[oaicite:2]{index=2}"
+  },
+  "userManagement": {
+    "paradigm": ["none"],
+    "summary": "Astro does not include built-in user management features, as it is designed for generating static sites. Any required user management would need to be implemented externally or through third-party services."
+  },
+  "contentEditing": {
+    "paradigm": "text editor",
+    "onSiteEditing": "no",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "kinda",
+    "previewing": "yes",
+    "editingWorkflows": "no",
+    "realTimeCollaboration": "no",
+    "summary": "Content in Astro is created and managed through text files, typically written in Markdown or MDX, and edited with any text editor. Custom fields and content types can be defined as needed. While Astro doesn't provide built-in versioning or workflows, integration with version control systems like Git offers versioning capabilities. Previewing is possible through local development servers, but real-time collaboration features are absent. :contentReference[oaicite:3]{index=3}"
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "kinda",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "kinda",
+    "paidThemes": "kinda",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "Astro supports themes for styling websites, and users can customize or create their own themes using HTML, CSS, and JavaScript. While there isn't an official theme marketplace, various free and paid themes are available from the community. Basic customization can be done without extensive frontend development skills, but advanced design changes may require such expertise. :contentReference[oaicite:4]{index=4}"
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "kinda",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "Astro itself doesn't enforce responsive design, but developers can implement responsive layouts through custom themes and CSS frameworks. It doesn't natively support creating Progressive Web Apps (PWAs) or native mobile applications. :contentReference[oaicite:5]{index=5}"
+  },
+  "internationalization": {
+    "multilingualContent": "kinda",
+    "multilingualUI": "kinda",
+    "multilingualEditor": "kinda",
+    "summary": "Astro doesn't provide built-in internationalization support, but multilingual sites can be achieved through custom configurations and plugins. Implementing multilingual content and interfaces requires additional setup and maintenance. :contentReference[oaicite:6]{index=6}"
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "yes",
+    "extensionMarketplace": "kinda",
+    "paidExtensions": "kinda",
+    "summary": "Astro is highly extensible through integrations and plugins. While there isn't a centralized extension marketplace, numerous plugins are available from the community, both free and paid. Developing custom plugins requires backend development skills. :contentReference[oaicite:7]{index=7}"
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "kinda",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": [],
+    "summary": "Astro doesn't include e-commerce features in its core functionality. However, e-commerce capabilities can be added through third-party services and integrations, though they may be limited compared to dedicated e-commerce platforms. :contentReference[oaicite:8]{index=8}"
+  },
+  "costs": {
+    "paradigm": ["free"],
+    "subscription": 0,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 0,
+    "summary": "Astro is free to use, with no licensing costs. Hosting can also be free when using services like GitHub Pages. However, users should consider potential expenses for custom domains, premium themes, plugins, and any necessary development services. :contentReference[oaicite:9]{index=9}"
+  }
+}

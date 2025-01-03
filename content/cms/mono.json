@@ -1,0 +1,85 @@
+{
+  "title": "Mono",
+  "architecture": {
+    "paradigm": "server install",
+    "serverAdminRequired": true,
+    "backendLanguage": "PHP",
+    "extensionLanguageTech": ["PHP", "JavaScript"],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["flat-file"],
+    "hostingOptions": ["shared", "vps", "managed"],
+    "apiOptions": ["none"],
+    "summary": "MonoCMS is a lightweight, flat-file content management system (CMS) written in PHP. It does not require a database, storing content in flat files, which simplifies installation and maintenance. The platform supports plugins and extensions developed in PHP and JavaScript, allowing for customization of functionality and appearance. :contentReference[oaicite:0]{index=0}"
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "kinda",
+    "largeDevelopmentTeam": "no",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "kinda",
+    "largeContentTeam": "no",
+    "enterpriseCorporation": "no",
+    "summary": "MonoCMS is well-suited for individual hobbyists, single developers, and small content teams seeking a simple, easy-to-use CMS without the complexity of database management. Its lightweight nature makes it less ideal for large development teams or enterprise-level applications."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "community",
+    "summary": "MonoCMS is a proprietary software developed and maintained by its community. Users can download and use it freely, but it does not have an open-source license."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "MonoCMS includes a built-in user management system, allowing administrators to create multiple control panel accounts with varying levels of access. This facilitates straightforward management of users within the platform. :contentReference[oaicite:1]{index=1}"
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "no",
+    "customFields": "kinda",
+    "customContentTypes": "kinda",
+    "versioning": "no",
+    "previewing": "yes",
+    "editingWorkflows": "no",
+    "realTimeCollaboration": "no",
+    "summary": "MonoCMS offers a web-based interface for content editing, featuring a simple text editor for creating posts and pages. While it supports basic tagging and categorization, advanced features like custom fields, content types, versioning, and collaborative workflows are limited or absent. :contentReference[oaicite:2]{index=2}"
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "kinda",
+    "supportsPackagedThemes": "kinda",
+    "themeMarketplace": "no",
+    "paidThemes": "no",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "MonoCMS allows for on-site display customization through direct editing of HTML and CSS files. While it doesn't have a centralized theme marketplace, users can create or modify themes manually, which may require some frontend development skills."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "kinda",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "MonoCMS's default design offers limited responsiveness for mobile devices. Achieving full mobile compatibility may require additional customization of the site's HTML and CSS."
+  },
+  "internationalization": {
+    "multilingualContent": "no",
+    "multilingualUI": "no",
+    "multilingualEditor": "no",
+    "summary": "MonoCMS lacks built-in support for internationalization. Managing multilingual content or user interfaces would require custom development."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "yes",
+    "extensionMarketplace": "no",
+    "paidExtensions": "no",
+    "summary": "MonoCMS supports plugins and extensions, but it lacks a centralized marketplace. Users can develop custom plugins using PHP and JavaScript, which requires backend development expertise. :contentReference[oaicite:3]{index=3}"
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "no",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": [],
+    "summary": "MonoCMS does not include e-commerce features in its core functionality, nor does it have readily available extensions for such purposes. Implementing e-commerce capabilities would require significant custom development."
+  },
+  "costs": {
+    "paradigm": ["free"],
+    "subscription": 0,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 0,
+    "summary": "MonoCMS is free to download and use, with no associated licensing costs. However, users should consider expenses related to hosting, domain registration, and any custom development or maintenance services required."
+  }
+}

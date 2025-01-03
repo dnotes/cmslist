@@ -1,0 +1,85 @@
+{
+  "title": "Zendesk",
+  "architecture": {
+    "paradigm": "SaaS",
+    "serverAdminRequired": false,
+    "backendLanguage": "Not Applicable",
+    "extensionLanguageTech": ["JavaScript"],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["Proprietary"],
+    "hostingOptions": ["managed"],
+    "apiOptions": ["REST"],
+    "summary": "Zendesk is a cloud-based customer service platform offering a suite of tools to manage customer interactions across various channels. As a SaaS solution, it requires no server administration. While the backend infrastructure is managed by Zendesk, customization and extension are possible through JavaScript. Frontend customization utilizes standard web technologies like HTML, CSS, and JavaScript. Zendesk provides a REST API for integration and is hosted on managed servers."
+  },
+  "targetUsers": {
+    "individualHobbyist": "kinda",
+    "singleDeveloper": "kinda",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "kinda",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "yes",
+    "enterpriseCorporation": "yes",
+    "summary": "Zendesk is designed for businesses of all sizes, from small development teams to large enterprises. While individual hobbyists or single developers may find value in its features, the platform's robust capabilities are particularly beneficial for organized teams managing customer support and engagement at scale."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "Zendesk is proprietary software developed and maintained by Zendesk, Inc., a commercial entity specializing in customer service solutions."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "Zendesk includes a comprehensive user management system, allowing administrators to manage user roles, permissions, and access controls within the platform."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "no",
+    "customFields": "yes",
+    "customContentTypes": "kinda",
+    "versioning": "yes",
+    "previewing": "yes",
+    "editingWorkflows": "yes",
+    "realTimeCollaboration": "kinda",
+    "summary": "Zendesk offers a web-based interface for managing support content, including knowledge bases and FAQs. It supports custom fields and provides versioning and previewing capabilities. While it includes workflow management features, real-time collaboration is limited."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "no",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "Zendesk provides support for packaged themes, with a marketplace offering both free and paid options. Users can customize the appearance of their help centers without requiring frontend development expertise."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "Zendesk's interfaces are designed to be responsive, ensuring accessibility across various devices. However, it does not natively support the creation of Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "Zendesk supports multiple languages for content, user interfaces, and editors, enabling businesses to provide support to a global audience."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "no",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "Zendesk offers an extensive marketplace with various apps and integrations, both free and paid, to enhance functionality. Users can extend the platform's capabilities without requiring backend development expertise."
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "no",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": [],
+    "summary": "E-commerce functionality is not a core feature of Zendesk, nor is it commonly added through extensions. The platform focuses primarily on customer service and support solutions."
+  },
+  "costs": {
+    "paradigm": ["subscription"],
+    "subscription": 49,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 588,
+    "summary": "Zendesk operates on a subscription-based model, with plans starting at $49 per agent per month for the Suite Team plan. The estimated annual cost per agent begins at $588. Additional costs may include premium apps, integrations, and professional services."
+  }
+}

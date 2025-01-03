@@ -1,0 +1,85 @@
+{
+  "title": "Concrete CMS",
+  "architecture": {
+    "paradigm": "server install",
+    "serverAdminRequired": true,
+    "backendLanguage": "PHP",
+    "extensionLanguageTech": ["PHP", "JavaScript"],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["SQL"],
+    "hostingOptions": ["shared", "vps", "managed"],
+    "apiOptions": ["REST"],
+    "summary": "Concrete CMS is an open-source content management system requiring server installation and administration. Built with PHP, it utilizes SQL databases for content storage. Frontend customization employs HTML, CSS, and JavaScript. The platform offers a REST API for integration and can be extended using plugins developed in PHP and JavaScript. Hosting options include shared, VPS, and managed servers."
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "yes",
+    "enterpriseCorporation": "yes",
+    "summary": "Concrete CMS caters to a wide range of users, from individual hobbyists to large enterprises. Its user-friendly interface and scalability make it suitable for solo content creators, developers, and teams of varying sizes."
+  },
+  "legal": {
+    "softwareLicense": "open-source: MIT",
+    "corporateStructure": "commercial",
+    "summary": "Concrete CMS is open-source software licensed under the MIT License. It is developed and maintained by Concrete CMS, Inc., a commercial entity specializing in content management solutions."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "Concrete CMS includes a comprehensive user management system, allowing administrators to manage user roles, permissions, and access controls within the platform."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "yes",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "yes",
+    "previewing": "yes",
+    "editingWorkflows": "yes",
+    "realTimeCollaboration": "no",
+    "summary": "Concrete CMS offers a web-based editor for content creation and management, supporting on-site editing, custom fields, and content types. It includes versioning, previewing capabilities, and workflow management. Real-time collaboration is not a native feature."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "kinda",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "Concrete CMS provides support for packaged themes, with a marketplace offering both free and paid options. While basic customization can be performed without extensive frontend development skills, advanced customization and development of unique designs may require frontend development expertise."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "Concrete CMS supports responsive design, ensuring websites are accessible across various devices. However, it does not natively support the creation of Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "Concrete CMS supports multilingual content, user interfaces, and editors, allowing for the creation and management of websites in multiple languages to cater to a global audience."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "kinda",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "Concrete CMS offers an extension marketplace with various plugins, both free and paid, to enhance functionality. While many extensions can be implemented without backend development, advanced customizations or the creation of bespoke plugins may require developer expertise."
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "yes",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": [],
+    "summary": "E-commerce functionality is not included in Concrete CMS's core features but can be added through extensions available in the marketplace. These extensions may integrate with various payment gateways and platforms, depending on the specific add-on used."
+  },
+  "costs": {
+    "paradigm": ["free"],
+    "subscription": 0,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 0,
+    "summary": "Concrete CMS is free to use under the MIT License. Additional costs may include hosting services, premium plugins, themes, and any professional support or development services required."
+  }
+}

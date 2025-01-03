@@ -1,0 +1,85 @@
+{
+  "title": "Open Journal Systems",
+  "architecture": {
+    "paradigm": "server install",
+    "serverAdminRequired": true,
+    "backendLanguage": "PHP",
+    "extensionLanguageTech": ["PHP", "JavaScript"],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["SQL"],
+    "hostingOptions": ["shared", "vps", "managed"],
+    "apiOptions": ["REST"],
+    "summary": "Open Journal Systems (OJS) is an open-source journal management and publishing system developed by the Public Knowledge Project. It requires server installation and administration, with content stored in a SQL database. The platform is highly customizable, supporting extensions and customizations using PHP and JavaScript, and offers a RESTful API for integration purposes."
+  },
+  "targetUsers": {
+    "individualHobbyist": "kinda",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "kinda",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "yes",
+    "enterpriseCorporation": "yes",
+    "summary": "OJS is suitable for a wide range of users, from individual developers to large enterprises, particularly those seeking a flexible and powerful platform for managing and publishing scholarly journals. While it can be used by single content editors, its strengths lie in supporting editorial teams of various sizes."
+  },
+  "legal": {
+    "softwareLicense": "open-source: copyleft",
+    "corporateStructure": "non-profit",
+    "summary": "OJS is licensed under the GNU General Public License (GPL), a copyleft open-source license. It is developed and maintained by the Public Knowledge Project, a non-profit initiative."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "OJS includes a built-in user management system, allowing administrators to define user roles and permissions. This facilitates collaborative management within the platform, supporting roles such as journal manager, editor, reviewer, author, and reader."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "no",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "yes",
+    "previewing": "yes",
+    "editingWorkflows": "yes",
+    "realTimeCollaboration": "no",
+    "summary": "OJS offers a web-based interface for content editing, complete with support for custom fields and content types. It provides versioning, previewing capabilities, and comprehensive editorial workflows, though it lacks real-time collaboration features."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "kinda",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "kinda",
+    "paidThemes": "kinda",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "OJS allows for extensive on-site display customization and offers a variety of themes, though it lacks a centralized theme marketplace. While basic theming is possible without development skills, advanced design changes may require frontend development expertise."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "OJS supports responsive design, ensuring that journals are accessible and functional across various devices. However, it does not natively support the creation of Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "OJS provides robust support for internationalization, including multilingual content management and user interfaces, making it suitable for global use."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "yes",
+    "extensionMarketplace": "kinda",
+    "paidExtensions": "kinda",
+    "summary": "OJS is highly extensible through a variety of available plugins. While there isn't a centralized marketplace, numerous free and paid plugins are available from the community. Implementing significant customizations typically requires backend development expertise."
+  },
+  "commerce": {
+    "isInCore": "kinda",
+    "isInExtensions": "kinda",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": [],
+    "summary": "OJS includes support for subscription management and can handle paid access to journal content. However, comprehensive e-commerce features may require additional plugins or custom development."
+  },
+  "costs": {
+    "paradigm": ["free"],
+    "subscription": 0,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 0,
+    "summary": "OJS is free to download and use, with no associated licensing costs. However, expenses may arise from hosting, domain registration, and any professional services required for customization or maintenance."
+  }
+}

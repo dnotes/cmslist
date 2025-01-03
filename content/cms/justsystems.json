@@ -1,0 +1,85 @@
+{
+  "title": "JustSystems Homepage Builder",
+  "architecture": {
+    "paradigm": "desktop software",
+    "serverAdminRequired": false,
+    "backendLanguage": "N/A",
+    "extensionLanguageTech": [],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["local files"],
+    "hostingOptions": ["user-provided"],
+    "apiOptions": ["none"],
+    "summary": "JustSystems Homepage Builder is a Japanese desktop application for creating websites. It doesn't require server administration, as users design sites locally and then upload them to their chosen hosting provider. The software generates standard web technologies like HTML, CSS, and JavaScript, with content stored in local files until deployment. Users are responsible for selecting and managing their own hosting services. The platform doesn't offer APIs for integration."
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "kinda",
+    "largeDevelopmentTeam": "no",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "kinda",
+    "largeContentTeam": "no",
+    "enterpriseCorporation": "no",
+    "summary": "Homepage Builder is ideal for individual hobbyists, single developers, and single content editors seeking to create websites without extensive technical knowledge. While small teams might find it useful, it's less suited for large development teams or enterprise-level projects due to its desktop-based nature and lack of collaborative features."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "Homepage Builder is proprietary software developed and sold by JustSystems, a commercial company based in Japan."
+  },
+  "userManagement": {
+    "paradigm": ["none"],
+    "summary": "The software doesn't include built-in user management features, as it's primarily a website design tool. User management must be implemented separately on the hosting platform if needed."
+  },
+  "contentEditing": {
+    "paradigm": "desktop application",
+    "onSiteEditing": "no",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "no",
+    "previewing": "yes",
+    "editingWorkflows": "no",
+    "realTimeCollaboration": "no",
+    "summary": "Homepage Builder offers a desktop-based editing environment with support for custom fields and content types. It provides a preview function but lacks versioning, advanced editing workflows, on-site editing, and real-time collaboration features."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "no",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "no",
+    "paidThemes": "no",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "The software includes a variety of built-in themes and templates, allowing users to customize their site's appearance without needing frontend development skills. While there's no official theme marketplace, the provided themes offer flexibility for on-site display customization."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "Homepage Builder supports responsive design, enabling websites to display correctly on various devices. It doesn't have features for creating Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "kinda",
+    "multilingualUI": "no",
+    "multilingualEditor": "no",
+    "summary": "The software primarily targets the Japanese market, with its user interface and documentation in Japanese. While users can create multilingual content, the platform doesn't provide specific tools or support for managing multilingual websites."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "no",
+    "extensionMarketplace": "no",
+    "paidExtensions": "no",
+    "summary": "Homepage Builder doesn't offer an extension marketplace or support for plugins. Users can add custom code to their projects, but extending functionality beyond the provided features requires manual coding."
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "no",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": [],
+    "summary": "E-commerce functionality isn't included in Homepage Builder. Users wishing to add online store capabilities would need to integrate third-party solutions or manually implement e-commerce features."
+  },
+  "costs": {
+    "paradigm": ["one-time purchase"],
+    "subscription": 0,
+    "softwareLicense": 10780,
+    "estimatedYearOneTotal": 10780,
+    "summary": "Homepage Builder is available for a one-time purchase, with the Standard edition priced at ¥10,780 (including tax). There are no ongoing subscription fees, but users may incur additional costs for hosting services and domain registration."
+  }
+}

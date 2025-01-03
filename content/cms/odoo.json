@@ -1,0 +1,85 @@
+{
+  "title": "Odoo",
+  "architecture": {
+    "paradigm": "server install",
+    "serverAdminRequired": true,
+    "backendLanguage": "Python",
+    "extensionLanguageTech": ["Python", "XML"],
+    "frontendLanguageTech": ["JavaScript", "HTML", "CSS"],
+    "contentStorage": ["PostgreSQL"],
+    "hostingOptions": ["on-premises", "cloud"],
+    "apiOptions": ["XML-RPC", "JSON-RPC"],
+    "summary": "Odoo is an open-source suite of business applications, including a content management system (CMS). It requires server installation and administration, utilizing Python for backend development and JavaScript, HTML, and CSS for frontend development. Data is stored in PostgreSQL databases. Odoo can be hosted on-premises or in the cloud, offering flexibility in deployment. It provides XML-RPC and JSON-RPC APIs for integration and customization."
+  },
+  "targetUsers": {
+    "individualHobbyist": "kinda",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "kinda",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "yes",
+    "enterpriseCorporation": "yes",
+    "summary": "Odoo caters to a wide range of users, from single developers and small teams to large enterprises. While individual hobbyists and single content editors can use the platform, it is particularly well-suited for organizations requiring integrated business applications alongside CMS capabilities."
+  },
+  "legal": {
+    "softwareLicense": "open-source: LGPLv3",
+    "corporateStructure": "commercial",
+    "summary": "Odoo's Community edition is licensed under the GNU Lesser General Public License v3 (LGPLv3), allowing for free use and modification. The Enterprise edition includes proprietary features and services, managed by Odoo S.A., a commercial entity."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained", "oauth"],
+    "summary": "Odoo includes a comprehensive user management system with role-based permissions and supports integration with external authentication systems like OAuth, providing flexibility in managing user access and authentication."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "yes",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "kinda",
+    "previewing": "yes",
+    "editingWorkflows": "kinda",
+    "realTimeCollaboration": "no",
+    "summary": "Odoo offers a web-based interface for content creation and management, supporting on-site editing, custom fields, and content types. It includes preview features and basic versioning and workflow capabilities, though real-time collaboration is not supported."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "kinda",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "Odoo supports packaged themes and offers a theme marketplace with both free and paid options. Basic site customization can be performed without a frontend developer, but advanced customization may require development expertise. The platform allows on-site display customization to tailor the website's appearance and functionality."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "Odoo features responsive design, ensuring websites are accessible and functional across various devices and screen sizes. It does not natively support the creation of Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "Odoo offers extensive internationalization support, with language packs available for multiple languages, enabling multilingual content, user interfaces, and editor support. This makes it suitable for a global audience."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "kinda",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "Odoo is highly extensible, allowing for the addition of various features through modules and plugins. An extension marketplace provides both free and paid options. While many extensions can be installed without backend development, creating custom modules or significant modifications may require Python development skills."
+  },
+  "commerce": {
+    "isInCore": "yes",
+    "isInExtensions": "yes",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": [],
+    "summary": "E-commerce functionality is included in Odoo's core features, with additional capabilities available through extensions. Integrated platforms and payment gateways depend on the chosen modules and may require additional configuration."
+  },
+  "costs": {
+    "paradigm": ["per user", "per app", "free tier"],
+    "subscription": 0,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 0,
+    "summary": "Odoo offers a free tier with access to one application and paid plans that scale based on the number of users and selected applications. The Community edition is free under the LGPLv3 license, while the Enterprise edition includes additional features and support at a subscription cost. Detailed pricing can be configured based on specific business needs."
+  }
+}

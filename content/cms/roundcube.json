@@ -1,0 +1,85 @@
+{
+  "title": "Roundcube",
+  "architecture": {
+    "paradigm": "server install",
+    "serverAdminRequired": true,
+    "backendLanguage": "PHP",
+    "extensionLanguageTech": ["PHP"],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["SQL"],
+    "hostingOptions": ["shared", "vps", "managed", "cloud"],
+    "apiOptions": ["REST"],
+    "summary": "Roundcube is an open-source web-based IMAP email client that requires server installation and administration. It is developed in PHP, with frontend technologies including HTML, CSS, and JavaScript. The platform stores data in SQL databases and supports various hosting environments such as shared, VPS, managed, and cloud hosting. Roundcube offers a REST API for integrations and customization."
+  },
+  "targetUsers": {
+    "individualHobbyist": "kinda",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "kinda",
+    "smallContentTeam": "kinda",
+    "largeContentTeam": "kinda",
+    "enterpriseCorporation": "yes",
+    "summary": "Roundcube is suitable for a range of users, from single developers to large enterprise corporations. While individual hobbyists and single content editors can utilize the platform, it is particularly well-suited for development teams and organizations requiring a customizable and self-hosted webmail solution."
+  },
+  "legal": {
+    "softwareLicense": "open-source: copyleft",
+    "corporateStructure": "community",
+    "summary": "Roundcube is licensed under the GNU General Public License (GPL) version 3 or later, with exceptions for skins and plugins. It is maintained by a community of developers and contributors."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "User management in Roundcube is self-contained, with built-in tools for managing user accounts and permissions. Integration with external authentication systems is possible through plugins and custom configurations."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "no",
+    "customFields": "no",
+    "customContentTypes": "no",
+    "versioning": "no",
+    "previewing": "yes",
+    "editingWorkflows": "no",
+    "realTimeCollaboration": "no",
+    "summary": "As an email client, Roundcube provides a web-based interface for composing and managing emails. It includes a rich text editor for email composition with preview capabilities but does not support features like custom fields, content types, versioning, or real-time collaboration typical of content management systems."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "no",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "no",
+    "paidThemes": "no",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "Roundcube supports theming and allows users to customize the interface through packaged themes. While there isn't an official theme marketplace, various free themes are available from the community. Advanced customization can be achieved by modifying theme files."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "Roundcube features a responsive design, ensuring usability across various devices, including mobile phones and tablets. It does not offer functionality to create Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "Roundcube is localized in over 70 languages, providing multilingual support for its user interface and editor, making it accessible to a diverse user base."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "kinda",
+    "extensionMarketplace": "no",
+    "paidExtensions": "no",
+    "summary": "Roundcube offers a plugin API for flexible extensions, allowing developers to enhance its functionality. While there isn't an official extension marketplace, numerous plugins are available from the community. Implementing custom plugins may require backend development expertise in PHP."
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "no",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": [],
+    "summary": "Roundcube is an email client and does not include e-commerce functionality in its core or through extensions."
+  },
+  "costs": {
+    "paradigm": ["free"],
+    "subscription": 0,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 0,
+    "summary": "Roundcube is free to use under the GNU GPL license, with no subscription or software license fees. However, costs may arise from hosting, domain registration, and any custom development or integration services required."
+  }
+}

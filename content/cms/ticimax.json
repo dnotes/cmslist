@@ -1,0 +1,85 @@
+{
+  "title": "Ticimax",
+  "architecture": {
+    "paradigm": "SaaS",
+    "serverAdminRequired": false,
+    "backendLanguage": "Not Applicable",
+    "extensionLanguageTech": ["JavaScript"],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["Not Applicable"],
+    "hostingOptions": ["managed"],
+    "apiOptions": ["REST"],
+    "summary": "Ticimax is a cloud-based e-commerce platform that enables businesses to create and manage online stores without the need for server administration. It offers a fully managed environment with customization options primarily through JavaScript. The platform includes a RESTful API for integrations and supports various payment and shipping options. :contentReference[oaicite:0]{index=0}"
+  },
+  "targetUsers": {
+    "individualHobbyist": "kinda",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "yes",
+    "enterpriseCorporation": "yes",
+    "summary": "Ticimax caters to a wide range of users, from individual entrepreneurs to large enterprises, seeking a customizable and scalable e-commerce solution. While individual hobbyists can utilize the platform, it is particularly well-suited for small to large development teams and content management groups. :contentReference[oaicite:1]{index=1}"
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "Ticimax is proprietary software developed and maintained by a commercial entity specializing in e-commerce solutions for businesses. :contentReference[oaicite:2]{index=2}"
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "Ticimax includes an integrated user management system, allowing store owners to manage customer accounts, roles, and permissions directly within the platform. :contentReference[oaicite:3]{index=3}"
+  },
+  "contentEditing": {
+    "paradigm": "drag and drop",
+    "onSiteEditing": "yes",
+    "customFields": "yes",
+    "customContentTypes": "kinda",
+    "versioning": "no",
+    "previewing": "yes",
+    "editingWorkflows": "kinda",
+    "realTimeCollaboration": "no",
+    "summary": "Ticimax offers a drag-and-drop editor for content creation and management, enabling on-site editing and previewing. It supports custom fields and limited custom content types but lacks versioning and real-time collaboration features. :contentReference[oaicite:4]{index=4}"
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "no",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "Ticimax provides a variety of pre-designed themes available through its marketplace, including both free and paid options. Users can customize the display of their online store without requiring frontend development skills, thanks to the intuitive editor. :contentReference[oaicite:5]{index=5}"
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "Ticimax ensures that online stores are responsive and accessible across various devices, providing a seamless shopping experience for mobile users. However, it does not natively support the creation of Progressive Web Apps (PWAs) or native mobile applications. :contentReference[oaicite:6]{index=6}"
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "Ticimax supports multiple languages for both store content and the user interface, making it suitable for businesses targeting international markets. :contentReference[oaicite:7]{index=7}"
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "no",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "Ticimax offers an extension marketplace with various plugins and integrations to enhance store functionality. Users can extend their store's capabilities without requiring backend development skills. :contentReference[oaicite:8]{index=8}"
+  },
+  "commerce": {
+    "isInCore": "yes",
+    "isInExtensions": "yes",
+    "integratedPlatforms": ["Amazon", "eBay"],
+    "integratedPaymentGateways": ["PayPal", "Stripe"],
+    "summary": "Ticimax includes comprehensive e-commerce features in its core offering, such as product management, shopping cart, and checkout processes. It supports integration with platforms like Amazon and eBay, as well as payment gateways including PayPal and Stripe. :contentReference[oaicite:9]{index=9}"
+  },
+  "costs": {
+    "paradigm": ["subscription"],
+    "subscription": 23988,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 23988,
+    "summary": "Ticimax operates on a subscription-based model, with annual renewal fees starting at 23,988 TL plus inflation for the Advantage Package. There are no additional software licensing fees, but users should consider costs for domain registration, premium themes, and any paid extensions. :contentReference[oaicite:10]{index=10}"
+  }
+}

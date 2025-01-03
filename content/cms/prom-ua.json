@@ -1,0 +1,85 @@
+{
+  "title": "Prom.ua",
+  "architecture": {
+    "paradigm": "SaaS",
+    "serverAdminRequired": false,
+    "backendLanguage": "Unknown",
+    "extensionLanguageTech": [],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["Unknown"],
+    "hostingOptions": ["managed"],
+    "apiOptions": ["REST"],
+    "summary": "Prom.ua is a cloud-based e-commerce platform (SaaS) that does not require server administration. It offers managed hosting and utilizes standard web technologies for frontend development. The platform provides a REST API for integrations."
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "kinda",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "kinda",
+    "enterpriseCorporation": "kinda",
+    "summary": "Prom.ua is suitable for individual hobbyists, single developers, and small to medium-sized teams due to its user-friendly interface and comprehensive features. While it can accommodate larger teams and enterprises, it may require additional customization to meet complex needs."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "Prom.ua is a proprietary, commercially developed platform. Users must comply with Prom.ua's terms of service and privacy policy when using the platform."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "Prom.ua includes a self-contained user management system that allows site owners to manage user registrations and restrict access to selected pages through membership registration."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "yes",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "no",
+    "previewing": "yes",
+    "editingWorkflows": "no",
+    "realTimeCollaboration": "no",
+    "summary": "Prom.ua offers a web-form-based editor with on-site editing capabilities, allowing users to see changes in real-time. It supports custom fields and content types but lacks versioning, editing workflows, and real-time collaboration features."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "no",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "Prom.ua provides a variety of packaged themes through its theme marketplace, including both free and paid options. Users can customize the display of their site without the need for frontend development skills."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "Prom.ua ensures that all websites created on its platform are responsive, providing optimal viewing across various devices. It does not offer features to create Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "Prom.ua supports the creation of multilingual websites, offering a multilingual user interface and editor, making it suitable for users aiming to reach a global audience."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "no",
+    "extensionMarketplace": "no",
+    "paidExtensions": "no",
+    "summary": "Prom.ua is a closed system without an extension marketplace, limiting its extensibility. Users cannot add custom backend functionalities or integrate third-party extensions."
+  },
+  "commerce": {
+    "isInCore": "yes",
+    "isInExtensions": "no",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": ["PrivatBank", "Monobank", "LiqPay"],
+    "summary": "Prom.ua includes comprehensive e-commerce functionality within its core features, allowing users to set up online stores with integrated payment gateways such as PrivatBank, Monobank, and LiqPay."
+  },
+  "costs": {
+    "paradigm": ["per site", "free tier"],
+    "subscription": 0,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 0,
+    "summary": "Prom.ua offers a free tier with basic features and several premium plans. The specific costs depend on the chosen plan and additional services, such as advertising or enhanced support."
+  }
+}

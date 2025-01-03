@@ -1,0 +1,85 @@
+{
+  "title": "MODx",
+  "architecture": {
+    "paradigm": "server install",
+    "serverAdminRequired": true,
+    "backendLanguage": "PHP",
+    "extensionLanguageTech": ["PHP"],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["SQL"],
+    "hostingOptions": ["shared", "vps", "managed"],
+    "apiOptions": ["REST"],
+    "summary": "MODX is an open-source content management system (CMS) and web application framework that requires server installation and administration. Built with PHP, it utilizes SQL databases for content storage. Frontend customization is achieved through standard web technologies like HTML, CSS, and JavaScript. MODX supports REST APIs for integration and can be extended using PHP-based add-ons. It can be hosted on shared, VPS, or managed servers."
+  },
+  "targetUsers": {
+    "individualHobbyist": "kinda",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "kinda",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "yes",
+    "enterpriseCorporation": "yes",
+    "summary": "MODX is suitable for a wide range of users, from single developers to large enterprise teams. Its flexibility and scalability make it ideal for small to large development teams and content management groups. Individual hobbyists or single content editors may find it less intuitive without technical expertise."
+  },
+  "legal": {
+    "softwareLicense": "open-source: GPL",
+    "corporateStructure": "commercial",
+    "summary": "MODX is open-source software licensed under the GNU General Public License (GPL). It is developed and maintained by MODX LLC, a commercial entity that offers additional services and support."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "MODX includes a comprehensive, self-contained user management system that allows administrators to manage user roles, permissions, and access controls within the CMS."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "yes",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "kinda",
+    "previewing": "yes",
+    "editingWorkflows": "kinda",
+    "realTimeCollaboration": "no",
+    "summary": "MODX offers a web-based editor for content creation and management, supporting on-site editing, custom fields, and content types. It includes previewing capabilities and basic versioning and workflow management, though these features may require additional configuration or extensions. Real-time collaboration is not a native feature."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "kinda",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "MODX provides support for packaged themes, with a marketplace offering both free and paid options. While basic customization can be performed without extensive frontend development skills, advanced customization and development of unique designs may require frontend development expertise."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "MODX supports responsive design, ensuring websites are accessible across various devices. However, it does not natively support the creation of Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "MODX supports multilingual content, user interfaces, and editors, allowing for the creation and management of websites in multiple languages to cater to a global audience."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "kinda",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "MODX offers an extension marketplace with various add-ons, both free and paid, to enhance functionality. While many extensions can be implemented without backend development, advanced customizations or the creation of bespoke extensions may require developer expertise."
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "yes",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": [],
+    "summary": "E-commerce functionality is not included in MODX's core features but can be added through extensions available in the marketplace. These extensions may integrate with various payment gateways and platforms, depending on the specific add-on used."
+  },
+  "costs": {
+    "paradigm": ["free"],
+    "subscription": 0,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 0,
+    "summary": "MODX is free to download and use under the GPL license. However, costs may arise from hosting services, premium themes, paid extensions, and any professional support or development services required."
+  }
+}

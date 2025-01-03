@@ -1,0 +1,85 @@
+{
+  "title": "IdeaSoft",
+  "architecture": {
+    "paradigm": "SaaS",
+    "serverAdminRequired": false,
+    "backendLanguage": "Not Applicable",
+    "extensionLanguageTech": ["JavaScript"],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["Not Applicable"],
+    "hostingOptions": ["managed"],
+    "apiOptions": ["REST"],
+    "summary": "IdeaSoft is a cloud-based e-commerce platform that enables businesses to create and manage online stores without the need for server administration. It offers a fully managed environment with customization options primarily through JavaScript. The platform includes a RESTful API for integrations and supports various payment and shipping options."
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "kinda",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "kinda",
+    "enterpriseCorporation": "kinda",
+    "summary": "IdeaSoft caters to individual entrepreneurs, small businesses, and development teams seeking an easy-to-use e-commerce solution. While suitable for larger teams and enterprises, its feature set is primarily tailored to the needs of small to medium-sized operations."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "IdeaSoft is proprietary software developed and maintained by a commercial entity specializing in e-commerce solutions for small and medium-sized businesses."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "IdeaSoft includes an integrated user management system, allowing store owners to manage customer accounts, roles, and permissions directly within the platform."
+  },
+  "contentEditing": {
+    "paradigm": "drag and drop",
+    "onSiteEditing": "yes",
+    "customFields": "yes",
+    "customContentTypes": "kinda",
+    "versioning": "no",
+    "previewing": "yes",
+    "editingWorkflows": "kinda",
+    "realTimeCollaboration": "no",
+    "summary": "IdeaSoft offers a drag-and-drop editor for content creation and management, enabling on-site editing and previewing. It supports custom fields and limited custom content types but lacks versioning and real-time collaboration features."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "no",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "IdeaSoft provides a variety of pre-designed themes available through its marketplace, including both free and paid options. Users can customize the display of their online store without requiring frontend development skills, thanks to the intuitive editor."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "IdeaSoft ensures that online stores are responsive and accessible across various devices, providing a seamless shopping experience for mobile users. However, it does not natively support the creation of Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "IdeaSoft supports multiple languages for both store content and the user interface, making it suitable for businesses targeting international markets."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "no",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "IdeaSoft offers an extension marketplace with various plugins and integrations to enhance store functionality. Users can extend their store's capabilities without requiring backend development skills."
+  },
+  "commerce": {
+    "isInCore": "yes",
+    "isInExtensions": "yes",
+    "integratedPlatforms": ["Amazon", "eBay"],
+    "integratedPaymentGateways": ["PayPal", "Stripe"],
+    "summary": "IdeaSoft includes comprehensive e-commerce features in its core offering, such as product management, shopping cart, and checkout processes. It supports integration with platforms like Amazon and eBay, as well as payment gateways including PayPal and Stripe."
+  },
+  "costs": {
+    "paradigm": ["subscription"],
+    "subscription": 25,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 300,
+    "summary": "IdeaSoft operates on a subscription-based model, with plans starting at $25 per month. There are no additional software licensing fees, but users should consider costs for domain registration, premium themes, and any paid extensions. A free trial is available for testing the platform."
+  }
+}

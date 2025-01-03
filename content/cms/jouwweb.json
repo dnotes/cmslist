@@ -1,0 +1,85 @@
+{
+  "title": "JouwWeb",
+  "architecture": {
+    "paradigm": "SaaS",
+    "serverAdminRequired": false,
+    "backendLanguage": "Not Applicable",
+    "extensionLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["Proprietary"],
+    "hostingOptions": ["managed"],
+    "apiOptions": ["none"],
+    "summary": "JouwWeb is a cloud-based website builder that enables users to create and manage websites without requiring server administration or coding skills. It offers a drag-and-drop interface with customizable templates, and all hosting is managed by JouwWeb. While it doesn't provide APIs for external integrations, users can embed custom code to extend functionality."
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "kinda",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "kinda",
+    "enterpriseCorporation": "kinda",
+    "summary": "JouwWeb is designed for a wide range of users, including individual hobbyists, single developers, and small to medium-sized teams. While it can accommodate larger teams or enterprises, its feature set is primarily tailored for simpler projects and may not meet the complex needs of large organizations."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "JouwWeb is proprietary software developed and maintained by a commercial company offering website building services."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "JouwWeb includes an integrated user management system, allowing administrators to manage user roles and permissions within the platform. This facilitates collaboration among team members with varying levels of access."
+  },
+  "contentEditing": {
+    "paradigm": "drag and drop",
+    "onSiteEditing": "no",
+    "customFields": "kinda",
+    "customContentTypes": "kinda",
+    "versioning": "no",
+    "previewing": "yes",
+    "editingWorkflows": "no",
+    "realTimeCollaboration": "no",
+    "summary": "JouwWeb offers a drag-and-drop interface for content creation, allowing users to customize templates without coding. While it supports basic customization, advanced content types and workflows are limited. It provides previewing capabilities but lacks features like real-time collaboration and comprehensive versioning."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "no",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "JouwWeb provides a variety of customizable templates through its marketplace, including both free and paid options. Users can adjust site appearance without requiring frontend development skills, though advanced customization may necessitate knowledge of HTML, CSS, and JavaScript."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "JouwWeb supports responsive design, ensuring websites are accessible and functional across various devices. However, it does not natively support the creation of Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "kinda",
+    "multilingualUI": "kinda",
+    "multilingualEditor": "kinda",
+    "summary": "JouwWeb offers limited support for multilingual content and interfaces. Implementing full multilingual capabilities may require additional configuration or custom development."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "no",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "JouwWeb provides an extension marketplace with various plugins to enhance functionality. Users can integrate these extensions without backend development skills, though the platform's extensibility may be limited compared to more developer-centric platforms."
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "yes",
+    "integratedPlatforms": ["Not Specified"],
+    "integratedPaymentGateways": ["Not Specified"],
+    "summary": "JouwWeb does not include built-in e-commerce features but offers extensions for integrating online shop functionality. Specific integrated platforms and payment gateways are not detailed in the provided information."
+  },
+  "costs": {
+    "paradigm": ["free tier", "subscription"],
+    "subscription": 8.68,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 104.16,
+    "summary": "JouwWeb operates on a subscription-based model, with plans starting at $8.68 per month for the Pro plan, which includes essential features for building a website. Higher-tier plans offer additional capabilities at increased costs. The estimated annual cost for the Pro plan is $104.16. :contentReference[oaicite:0]{index=0}"
+  }
+}

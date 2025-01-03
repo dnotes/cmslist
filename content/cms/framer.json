@@ -1,0 +1,85 @@
+{
+  "title": "Framer",
+  "architecture": {
+    "paradigm": "SaaS",
+    "serverAdminRequired": false,
+    "backendLanguage": "proprietary",
+    "extensionLanguageTech": [],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["cloud-based"],
+    "hostingOptions": ["managed"],
+    "apiOptions": ["none"],
+    "summary": "Framer is a cloud-based design and prototyping platform that enables users to create interactive websites without requiring server administration or coding skills. It utilizes proprietary backend technologies, while frontend customization is achieved through standard web technologies like HTML, CSS, and JavaScript. Content is stored in the cloud, and hosting is fully managed by Framer. The platform does not offer APIs for integration."
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "kinda",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "kinda",
+    "enterpriseCorporation": "kinda",
+    "summary": "Framer caters to a wide range of users, including individual hobbyists, single developers, and small to medium-sized teams. While it can accommodate larger teams and enterprises, its feature set is primarily tailored for designers and developers seeking to create interactive prototypes and websites efficiently."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "Framer is proprietary software developed and maintained by Framer B.V., a commercial company specializing in design and prototyping tools."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "Framer includes a self-contained user management system, allowing team collaboration with role-based permissions. Integration with external authentication systems is not a standard feature."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "yes",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "no",
+    "previewing": "yes",
+    "editingWorkflows": "no",
+    "realTimeCollaboration": "yes",
+    "summary": "Framer offers a web-based, drag-and-drop editor for content creation and management, supporting on-site editing, custom fields, and content types. It includes a preview feature and real-time collaboration capabilities but lacks versioning and advanced editing workflows."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "no",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "no",
+    "paidThemes": "no",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "The platform provides a variety of responsive templates and design tools, allowing users to customize their site's appearance without requiring frontend development skills. While there is no official theme marketplace, the available templates offer flexibility for on-site display customization."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "Framer ensures responsive design for websites, providing a consistent user experience across devices. It does not offer features to create Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "kinda",
+    "multilingualUI": "no",
+    "multilingualEditor": "no",
+    "summary": "While Framer allows for the creation of multilingual content through manual setup, it does not provide built-in support for multilingual user interfaces or editors."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "no",
+    "extensionMarketplace": "no",
+    "paidExtensions": "no",
+    "summary": "Framer does not offer an extension marketplace or support for plugins. Users can add custom code to their projects, but extending functionality beyond the provided features is limited."
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "no",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": [],
+    "summary": "E-commerce functionality is not included in Framer. Users wishing to add online store capabilities would need to integrate third-party solutions or manually implement e-commerce features."
+  },
+  "costs": {
+    "paradigm": ["subscription", "free tier"],
+    "subscription": 19,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 228,
+    "summary": "Framer operates on a subscription model, with a free tier offering limited features. Paid plans start at $19 per month when billed annually, totaling $228 for the first year. Higher-tier plans offer additional features and capabilities. Detailed pricing information is available on their official website."
+  }
+}

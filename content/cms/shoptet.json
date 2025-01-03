@@ -1,0 +1,85 @@
+{
+  "title": "Shoptet",
+  "architecture": {
+    "paradigm": "SaaS",
+    "serverAdminRequired": false,
+    "backendLanguage": "proprietary",
+    "extensionLanguageTech": [],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["SQL"],
+    "hostingOptions": ["managed"],
+    "apiOptions": ["REST"],
+    "summary": "Shoptet is a SaaS-based e-commerce platform that requires no server administration. It utilizes proprietary backend technologies, with frontend customization possible through HTML, CSS, and JavaScript. Content is stored in SQL databases, and hosting is fully managed by Shoptet. The platform offers a REST API for integrations, particularly in its premium plans."
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "kinda",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "kinda",
+    "enterpriseCorporation": "kinda",
+    "summary": "Shoptet caters to a wide range of users, from individual hobbyists and single developers to small and medium-sized teams. While it supports larger teams and enterprise needs to some extent, its feature set is primarily tailored for small to medium-sized businesses."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "Shoptet is a proprietary, commercially licensed platform owned by Shoptet, a commercial entity based in Central Europe."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "User management in Shoptet is self-contained, with built-in tools for managing customer accounts and permissions. Integration with external authentication systems is not a standard feature."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "no",
+    "customFields": "yes",
+    "customContentTypes": "kinda",
+    "versioning": "no",
+    "previewing": "yes",
+    "editingWorkflows": "no",
+    "realTimeCollaboration": "no",
+    "summary": "Shoptet provides a web-based interface for content editing, supporting custom fields and basic content type customization. It includes a preview feature but lacks versioning, advanced editing workflows, on-site editing, and real-time collaboration capabilities."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "no",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "Shoptet offers a variety of packaged themes through its marketplace, including both free and paid options. Users can customize their site's appearance without requiring frontend development skills, though advanced customization may benefit from developer involvement."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "Shoptet ensures responsive design for online stores, providing a consistent user experience across devices. It does not offer features to create Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "kinda",
+    "multilingualUI": "kinda",
+    "multilingualEditor": "no",
+    "summary": "Shoptet offers limited support for multilingual content and user interfaces, primarily focusing on Central European markets. Full multilingual capabilities may require additional customization or third-party integrations."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "no",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "Shoptet provides an extension marketplace with various add-ons, both free and paid, to enhance store functionality. Backend development is not required for typical extensions, but advanced customizations may necessitate developer expertise."
+  },
+  "commerce": {
+    "isInCore": "yes",
+    "isInExtensions": "yes",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": ["Shoptet Pay"],
+    "summary": "E-commerce functionality is central to Shoptet, with core features supporting online store operations. Additional capabilities can be added via extensions. Shoptet offers its own payment gateway, Shoptet Pay, integrated into the platform."
+  },
+  "costs": {
+    "paradigm": ["subscription"],
+    "subscription": 0,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 0,
+    "summary": "Shoptet operates on a subscription model with various pricing tiers to accommodate different business needs. A free plan is available with limited features, and paid plans offer additional capabilities. Pricing details can be found on their official website."
+  }
+}

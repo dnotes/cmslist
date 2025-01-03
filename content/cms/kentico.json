@@ -1,0 +1,85 @@
+{
+  "title": "Kentico",
+  "architecture": {
+    "paradigm": "SaaS",
+    "serverAdminRequired": false,
+    "backendLanguage": "ASP.NET",
+    "extensionLanguageTech": ["C#", "JavaScript"],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["SQL"],
+    "hostingOptions": ["managed", "self-hosted"],
+    "apiOptions": ["REST", "GraphQL"],
+    "summary": "Kentico is a cloud-based digital experience platform (DXP) that combines content management, digital marketing, and e-commerce capabilities. Built on ASP.NET, it allows for extensive customization using C# and JavaScript. Content is stored in SQL databases, and the platform offers both managed hosting and self-hosted options. Kentico provides REST and GraphQL APIs for integration with other systems."
+  },
+  "targetUsers": {
+    "individualHobbyist": "no",
+    "singleDeveloper": "kinda",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "kinda",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "yes",
+    "enterpriseCorporation": "yes",
+    "summary": "Kentico is designed for businesses and organizations of various sizes, from small development teams to large enterprises. While it may be overkill for individual hobbyists, it provides robust tools for content editors and developers, making it suitable for complex projects requiring collaboration among multiple stakeholders."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "Kentico is proprietary software developed and maintained by Kentico Software, a commercial company specializing in digital experience platforms and content management solutions."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "Kentico includes a comprehensive user management system that allows administrators to define roles, set permissions, and manage user access within the platform. This facilitates secure and efficient collaboration among team members."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "yes",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "yes",
+    "previewing": "yes",
+    "editingWorkflows": "yes",
+    "realTimeCollaboration": "kinda",
+    "summary": "Kentico offers a rich web-based content editing experience with support for on-site editing, custom fields, and content types. It includes versioning, previewing, and workflow management features. While it supports collaborative editing, real-time collaboration capabilities may be limited compared to some other platforms."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "kinda",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "Kentico provides a variety of themes and templates, accessible through its marketplace, including both free and paid options. While basic customization can be performed without a developer, advanced design changes may require frontend development skills."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "kinda",
+    "createsNativeApp": "no",
+    "summary": "Kentico supports responsive design to ensure websites are mobile-friendly. It offers some capabilities for creating Progressive Web Apps (PWAs) but does not natively support the creation of native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "Kentico provides robust support for internationalization, including multilingual content management, user interfaces, and editing environments, making it suitable for global organizations."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "yes",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "Kentico is highly extensible, allowing developers to create custom modules and integrate with third-party services. Its marketplace offers various extensions, including paid options, to enhance functionality. Backend development skills are typically required for significant customizations."
+  },
+  "commerce": {
+    "isInCore": "yes",
+    "isInExtensions": "yes",
+    "integratedPlatforms": ["Not Specified"],
+    "integratedPaymentGateways": ["Not Specified"],
+    "summary": "Kentico includes built-in e-commerce features and supports additional functionalities through extensions. Specific integrated platforms and payment gateways are not detailed in the provided information."
+  },
+  "costs": {
+    "paradigm": ["subscription"],
+    "subscription": 10500,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 10500,
+    "summary": "Kentico operates on a subscription-based pricing model, with plans starting at approximately $10,500 per year. Pricing varies based on the selected features and deployment options. Additional costs may include premium extensions, themes, and professional support services."
+  }
+}

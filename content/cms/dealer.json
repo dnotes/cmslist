@@ -1,0 +1,85 @@
+{
+  "title": "Dealer.com",
+  "architecture": {
+    "paradigm": "SaaS",
+    "serverAdminRequired": false,
+    "backendLanguage": "Not Applicable",
+    "extensionLanguageTech": ["Not Specified"],
+    "frontendLanguageTech": ["Not Specified"],
+    "contentStorage": ["Proprietary"],
+    "hostingOptions": ["managed"],
+    "apiOptions": ["Not Specified"],
+    "summary": "Dealer.com is a cloud-based digital marketing platform tailored for automotive dealerships. As a SaaS solution, it requires no server administration, with all hosting managed by Dealer.com. While specific backend and frontend technologies are proprietary, the platform offers integrated tools for website management, digital advertising, and inventory control."
+  },
+  "targetUsers": {
+    "individualHobbyist": "no",
+    "singleDeveloper": "no",
+    "smallDevelopmentTeam": "kinda",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "kinda",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "yes",
+    "enterpriseCorporation": "yes",
+    "summary": "Dealer.com is designed primarily for automotive dealerships of varying sizes, from small teams to large enterprises. Its comprehensive suite of tools supports extensive content and inventory management, making it suitable for dealerships with dedicated marketing and sales teams."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "Dealer.com is proprietary software developed and maintained by Dealer.com, a commercial entity specializing in automotive digital marketing solutions."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "Dealer.com includes an integrated user management system, allowing administrators to manage user roles, permissions, and access controls within the platform."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "no",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "kinda",
+    "previewing": "yes",
+    "editingWorkflows": "kinda",
+    "realTimeCollaboration": "no",
+    "summary": "Dealer.com offers a web-based interface for content creation and management, supporting custom fields and content types. It provides previewing capabilities and basic versioning and workflow management, though these features may have limitations. Real-time collaboration is not a native feature."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "no",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "Dealer.com provides a variety of packaged themes through its marketplace, including both free and paid options. Users can customize site appearance without requiring frontend development skills, though advanced customization may necessitate technical expertise."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "Dealer.com supports responsive design, ensuring websites are accessible across various devices. However, it does not natively support the creation of Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "kinda",
+    "multilingualUI": "kinda",
+    "multilingualEditor": "kinda",
+    "summary": "Dealer.com offers limited support for multilingual content and interfaces. Implementing full multilingual capabilities may require additional configuration or custom development."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "kinda",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "Dealer.com provides an extension marketplace with various plugins to enhance functionality. While many extensions can be implemented without backend development, advanced customizations or the creation of bespoke plugins may require developer expertise."
+  },
+  "commerce": {
+    "isInCore": "yes",
+    "isInExtensions": "yes",
+    "integratedPlatforms": ["Not Specified"],
+    "integratedPaymentGateways": ["Not Specified"],
+    "summary": "Dealer.com includes built-in e-commerce features tailored for automotive dealerships, enabling users to manage online vehicle listings and related services. Additional functionalities can be added through extensions. Specific integrated platforms and payment gateways are not publicly specified."
+  },
+  "costs": {
+    "paradigm": ["subscription"],
+    "subscription": "Not Specified",
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": "Not Specified",
+    "summary": "Dealer.com operates on a subscription-based model. Specific pricing details are not publicly specified and may vary based on selected features and services. Additional costs may include premium plugins, themes, and professional support."
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "title": "IPS Community Suite",
+  "architecture": {
+    "paradigm": "server install",
+    "serverAdminRequired": true,
+    "backendLanguage": "PHP",
+    "extensionLanguageTech": ["PHP", "JavaScript"],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["SQL"],
+    "hostingOptions": ["shared", "vps", "managed"],
+    "apiOptions": ["REST"],
+    "summary": "IPS Community Suite is a self-hosted community platform developed in PHP, requiring server installation and administration. It utilizes a SQL database for content storage and supports extensions through PHP and JavaScript. The platform offers a RESTful API for integrations and is compatible with various hosting environments, including shared, VPS, and managed hosting services."
+  },
+  "targetUsers": {
+    "individualHobbyist": "kinda",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "kinda",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "yes",
+    "enterpriseCorporation": "yes",
+    "summary": "IPS Community Suite caters to a wide range of users, from single developers to large enterprises, seeking a customizable and scalable community platform. While individual hobbyists and single content editors can utilize the platform, it is particularly well-suited for small to large development teams and content management groups."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "IPS Community Suite is proprietary software developed and maintained by Invision Community, a commercial entity specializing in community platform solutions."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "IPS Community Suite includes an integrated user management system, allowing administrators to create and manage user accounts with varying roles and permissions directly within the platform."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "no",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "kinda",
+    "previewing": "yes",
+    "editingWorkflows": "kinda",
+    "realTimeCollaboration": "no",
+    "summary": "IPS Community Suite offers a web-based interface for content creation and management, supporting custom fields and content types. It provides previewing capabilities and basic versioning and workflow features, though it lacks real-time collaboration tools."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "kinda",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "IPS Community Suite supports packaged themes and allows on-site display customization. A variety of themes, both free and paid, are available through its marketplace. Basic customization can be achieved without extensive frontend development skills, but advanced modifications may require such expertise."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "IPS Community Suite's default templates are designed to be responsive, ensuring compatibility across various devices. However, it does not natively support the creation of Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "IPS Community Suite provides robust support for internationalization, including multilingual content management, user interfaces, and editor tools, making it suitable for communities operating in multiple languages."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "yes",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "IPS Community Suite is highly extensible through plugins and modules developed in PHP and JavaScript. A centralized extension marketplace offers various extensions, both free and paid, from the community and third-party developers. Implementing significant customizations typically requires backend development expertise."
+  },
+  "commerce": {
+    "isInCore": "yes",
+    "isInExtensions": "yes",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": [],
+    "summary": "IPS Community Suite includes comprehensive commerce features in its core functionality, such as product management, shopping cart, and checkout processes. Additional e-commerce capabilities can be added through extensions and integrations."
+  },
+  "costs": {
+    "paradigm": ["per site"],
+    "subscription": 0,
+    "softwareLicense": 200,
+    "estimatedYearOneTotal": 200,
+    "summary": "IPS Community Suite operates on a per-site licensing model, with a one-time software license fee starting at approximately $200. Users should also consider costs related to hosting, domain registration, and any premium themes or extensions they may require."
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "title": "Jekyll",
+  "architecture": {
+    "paradigm": "static site generator",
+    "serverAdminRequired": "kinda",
+    "backendLanguage": "Ruby",
+    "extensionLanguageTech": ["Ruby", "Liquid"],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["Markdown", "YAML"],
+    "hostingOptions": ["shared", "vps", "managed", "serverless"],
+    "apiOptions": ["none"],
+    "summary": "Jekyll is a static site generator written in Ruby that transforms plain text files into static websites and blogs. It uses Markdown for content creation and Liquid templating for layouts. As a static site generator, it doesn't require a database, and the generated sites can be hosted on various platforms, including GitHub Pages. While it doesn't provide built-in APIs, its simplicity and flexibility make it a popular choice for developers seeking a straightforward solution for static site creation."
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "kinda",
+    "singleContentEditor": "kinda",
+    "smallContentTeam": "kinda",
+    "largeContentTeam": "no",
+    "enterpriseCorporation": "no",
+    "summary": "Jekyll is ideal for individual developers, hobbyists, and small teams looking to create simple, static websites or blogs. Its reliance on command-line tools and static content files makes it less suitable for large teams or enterprises requiring collaborative content editing and complex workflows."
+  },
+  "legal": {
+    "softwareLicense": "open-source: permissive",
+    "corporateStructure": "community",
+    "summary": "Jekyll is an open-source project licensed under the MIT License, allowing for free use, modification, and distribution. It is maintained by a community of volunteers and contributors."
+  },
+  "userManagement": {
+    "paradigm": ["none"],
+    "summary": "Jekyll does not include built-in user management features, as it generates static sites without dynamic content or user interaction. Any required user management would need to be implemented externally or through third-party services."
+  },
+  "contentEditing": {
+    "paradigm": "text editor",
+    "onSiteEditing": "no",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "kinda",
+    "previewing": "yes",
+    "editingWorkflows": "no",
+    "realTimeCollaboration": "no",
+    "summary": "Content in Jekyll is created and managed through text files written in Markdown or HTML, edited with any text editor. Custom fields and content types can be defined using YAML front matter. While Jekyll doesn't provide built-in versioning or workflows, integration with version control systems like Git offers versioning capabilities. Previewing is possible through local development servers, but real-time collaboration features are absent."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "kinda",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "kinda",
+    "paidThemes": "kinda",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "Jekyll supports themes for styling websites, and users can customize or create their own themes using HTML, CSS, and Liquid templates. While there isn't an official theme marketplace, various free and paid themes are available from the community. Basic customization can be done without extensive frontend development skills, but advanced design changes may require such expertise."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "kinda",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "Jekyll itself doesn't enforce responsive design, but developers can implement responsive layouts through custom themes and CSS frameworks. It doesn't natively support creating Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "kinda",
+    "multilingualUI": "kinda",
+    "multilingualEditor": "kinda",
+    "summary": "Jekyll doesn't provide built-in internationalization support, but multilingual sites can be achieved through custom configurations and plugins. Implementing multilingual content and interfaces requires additional setup and maintenance."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "yes",
+    "extensionMarketplace": "kinda",
+    "paidExtensions": "kinda",
+    "summary": "Jekyll is highly extensible through plugins written in Ruby. While there isn't a centralized extension marketplace, numerous plugins are available from the community, both free and paid. Developing custom plugins requires backend development skills."
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "kinda",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": [],
+    "summary": "Jekyll doesn't include e-commerce features in its core functionality. However, basic e-commerce capabilities can be added through third-party services and plugins, though they may be limited compared to dedicated e-commerce platforms."
+  },
+  "costs": {
+    "paradigm": ["free"],
+    "subscription": 0,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 0,
+    "summary": "Jekyll is free to use, with no licensing costs. Hosting can also be free when using services like GitHub Pages. However, users should consider potential expenses for custom domains, premium themes, plugins, and any necessary development services."
+  }
+}

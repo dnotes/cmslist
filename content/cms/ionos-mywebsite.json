@@ -1,0 +1,85 @@
+{
+  "title": "IONOS MyWebsite",
+  "architecture": {
+    "paradigm": "SaaS",
+    "serverAdminRequired": false,
+    "backendLanguage": "proprietary",
+    "extensionLanguageTech": [],
+    "frontendLanguageTech": [],
+    "contentStorage": [],
+    "hostingOptions": ["managed"],
+    "apiOptions": ["none"],
+    "summary": "IONOS MyWebsite is a SaaS-based website builder that requires no server administration. It utilizes proprietary technologies for both backend and frontend, with content storage managed internally. Hosting is fully managed by IONOS, and there are no API options available for external integrations."
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "kinda",
+    "largeDevelopmentTeam": "no",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "kinda",
+    "largeContentTeam": "no",
+    "enterpriseCorporation": "no",
+    "summary": "IONOS MyWebsite is well-suited for individual hobbyists, single developers, and single content editors due to its user-friendly interface and ease of use. It can accommodate small development teams and content teams to some extent but may lack the advanced features required by larger teams or enterprise corporations."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "IONOS MyWebsite is a proprietary, commercially licensed platform owned by IONOS, a commercial entity."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "User management within IONOS MyWebsite is self-contained, meaning it does not support external authentication methods like OAuth."
+  },
+  "contentEditing": {
+    "paradigm": "drag and drop",
+    "onSiteEditing": "kinda",
+    "customFields": "no",
+    "customContentTypes": "no",
+    "versioning": "no",
+    "previewing": "yes",
+    "editingWorkflows": "no",
+    "realTimeCollaboration": "no",
+    "summary": "IONOS MyWebsite offers a drag-and-drop editor for content creation. While it provides a preview feature, it lacks support for custom fields, custom content types, versioning, editing workflows, and real-time collaboration. On-site editing capabilities are limited."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "no",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "no",
+    "paidThemes": "no",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "No frontend developer is required to build a website with IONOS MyWebsite. It supports packaged themes and allows on-site display customization. However, there is no theme marketplace, and paid themes are not available."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "IONOS MyWebsite ensures responsive design, making websites accessible on various devices. It does not support the creation of Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "no",
+    "multilingualUI": "no",
+    "multilingualEditor": "no",
+    "summary": "IONOS MyWebsite does not offer features for multilingual content, user interface, or editor, limiting its suitability for internationalized websites."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "no",
+    "extensionMarketplace": "no",
+    "paidExtensions": "no",
+    "summary": "The platform is not extensible; it does not offer an extension marketplace or support for paid extensions, and no backend development is required or supported."
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "yes",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": [],
+    "summary": "E-commerce functionality is available through additional extensions in IONOS MyWebsite. Specific integrated platforms and payment gateways are not detailed in the available information."
+  },
+  "costs": {
+    "paradigm": ["subscription"],
+    "subscription": 10,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 120,
+    "summary": "IONOS MyWebsite operates on a subscription model, with plans starting at $10 per month, totaling approximately $120 for the first year. There is no separate software license fee."
+  }
+}

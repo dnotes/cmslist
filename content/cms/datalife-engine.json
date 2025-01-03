@@ -1,0 +1,85 @@
+{
+  "title": "DataLife Engine",
+  "architecture": {
+    "paradigm": "server install",
+    "serverAdminRequired": true,
+    "backendLanguage": "PHP",
+    "extensionLanguageTech": ["PHP"],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["SQL"],
+    "hostingOptions": ["shared", "vps", "managed"],
+    "apiOptions": ["REST"],
+    "summary": "DataLife Engine (DLE) is a self-hosted content management system (CMS) built with PHP, utilizing SQL databases for content storage. It requires server administration and supports frontend customization through standard web technologies like HTML, CSS, and JavaScript. DLE offers a REST API for integration and can be extended using PHP-based add-ons. Hosting options include shared, VPS, and managed servers."
+  },
+  "targetUsers": {
+    "individualHobbyist": "kinda",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "kinda",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "yes",
+    "enterpriseCorporation": "yes",
+    "summary": "DataLife Engine is suitable for a range of users, from single developers to large enterprise teams. Its flexibility and scalability make it ideal for small to large development teams and content management groups. Individual hobbyists or single content editors may find it less intuitive without technical expertise."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "DataLife Engine is proprietary software developed and maintained by SoftNews Media Group, a commercial entity specializing in content management solutions."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "DataLife Engine includes a comprehensive, self-contained user management system that allows administrators to manage user roles, permissions, and access controls within the CMS."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "yes",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "kinda",
+    "previewing": "yes",
+    "editingWorkflows": "kinda",
+    "realTimeCollaboration": "no",
+    "summary": "DataLife Engine offers a web-based editor for content creation and management, supporting on-site editing, custom fields, and content types. It includes previewing capabilities and basic versioning and workflow management, though these features may require additional configuration or extensions. Real-time collaboration is not a native feature."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "kinda",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "DataLife Engine provides support for packaged themes, with a marketplace offering both free and paid options. While basic customization can be performed without extensive frontend development skills, advanced customization and development of unique designs may require frontend development expertise."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "DataLife Engine supports responsive design, ensuring websites are accessible across various devices. However, it does not natively support the creation of Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "DataLife Engine supports multilingual content, user interfaces, and editors, allowing for the creation and management of websites in multiple languages to cater to a global audience."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "kinda",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "DataLife Engine offers an extension marketplace with various add-ons, both free and paid, to enhance functionality. While many extensions can be implemented without backend development, advanced customizations or the creation of bespoke extensions may require developer expertise."
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "yes",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": [],
+    "summary": "E-commerce functionality is not included in DataLife Engine's core features but can be added through extensions available in the marketplace. These extensions may integrate with various payment gateways and platforms, depending on the specific add-on used."
+  },
+  "costs": {
+    "paradigm": ["per site"],
+    "subscription": 0,
+    "softwareLicense": 79,
+    "estimatedYearOneTotal": 79,
+    "summary": "DataLife Engine operates on a per-site licensing model, with a one-time purchase price starting at $79 for a basic license. This includes one year of updates, with optional renewals for continued access to updates. Additional costs may include hosting services, premium themes, paid extensions, and any professional support or development services required."
+  }
+}

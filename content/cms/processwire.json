@@ -1,0 +1,85 @@
+{
+  "title": "ProcessWire",
+  "architecture": {
+    "paradigm": "server install",
+    "serverAdminRequired": true,
+    "backendLanguage": "PHP",
+    "extensionLanguageTech": ["PHP", "JavaScript"],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["SQL"],
+    "hostingOptions": ["shared", "vps", "managed"],
+    "apiOptions": ["REST"],
+    "summary": "ProcessWire is an open-source content management system (CMS) and web application framework written in PHP. It requires server installation and administration, with content stored in a SQL database. The platform is highly customizable, supporting extensions and customizations using PHP and JavaScript, and offers a RESTful API for integration purposes."
+  },
+  "targetUsers": {
+    "individualHobbyist": "kinda",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "kinda",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "yes",
+    "enterpriseCorporation": "yes",
+    "summary": "ProcessWire is suitable for a wide range of users, from individual developers to large enterprises, particularly those seeking a flexible and powerful platform for custom web development and content management. While it can be used by single content editors, its strengths lie in supporting development teams of various sizes."
+  },
+  "legal": {
+    "softwareLicense": "open-source: permissive",
+    "corporateStructure": "community",
+    "summary": "ProcessWire is licensed under the Mozilla Public License 2.0, a permissive open-source license. It is developed and maintained by a community of contributors, with its source code available on GitHub."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "ProcessWire includes a built-in user management system, allowing administrators to define user roles and permissions. This facilitates collaborative editing and content management within the platform."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "kinda",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "kinda",
+    "previewing": "yes",
+    "editingWorkflows": "kinda",
+    "realTimeCollaboration": "no",
+    "summary": "ProcessWire offers a web-based interface for content editing, complete with support for custom fields and content types. While it provides previewing capabilities and some workflow features, advanced versioning and real-time collaboration may require additional modules or custom development."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "yes",
+    "supportsPackagedThemes": "kinda",
+    "themeMarketplace": "no",
+    "paidThemes": "no",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "ProcessWire allows for extensive on-site display customization, though it lacks a centralized theme marketplace. While some pre-designed themes are available, implementing custom designs typically requires frontend development skills."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "kinda",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "ProcessWire's default design offers limited responsiveness for mobile devices. Achieving full mobile compatibility and responsive design may require additional configuration or custom development."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "ProcessWire provides robust support for internationalization, including multilingual content management and user interfaces, making it suitable for global use."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "yes",
+    "extensionMarketplace": "kinda",
+    "paidExtensions": "kinda",
+    "summary": "ProcessWire is highly extensible through a variety of available modules. While there isn't a centralized marketplace, numerous free and paid modules are available from the community. Implementing significant customizations typically requires backend development expertise."
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "yes",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": [],
+    "summary": "ProcessWire does not include e-commerce features in its core functionality but can be extended with modules to support e-commerce capabilities. Specific integrated platforms and payment gateways depend on the chosen modules."
+  },
+  "costs": {
+    "paradigm": ["free"],
+    "subscription": 0,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 0,
+    "summary": "ProcessWire is free to download and use, with no associated licensing costs. However, expenses may arise from hosting, domain registration, and any professional services required for customization or maintenance."
+  }
+}

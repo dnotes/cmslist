@@ -1,0 +1,85 @@
+{
+  "title": "WebSite X5",
+  "architecture": {
+    "paradigm": "desktop software",
+    "serverAdminRequired": false,
+    "backendLanguage": "Not Applicable",
+    "extensionLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["Local Files"],
+    "hostingOptions": ["shared", "vps", "managed"],
+    "apiOptions": ["None"],
+    "summary": "WebSite X5 is a desktop-based website builder for Windows, enabling users to create websites without coding. It doesn't require server administration, as sites are built locally and then uploaded to a hosting provider of choice. Customization is achieved through HTML, CSS, and JavaScript. The software doesn't offer APIs for integration and relies on local file storage during development. Hosting options depend on the user's preference, including shared, VPS, or managed hosting."
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "kinda",
+    "largeDevelopmentTeam": "no",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "kinda",
+    "largeContentTeam": "no",
+    "enterpriseCorporation": "no",
+    "summary": "WebSite X5 is ideal for individual hobbyists, single developers, and small businesses seeking to create websites without extensive technical expertise. Its desktop-based nature and lack of collaborative features make it less suitable for large development teams or enterprises requiring multi-user support."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "WebSite X5 is proprietary software developed and maintained by Incomedia, a commercial company specializing in website creation tools."
+  },
+  "userManagement": {
+    "paradigm": ["none"],
+    "summary": "WebSite X5 does not include built-in user management features for website administration. User authentication and management must be implemented separately if required."
+  },
+  "contentEditing": {
+    "paradigm": "desktop application",
+    "onSiteEditing": "no",
+    "customFields": "kinda",
+    "customContentTypes": "kinda",
+    "versioning": "no",
+    "previewing": "yes",
+    "editingWorkflows": "no",
+    "realTimeCollaboration": "no",
+    "summary": "Content editing in WebSite X5 is performed through its desktop application, offering a visual interface for design and content placement. It supports limited custom fields and content types. While it provides a preview function, it lacks versioning, advanced workflows, and real-time collaboration features."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "no",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "WebSite X5 offers a range of customizable templates and themes, accessible through its marketplace, including both free and paid options. Users can customize site appearance without needing frontend development skills, though advanced customization may require HTML, CSS, and JavaScript knowledge."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "WebSite X5 supports responsive design, ensuring websites function well on various devices. It does not natively support the creation of Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "kinda",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "WebSite X5's interface is available in multiple languages, and it allows the creation of multilingual websites. However, managing multilingual content may require manual setup and lacks advanced internationalization features."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "no",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "WebSite X5 provides an extension marketplace with various widgets and add-ons to enhance website functionality. Users can integrate these extensions without backend development skills, though custom extensions are limited due to the software's architecture."
+  },
+  "commerce": {
+    "isInCore": "kinda",
+    "isInExtensions": "no",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": ["PayPal", "Stripe", "Skrill"],
+    "summary": "The Pro version of WebSite X5 (€199.95) includes built-in e-commerce features, enabling users to create online stores. It supports integration with payment gateways like PayPal, Stripe, and Skrill. Advanced e-commerce functionalities may be limited compared to dedicated platforms."
+  },
+  "costs": {
+    "paradigm": ["one-time purchase"],
+    "subscription": 0,
+    "softwareLicense": 19.95,
+    "estimatedYearOneTotal": 19.95,
+    "summary": "WebSite X5 operates on a one-time purchase model, with pricing starting at €19.95 for the Go edition. Higher-tier editions, such as Evo and Pro, are available at €89.95 and €199.95, respectively, offering additional features. Hosting services are not included and will incur additional costs based on the provider chosen."
+  }
+}

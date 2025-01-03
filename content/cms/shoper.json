@@ -1,0 +1,85 @@
+{
+  "title": "Shoper",
+  "architecture": {
+    "paradigm": "SaaS",
+    "serverAdminRequired": false,
+    "backendLanguage": "proprietary",
+    "extensionLanguageTech": [],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["cloud-based"],
+    "hostingOptions": ["managed"],
+    "apiOptions": ["REST"],
+    "summary": "Shoper is a cloud-based e-commerce platform that enables users to create and manage online stores without the need for server administration. It utilizes proprietary backend technologies, while frontend customization is achieved through standard web technologies like HTML, CSS, and JavaScript. Content is stored in the cloud, and hosting is fully managed by Shoper. The platform offers REST APIs for integration and customization."
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "kinda",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "kinda",
+    "enterpriseCorporation": "kinda",
+    "summary": "Shoper caters to a wide range of users, from individual hobbyists and single developers to small and medium-sized teams. While it can accommodate larger teams and enterprises, its feature set is primarily tailored for small to medium-sized businesses and individual entrepreneurs looking to establish an online presence."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "Shoper is proprietary software developed and maintained by a commercial entity specializing in e-commerce solutions."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "The platform includes a self-contained user management system, allowing administrators to manage user access and roles within the online store. Integration with external authentication systems is not a standard feature."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "yes",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "no",
+    "previewing": "yes",
+    "editingWorkflows": "no",
+    "realTimeCollaboration": "no",
+    "summary": "Shoper offers a web-based, drag-and-drop editor for content creation and management, supporting on-site editing, custom fields, and content types. It includes a preview feature but lacks versioning, advanced editing workflows, and real-time collaboration capabilities."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "no",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "The platform provides a variety of responsive templates and themes through its marketplace, including both free and paid options. Users can customize their site's appearance without requiring frontend development skills, though advanced customization may benefit from developer involvement."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "Shoper ensures responsive design for online stores, providing a consistent user experience across devices. It does not offer features to create Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "The platform supports multilingual content, user interfaces, and editors, allowing users to create and manage online stores in multiple languages to cater to a global audience."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "no",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "Shoper offers an extension marketplace with various add-ons, both free and paid, to enhance store functionality. Backend development is not required for typical extensions, but advanced customizations may necessitate developer expertise."
+  },
+  "commerce": {
+    "isInCore": "yes",
+    "isInExtensions": "yes",
+    "integratedPlatforms": ["Allegro", "Amazon", "eBay"],
+    "integratedPaymentGateways": ["PayU", "Przelewy24", "Tpay"],
+    "summary": "E-commerce functionality is central to Shoper, with core features supporting online store operations. Additional capabilities can be added via extensions. The platform integrates with various sales channels like Allegro, Amazon, and eBay, and supports multiple payment gateways, including PayU, Przelewy24, and Tpay."
+  },
+  "costs": {
+    "paradigm": ["subscription"],
+    "subscription": 25,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 300,
+    "summary": "Shoper operates on a subscription model, with plans starting at 25 PLN per month. Detailed pricing information is available on their official website."
+  }
+}

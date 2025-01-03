@@ -1,0 +1,85 @@
+{
+  "title": "October CMS",
+  "architecture": {
+    "paradigm": "server install",
+    "serverAdminRequired": true,
+    "backendLanguage": "PHP",
+    "extensionLanguageTech": ["PHP", "JavaScript"],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript", "Twig"],
+    "contentStorage": ["SQL"],
+    "hostingOptions": ["shared", "vps", "managed"],
+    "apiOptions": ["REST"],
+    "summary": "October CMS is a self-hosted content management system built on the Laravel PHP framework. It requires server installation and administration, utilizing PHP for backend development and SQL databases for content storage. Frontend customization employs HTML, CSS, JavaScript, and Twig templating. The platform offers a REST API for integration and can be extended using plugins developed in PHP and JavaScript. Hosting options include shared, VPS, and managed servers."
+  },
+  "targetUsers": {
+    "individualHobbyist": "kinda",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "kinda",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "yes",
+    "enterpriseCorporation": "yes",
+    "summary": "October CMS caters to a broad spectrum of users, from single developers to large enterprise teams. Its scalability and flexibility make it suitable for small to large development teams and content management groups. Individual hobbyists or single content editors may require technical expertise to fully leverage its capabilities."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "October CMS is proprietary software developed and maintained by October CMS LLC, a commercial company. A subscription license is required for continued use."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "October CMS includes a comprehensive user management system, allowing administrators to manage user roles, permissions, and access controls within the platform."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "yes",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "kinda",
+    "previewing": "yes",
+    "editingWorkflows": "kinda",
+    "realTimeCollaboration": "no",
+    "summary": "October CMS offers a web-based editor for content creation and management, supporting on-site editing, custom fields, and content types. It includes previewing capabilities and basic versioning and workflow management, though these features may require additional configuration or extensions. Real-time collaboration is not a native feature."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "kinda",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "October CMS provides support for packaged themes, with a marketplace offering both free and paid options. While basic customization can be performed without extensive frontend development skills, advanced customization and development of unique designs may require frontend development expertise."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "October CMS supports responsive design, ensuring websites are accessible across various devices. However, it does not natively support the creation of Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "October CMS supports multilingual content, user interfaces, and editors, allowing for the creation and management of websites in multiple languages to cater to a global audience."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "kinda",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "October CMS offers an extension marketplace with various plugins, both free and paid, to enhance functionality. While many extensions can be implemented without backend development, advanced customizations or the creation of bespoke plugins may require developer expertise."
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "yes",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": [],
+    "summary": "E-commerce functionality is not included in October CMS's core features but can be added through extensions available in the marketplace. These extensions may integrate with various payment gateways and platforms, depending on the specific add-on used."
+  },
+  "costs": {
+    "paradigm": ["per site"],
+    "subscription": 29,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 29,
+    "summary": "October CMS offers a free license for a single project with one year of updates. For additional projects or continued updates, a Single License is available at $29 per year. An Unlimited License for agencies is available at $32 per month or $384 annually, providing access to the Partner Program. Additional costs may include hosting services, premium plugins, themes, and any professional support or development services required."
+  }
+}

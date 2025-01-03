@@ -1,0 +1,85 @@
+{
+  "title": "Tray",
+  "architecture": {
+    "paradigm": "SaaS",
+    "serverAdminRequired": false,
+    "backendLanguage": "proprietary",
+    "extensionLanguageTech": [],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["SQL"],
+    "hostingOptions": ["managed"],
+    "apiOptions": ["REST"],
+    "summary": "Tray is a cloud-based integration and automation platform (iPaaS) designed to connect various applications and automate workflows across different services. Operating as a SaaS solution, it eliminates the need for server administration. The backend utilizes proprietary technologies, while frontend interactions are facilitated through standard web technologies like HTML, CSS, and JavaScript. Data is managed using SQL databases, with hosting fully managed by Tray. The platform offers REST APIs for integration and customization, enabling seamless data flow between applications."
+  },
+  "targetUsers": {
+    "individualHobbyist": "kinda",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "kinda",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "yes",
+    "enterpriseCorporation": "yes",
+    "summary": "Tray caters to a broad spectrum of users, from individual developers to large enterprise corporations. While individual hobbyists and single content editors can utilize the platform, it is particularly beneficial for development teams and organizations seeking to automate complex business processes and integrate multiple applications seamlessly."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "Tray is a proprietary platform developed and maintained by Tray.io, a commercial entity specializing in integration and automation solutions for businesses."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "Tray includes a comprehensive, self-contained user management system with role-based permissions, allowing administrators to manage user access and roles within the platform effectively."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "no",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "yes",
+    "previewing": "yes",
+    "editingWorkflows": "yes",
+    "realTimeCollaboration": "no",
+    "summary": "Tray provides a web-based interface for designing and managing workflows, supporting custom fields and content types. It includes features like versioning, previewing, and editing workflows but does not offer on-site editing or real-time collaboration capabilities."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "kinda",
+    "supportsPackagedThemes": "no",
+    "themeMarketplace": "no",
+    "paidThemes": "no",
+    "supportsOnSiteDisplayCustomization": "no",
+    "summary": "Tray does not focus on content display customization, as it is primarily an integration and automation platform. Therefore, it does not offer packaged themes or on-site display customization features."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "Tray features a responsive design, ensuring accessibility across various devices and screen sizes. However, it does not natively support the creation of Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "kinda",
+    "multilingualUI": "kinda",
+    "multilingualEditor": "kinda",
+    "summary": "Tray offers limited support for multilingual content, user interfaces, and editors. While it can accommodate multiple languages, full multilingual capabilities may require additional customization or integration."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "kinda",
+    "extensionMarketplace": "no",
+    "paidExtensions": "no",
+    "summary": "Tray allows for extensibility through its APIs and customization options. While there is no official extension marketplace, custom integrations can be developed, potentially requiring backend development expertise."
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "no",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": [],
+    "summary": "Tray is not an e-commerce platform and does not include commerce functionality in its core or through extensions. However, it can integrate with various e-commerce platforms to automate and streamline business processes."
+  },
+  "costs": {
+    "paradigm": ["subscription"],
+    "subscription": 0,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 0,
+    "summary": "Tray operates on a subscription-based model, with pricing varying based on the specific solutions and services selected. Detailed pricing information is available upon request from Tray's sales team."
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "title": "phpBB",
+  "architecture": {
+    "paradigm": "server install",
+    "serverAdminRequired": true,
+    "backendLanguage": "PHP",
+    "extensionLanguageTech": ["PHP"],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["SQL"],
+    "hostingOptions": ["shared", "vps", "managed", "cloud"],
+    "apiOptions": ["REST"],
+    "summary": "phpBB is a free and open-source forum software package written in PHP. It requires server installation and administration, utilizing PHP for backend development and standard web technologies like HTML, CSS, and JavaScript for the frontend. Data is stored in SQL databases, and it supports various hosting environments, including shared, VPS, managed, and cloud hosting. phpBB offers a REST API for integrations and customization."
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "kinda",
+    "smallContentTeam": "kinda",
+    "largeContentTeam": "kinda",
+    "enterpriseCorporation": "yes",
+    "summary": "phpBB caters to a wide range of users, from individual hobbyists and single developers to large development teams and enterprise corporations. While primarily designed for forum management, it can be extended to support various content management needs, making it adaptable for different organizational sizes and purposes."
+  },
+  "legal": {
+    "softwareLicense": "open-source: copyleft",
+    "corporateStructure": "community",
+    "summary": "phpBB is released under the GNU General Public License (GPL), a copyleft open-source license. It is maintained by a community of developers and contributors, ensuring its free use and distribution."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained", "oauth"],
+    "summary": "phpBB includes a comprehensive user management system with role-based permissions and supports integration with external authentication systems like OAuth, providing flexibility in managing user access and authentication."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "no",
+    "customFields": "yes",
+    "customContentTypes": "kinda",
+    "versioning": "no",
+    "previewing": "yes",
+    "editingWorkflows": "no",
+    "realTimeCollaboration": "no",
+    "summary": "phpBB offers a web-based interface for content creation and management, primarily focused on forum posts and discussions. It supports custom profile fields and, with extensions, can handle custom content types. While it includes a preview feature for posts, it lacks versioning, advanced editing workflows, on-site editing, and real-time collaboration capabilities."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "kinda",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "phpBB supports packaged themes and has a theme marketplace offering both free and paid options. Basic customization can be performed without a frontend developer, but advanced design changes may require development expertise. The platform allows on-site display customization to tailor the forum's appearance and functionality."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "phpBB features a responsive design, ensuring forums are accessible and functional across various devices and screen sizes. It does not natively support the creation of Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "phpBB offers extensive internationalization support, with language packs available for over 50 languages, enabling multilingual content, user interfaces, and editor support. This makes it suitable for a global audience."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "kinda",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "phpBB is highly extensible, allowing for the addition of various features through extensions. An extension marketplace provides both free and paid options. While many extensions can be installed without backend development, creating custom extensions or significant modifications may require PHP development skills."
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "yes",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": [],
+    "summary": "E-commerce functionality is not included in phpBB's core features but can be added through extensions. Specific integrated platforms and payment gateways depend on the chosen extensions and may require additional configuration."
+  },
+  "costs": {
+    "paradigm": ["free"],
+    "subscription": 0,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 0,
+    "summary": "phpBB is free to use under the GNU GPL license, with no subscription or software license fees. However, costs may arise from hosting, domain registration, and any custom development or premium extensions and themes."
+  }
+}

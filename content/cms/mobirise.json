@@ -1,0 +1,85 @@
+{
+  "title": "Mobirise",
+  "architecture": {
+    "paradigm": "static site generator",
+    "serverAdminRequired": false,
+    "backendLanguage": "Not Applicable",
+    "extensionLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["Markdown"],
+    "hostingOptions": ["shared", "vps", "managed"],
+    "apiOptions": ["none"],
+    "summary": "Mobirise is an offline website builder that allows users to create static websites without coding. It generates HTML, CSS, and JavaScript files that can be hosted on various platforms. Users can customize their sites using HTML, CSS, and JavaScript, and the platform supports integration with external services through extensions."
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "kinda",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "kinda",
+    "enterpriseCorporation": "kinda",
+    "summary": "Mobirise is suitable for individual hobbyists, developers, and small to medium-sized teams looking to create responsive websites quickly. While it can be used by larger teams or enterprises, its feature set is primarily geared towards simpler projects."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "Mobirise is proprietary software developed and maintained by a commercial entity. It offers both free and paid versions with varying features and extensions."
+  },
+  "userManagement": {
+    "paradigm": ["none"],
+    "summary": "Mobirise does not include built-in user management features, as it focuses on static site generation. User authentication and management would need to be implemented separately if required."
+  },
+  "contentEditing": {
+    "paradigm": "drag and drop",
+    "onSiteEditing": "no",
+    "customFields": "kinda",
+    "customContentTypes": "kinda",
+    "versioning": "no",
+    "previewing": "yes",
+    "editingWorkflows": "no",
+    "realTimeCollaboration": "no",
+    "summary": "Mobirise offers a drag-and-drop interface for building websites, allowing users to add and arrange pre-designed blocks. While it provides some customization options, advanced content types and workflows are limited. Real-time collaboration is not supported."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "no",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "Mobirise provides a variety of themes and templates through its marketplace, including both free and paid options. Users can customize site appearance without requiring frontend development skills, though advanced customization may require knowledge of HTML, CSS, and JavaScript."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "kinda",
+    "createsNativeApp": "no",
+    "summary": "Mobirise supports responsive design, ensuring websites are mobile-friendly. It offers some capabilities for creating Progressive Web Apps (PWAs) through extensions but does not natively support the creation of native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "kinda",
+    "multilingualUI": "kinda",
+    "multilingualEditor": "kinda",
+    "summary": "Mobirise offers limited support for multilingual content and interfaces. Implementing full multilingual capabilities may require additional configuration or custom development."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "no",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "Mobirise provides an extension marketplace with various plugins to enhance functionality. Users can integrate these extensions without backend development skills, though the platform's extensibility may be limited compared to more developer-centric platforms."
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "yes",
+    "integratedPlatforms": ["PayPal", "Stripe"],
+    "integratedPaymentGateways": ["PayPal", "Stripe"],
+    "summary": "Mobirise does not include built-in e-commerce features but offers extensions for integrating shopping cart functionality with payment gateways like PayPal and Stripe."
+  },
+  "costs": {
+    "paradigm": ["free tier", "subscription"],
+    "subscription": 139,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 139,
+    "summary": "Mobirise offers a free version with basic features. Premium plans, such as the 'Pro' plan at $139 per year, provide access to all themes and extensions, unlimited offline sites, and additional features. Additional costs may include premium extensions and themes."
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "title": "EC-Cube",
+  "architecture": {
+    "paradigm": "server install",
+    "serverAdminRequired": true,
+    "backendLanguage": "PHP",
+    "extensionLanguageTech": ["PHP", "JavaScript"],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["SQL"],
+    "hostingOptions": ["shared", "vps", "managed"],
+    "apiOptions": ["REST"],
+    "summary": "EC-CUBE is an open-source e-commerce content management system (CMS) developed in Japan. It requires server installation and administration, with content stored in a SQL database. The platform is highly customizable, supporting extensions and customizations using PHP and JavaScript, and offers a RESTful API for integration purposes."
+  },
+  "targetUsers": {
+    "individualHobbyist": "kinda",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "kinda",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "yes",
+    "enterpriseCorporation": "yes",
+    "summary": "EC-CUBE is suitable for a wide range of users, from individual developers to large enterprises, particularly those seeking a flexible and powerful platform for custom e-commerce development and content management. While it can be used by single content editors, its strengths lie in supporting development teams of various sizes."
+  },
+  "legal": {
+    "softwareLicense": "open-source: copyleft",
+    "corporateStructure": "commercial",
+    "summary": "EC-CUBE is licensed under the GNU General Public License (GPL), a copyleft open-source license. It is developed and maintained by a commercial entity, with its source code available for public use and modification."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "EC-CUBE includes a built-in user management system, allowing administrators to define user roles and permissions. This facilitates collaborative management within the platform."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "no",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "kinda",
+    "previewing": "yes",
+    "editingWorkflows": "kinda",
+    "realTimeCollaboration": "no",
+    "summary": "EC-CUBE offers a web-based interface for content editing, complete with support for custom fields and content types. While it provides previewing capabilities and some workflow features, advanced versioning and real-time collaboration may require additional plugins or custom development."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "kinda",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "EC-CUBE allows for extensive on-site display customization and offers a variety of themes through its marketplace, including both free and paid options. While basic theming is possible without development skills, advanced design changes may require frontend development expertise."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "kinda",
+    "createsNativeApp": "no",
+    "summary": "EC-CUBE supports responsive design, ensuring that online stores are accessible and functional across various devices. While it doesn't natively create Progressive Web Apps (PWAs), there are plugins available to enhance mobile performance."
+  },
+  "internationalization": {
+    "multilingualContent": "kinda",
+    "multilingualUI": "kinda",
+    "multilingualEditor": "kinda",
+    "summary": "EC-CUBE offers limited support for internationalization. Implementing full multilingual capabilities may require additional configuration or custom development."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "yes",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "EC-CUBE is highly extensible through a variety of available plugins and themes. It offers a centralized marketplace with numerous free and paid extensions. Implementing significant customizations typically requires backend development expertise."
+  },
+  "commerce": {
+    "isInCore": "yes",
+    "isInExtensions": "yes",
+    "integratedPlatforms": ["Not Specified"],
+    "integratedPaymentGateways": ["Not Specified"],
+    "summary": "EC-CUBE includes comprehensive e-commerce features in its core functionality, such as product management, shopping cart, and checkout processes. It also supports integration with various platforms and payment gateways through extensions."
+  },
+  "costs": {
+    "paradigm": ["free"],
+    "subscription": 0,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 0,
+    "summary": "EC-CUBE is free to download and use, with no associated licensing costs. However, expenses may arise from hosting, domain registration, and any professional services required for customization or maintenance."
+  }
+}

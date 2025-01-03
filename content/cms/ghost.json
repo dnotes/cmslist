@@ -1,0 +1,85 @@
+{
+  "title": "Ghost",
+  "architecture": {
+    "paradigm": "server install",
+    "serverAdminRequired": true,
+    "backendLanguage": "Node.js",
+    "extensionLanguageTech": ["JavaScript"],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript", "Handlebars"],
+    "contentStorage": ["SQL"],
+    "hostingOptions": ["shared", "vps", "managed"],
+    "apiOptions": ["REST"],
+    "summary": "Ghost is an open-source content management system (CMS) built on Node.js, requiring server installation and administration. It utilizes SQL databases for content storage and supports frontend customization through HTML, CSS, JavaScript, and Handlebars templating. Ghost offers a REST API for integration and can be extended using JavaScript-based add-ons. Hosting options include shared, VPS, and managed services."
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "yes",
+    "enterpriseCorporation": "yes",
+    "summary": "Ghost caters to a wide range of users, from individual hobbyists to large enterprises. Its user-friendly interface and scalability make it suitable for solo content creators, developers, and teams of varying sizes."
+  },
+  "legal": {
+    "softwareLicense": "open-source: MIT",
+    "corporateStructure": "non-profit",
+    "summary": "Ghost is open-source software licensed under the MIT License. It is developed and maintained by the Ghost Foundation, a non-profit organization."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "Ghost includes a built-in user management system, allowing administrators to manage user roles, permissions, and access controls within the platform."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "yes",
+    "customFields": "kinda",
+    "customContentTypes": "kinda",
+    "versioning": "no",
+    "previewing": "yes",
+    "editingWorkflows": "kinda",
+    "realTimeCollaboration": "no",
+    "summary": "Ghost offers a web-based editor for content creation, supporting on-site editing and live previewing. While it provides a streamlined editing experience, features like custom fields, content types, and workflows may require additional configuration or extensions. It does not natively support versioning or real-time collaboration."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "kinda",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "Ghost supports packaged themes, with a marketplace offering both free and paid options. Basic customization can be achieved without extensive frontend development skills, but advanced design modifications may require developer expertise."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "Ghost ensures responsive design for websites, providing a consistent user experience across devices. However, it does not natively support the creation of Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "kinda",
+    "multilingualUI": "kinda",
+    "multilingualEditor": "kinda",
+    "summary": "Ghost offers limited support for multilingual content and interfaces. Implementing full multilingual capabilities may require custom development or third-party integrations."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "kinda",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "Ghost provides an extension marketplace with various plugins to enhance functionality. While many extensions can be implemented without backend development, advanced customizations may require developer expertise."
+  },
+  "commerce": {
+    "isInCore": "kinda",
+    "isInExtensions": "yes",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": [],
+    "summary": "Ghost includes basic membership and subscription features in its core, allowing creators to monetize content. For advanced e-commerce capabilities, third-party integrations or custom development are necessary."
+  },
+  "costs": {
+    "paradigm": ["free", "subscription"],
+    "subscription": 9,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 0,
+    "summary": "Ghost is free to self-host under the MIT License. For managed hosting, Ghost(Pro) offers subscription plans starting at $9 per month. Additional costs may include hosting services, premium themes, and professional support."
+  }
+}

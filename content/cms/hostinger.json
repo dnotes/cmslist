@@ -1,0 +1,85 @@
+{
+  "title": "Hostinger Website Builder",
+  "architecture": {
+    "paradigm": "SaaS",
+    "serverAdminRequired": false,
+    "backendLanguage": "proprietary",
+    "extensionLanguageTech": [],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["cloud-based"],
+    "hostingOptions": ["managed"],
+    "apiOptions": ["none"],
+    "summary": "Hostinger Website Builder is a cloud-based platform that enables users to create and manage websites without requiring server administration or coding skills. It utilizes proprietary backend technologies, while frontend customization is achieved through standard web technologies like HTML, CSS, and JavaScript. Content is stored in the cloud, and hosting is fully managed by Hostinger. The platform does not offer APIs for integration."
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "kinda",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "kinda",
+    "enterpriseCorporation": "kinda",
+    "summary": "Hostinger Website Builder is designed for a broad audience, including individual hobbyists, single developers, and small to medium-sized teams. While it can accommodate larger teams and enterprises, its feature set is primarily tailored for small to medium-sized businesses and personal projects."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "Hostinger Website Builder is proprietary software developed and maintained by Hostinger, a commercial web hosting and website services company."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "The platform includes a self-contained user management system, allowing administrators to manage user access and roles within the website. Integration with external authentication systems is not supported."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "yes",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "no",
+    "previewing": "yes",
+    "editingWorkflows": "no",
+    "realTimeCollaboration": "no",
+    "summary": "Hostinger Website Builder offers a web-based, drag-and-drop editor for content creation and management, supporting on-site editing, custom fields, and content types. It includes a preview feature but lacks versioning, advanced editing workflows, and real-time collaboration capabilities."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "no",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "no",
+    "paidThemes": "no",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "The platform provides over 150 responsive templates for website design, allowing users to customize their site's appearance without requiring frontend development skills. While there is no official theme marketplace, the available templates offer flexibility for on-site display customization."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "no",
+    "createsNativeApp": "no",
+    "summary": "Hostinger Website Builder ensures responsive design, enabling websites to function well across various devices and screen sizes. It does not support the creation of Progressive Web Apps (PWAs) or native mobile applications."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "no",
+    "multilingualEditor": "no",
+    "summary": "The platform allows for the creation of multilingual content, enabling users to build websites in multiple languages. However, the user interface and editor are primarily in English, with limited support for other languages."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "no",
+    "extensionMarketplace": "no",
+    "paidExtensions": "no",
+    "summary": "Hostinger Website Builder does not offer an extension marketplace or support for plugins. Users can add custom code to their projects, but extending functionality beyond the provided features is limited."
+  },
+  "commerce": {
+    "isInCore": "yes",
+    "isInExtensions": "no",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": ["Stripe", "PayPal"],
+    "summary": "E-commerce functionality is included in the core features of Hostinger Website Builder, allowing users to set up online stores with integrated payment gateways like Stripe and PayPal. The platform supports over 100 payment methods and charges 0% transaction fees."
+  },
+  "costs": {
+    "paradigm": ["subscription"],
+    "subscription": 2.49,
+    "softwareLicense": 0,
+    "estimatedYearOneTotal": 29.88,
+    "summary": "Hostinger Website Builder operates on a subscription model, with plans starting at $2.49 per month for a 48-month term, totaling $29.88 for the first year. This plan includes features like a free domain, drag-and-drop editor, and access to over 150 templates. Higher-tier plans offer additional features such as advanced AI tools and e-commerce capabilities."
+  }
+}

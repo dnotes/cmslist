@@ -1,0 +1,85 @@
+{
+  "title": "XenForo",
+  "architecture": {
+    "paradigm": "server install",
+    "serverAdminRequired": true,
+    "backendLanguage": "PHP",
+    "extensionLanguageTech": ["PHP"],
+    "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
+    "contentStorage": ["SQL"],
+    "hostingOptions": ["shared", "vps", "managed"],
+    "apiOptions": ["REST"],
+    "summary": "XenForo is a self-hosted forum software requiring server administration. Built with PHP, it uses SQL databases for content storage. Frontend customization utilizes HTML, CSS, and JavaScript. The platform supports REST APIs for integration and can be extended through add-ons developed in PHP. Hosting can be on shared, VPS, or managed servers."
+  },
+  "targetUsers": {
+    "individualHobbyist": "yes",
+    "singleDeveloper": "yes",
+    "smallDevelopmentTeam": "yes",
+    "largeDevelopmentTeam": "yes",
+    "singleContentEditor": "yes",
+    "smallContentTeam": "yes",
+    "largeContentTeam": "yes",
+    "enterpriseCorporation": "yes",
+    "summary": "XenForo is suitable for a wide range of users, from individual hobbyists to large enterprises, offering scalability and flexibility to accommodate various community sizes and engagement levels."
+  },
+  "legal": {
+    "softwareLicense": "proprietary",
+    "corporateStructure": "commercial",
+    "summary": "XenForo is proprietary software developed and maintained by XenForo Ltd., a commercial entity specializing in community forum solutions."
+  },
+  "userManagement": {
+    "paradigm": ["self-contained"],
+    "summary": "XenForo includes a comprehensive user management system, allowing administrators to manage user access, roles, and permissions within the forum environment."
+  },
+  "contentEditing": {
+    "paradigm": "web form",
+    "onSiteEditing": "yes",
+    "customFields": "yes",
+    "customContentTypes": "yes",
+    "versioning": "no",
+    "previewing": "yes",
+    "editingWorkflows": "kinda",
+    "realTimeCollaboration": "no",
+    "summary": "XenForo offers a web-based editor for content creation, supporting on-site editing, custom fields, and content types. It includes a preview feature but lacks versioning and real-time collaboration. Basic workflow management is available through user permissions and moderation queues."
+  },
+  "contentDisplay": {
+    "frontendDeveloperRequired": "no",
+    "supportsPackagedThemes": "yes",
+    "themeMarketplace": "yes",
+    "paidThemes": "yes",
+    "supportsOnSiteDisplayCustomization": "yes",
+    "summary": "XenForo provides a variety of themes, both free and paid, through its marketplace. Users can customize their site's appearance without requiring frontend development skills, though advanced customization may benefit from developer involvement."
+  },
+  "mobileSupport": {
+    "isResponsiveDesign": "yes",
+    "createsPWA": "yes",
+    "createsNativeApp": "no",
+    "summary": "XenForo ensures responsive design for forums, providing a consistent user experience across devices. It supports Progressive Web App (PWA) functionality but does not offer native mobile application creation."
+  },
+  "internationalization": {
+    "multilingualContent": "yes",
+    "multilingualUI": "yes",
+    "multilingualEditor": "yes",
+    "summary": "XenForo supports multilingual content, user interfaces, and editors, allowing communities to operate in multiple languages to cater to a global audience."
+  },
+  "extensibility": {
+    "backendDeveloperRequired": "no",
+    "extensionMarketplace": "yes",
+    "paidExtensions": "yes",
+    "summary": "XenForo offers an extension marketplace with various add-ons, both free and paid, to enhance forum functionality. Backend development is not required for typical extensions, but advanced customizations may necessitate developer expertise."
+  },
+  "commerce": {
+    "isInCore": "no",
+    "isInExtensions": "yes",
+    "integratedPlatforms": [],
+    "integratedPaymentGateways": [],
+    "summary": "E-commerce functionality is not included in XenForo's core features but can be added through extensions available in the marketplace. These extensions may integrate with various payment gateways and platforms."
+  },
+  "costs": {
+    "paradigm": ["per site"],
+    "subscription": 0,
+    "softwareLicense": 195,
+    "estimatedYearOneTotal": 195,
+    "summary": "XenForo operates on a per-site licensing model, with a one-time purchase price of $195 for a self-hosted license. This includes one year of support and updates, with optional annual renewals for continued access to updates and support. Additional costs may include hosting and any paid extensions or themes."
+  }
+}
