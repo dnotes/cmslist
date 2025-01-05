@@ -2,7 +2,7 @@
   "title": "WebSite X5",
   "architecture": {
     "paradigm": "desktop software",
-    "serverAdminRequired": false,
+    "serverAdminRequired": "no",
     "backendLanguage": "Not Applicable",
     "extensionLanguageTech": ["HTML", "CSS", "JavaScript"],
     "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],

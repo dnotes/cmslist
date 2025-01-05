@@ -2,7 +2,7 @@
   "title": "JouwWeb",
   "architecture": {
     "paradigm": "SaaS",
-    "serverAdminRequired": false,
+    "serverAdminRequired": "no",
     "backendLanguage": "Not Applicable",
     "extensionLanguageTech": ["HTML", "CSS", "JavaScript"],
     "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
@@ -80,6 +80,6 @@
     "subscription": 8.68,
     "softwareLicense": 0,
     "estimatedYearOneTotal": 104.16,
-    "summary": "JouwWeb operates on a subscription-based model, with plans starting at $8.68 per month for the Pro plan, which includes essential features for building a website. Higher-tier plans offer additional capabilities at increased costs. The estimated annual cost for the Pro plan is $104.16. :contentReference[oaicite:0]{index=0}"
+    "summary": "JouwWeb operates on a subscription-based model, with plans starting at $8.68 per month for the Pro plan, which includes essential features for building a website. Higher-tier plans offer additional capabilities at increased costs. The estimated annual cost for the Pro plan is $104.16."
   }
 }

@@ -2,14 +2,14 @@
   "title": "Decap",
   "architecture": {
     "paradigm": "static site generator",
-    "serverAdminRequired": false,
+    "serverAdminRequired": "no",
     "backendLanguage": "JavaScript",
     "extensionLanguageTech": ["JavaScript", "React"],
     "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
     "contentStorage": ["Git"],
     "hostingOptions": ["self-hosted", "managed"],
     "apiOptions": ["custom"],
-    "summary": "Decap CMS is an open-source content management system designed to integrate seamlessly with static site generators. It provides a web-based interface for content editing, storing content directly in Git repositories, which enhances version control and collaboration. The system is built with JavaScript and React, allowing for extensive customization through custom-styled previews, UI widgets, and editor plugins. Decap CMS can be self-hosted or used with various hosting services, offering flexibility in deployment. :contentReference[oaicite:0]{index=0}"
+    "summary": "Decap CMS is an open-source content management system designed to integrate seamlessly with static site generators. It provides a web-based interface for content editing, storing content directly in Git repositories, which enhances version control and collaboration. The system is built with JavaScript and React, allowing for extensive customization through custom-styled previews, UI widgets, and editor plugins. Decap CMS can be self-hosted or used with various hosting services, offering flexibility in deployment."
   },
   "targetUsers": {
     "individualHobbyist": "yes",
@@ -20,16 +20,16 @@
     "smallContentTeam": "yes",
     "largeContentTeam": "yes",
     "enterpriseCorporation": "yes",
-    "summary": "Decap CMS caters to a wide range of users, from individual hobbyists to large enterprises. Its user-friendly interface and Git-based workflow make it suitable for developers and content editors alike, facilitating efficient content management across various project sizes and team structures. :contentReference[oaicite:1]{index=1}"
+    "summary": "Decap CMS caters to a wide range of users, from individual hobbyists to large enterprises. Its user-friendly interface and Git-based workflow make it suitable for developers and content editors alike, facilitating efficient content management across various project sizes and team structures."
   },
   "legal": {
     "softwareLicense": "open-source: permissive",
     "corporateStructure": "community",
-    "summary": "Decap CMS is released under the MIT License, promoting open-source development and community collaboration. It is maintained by a community of contributors, ensuring continuous improvement and support. :contentReference[oaicite:2]{index=2}"
+    "summary": "Decap CMS is released under the MIT License, promoting open-source development and community collaboration. It is maintained by a community of contributors, ensuring continuous improvement and support."
   },
   "userManagement": {
     "paradigm": ["self-contained"],
-    "summary": "Decap CMS includes a built-in user management system that allows administrators to manage user roles and permissions within the CMS. Additionally, with Git Gateway, team members can access the CMS without requiring a GitHub account, simplifying collaboration. :contentReference[oaicite:3]{index=3}"
+    "summary": "Decap CMS includes a built-in user management system that allows administrators to manage user roles and permissions within the CMS. Additionally, with Git Gateway, team members can access the CMS without requiring a GitHub account, simplifying collaboration."
   },
   "contentEditing": {
     "paradigm": "web form",
@@ -40,7 +40,7 @@
     "previewing": "yes",
     "editingWorkflows": "yes",
     "realTimeCollaboration": "no",
-    "summary": "Decap CMS offers a web-based interface for content creation and management, supporting custom fields and content types. It provides versioning, real-time previewing, and editing workflows to streamline content production. However, it lacks real-time collaboration features. :contentReference[oaicite:4]{index=4}"
+    "summary": "Decap CMS offers a web-based interface for content creation and management, supporting custom fields and content types. It provides versioning, real-time previewing, and editing workflows to streamline content production. However, it lacks real-time collaboration features."
   },
   "contentDisplay": {
     "frontendDeveloperRequired": "yes",
@@ -48,38 +48,38 @@
     "themeMarketplace": "no",
     "paidThemes": "no",
     "supportsOnSiteDisplayCustomization": "no",
-    "summary": "As a CMS designed for static site generators, Decap CMS does not provide packaged themes or on-site display customization. Frontend development is required to design and implement the presentation layer, offering flexibility in delivering content across various platforms. :contentReference[oaicite:5]{index=5}"
+    "summary": "As a CMS designed for static site generators, Decap CMS does not provide packaged themes or on-site display customization. Frontend development is required to design and implement the presentation layer, offering flexibility in delivering content across various platforms."
   },
   "mobileSupport": {
     "isResponsiveDesign": "not applicable",
     "createsPWA": "not applicable",
     "createsNativeApp": "not applicable",
-    "summary": "Decap CMS delivers content via integration with static site generators, allowing developers to build responsive designs, Progressive Web Apps (PWAs), or native mobile applications as needed. The CMS itself does not directly create these applications but serves as a backend content provider. :contentReference[oaicite:6]{index=6}"
+    "summary": "Decap CMS delivers content via integration with static site generators, allowing developers to build responsive designs, Progressive Web Apps (PWAs), or native mobile applications as needed. The CMS itself does not directly create these applications but serves as a backend content provider."
   },
   "internationalization": {
     "multilingualContent": "yes",
     "multilingualUI": "yes",
     "multilingualEditor": "yes",
-    "summary": "Decap CMS supports internationalization, enabling the management of multilingual content, user interfaces, and editor tools, making it suitable for global audiences. :contentReference[oaicite:7]{index=7}"
+    "summary": "Decap CMS supports internationalization, enabling the management of multilingual content, user interfaces, and editor tools, making it suitable for global audiences."
   },
   "extensibility": {
     "backendDeveloperRequired": "yes",
     "extensionMarketplace": "no",
     "paidExtensions": "no",
-    "summary": "Decap CMS is highly extensible through its plugin system, allowing developers to enhance functionality with custom plugins. Significant customizations typically require backend development expertise. :contentReference[oaicite:8]{index=8}"
+    "summary": "Decap CMS is highly extensible through its plugin system, allowing developers to enhance functionality with custom plugins. Significant customizations typically require backend development expertise."
   },
   "commerce": {
     "isInCore": "no",
     "isInExtensions": "no",
     "integratedPlatforms": [],
     "integratedPaymentGateways": [],
-    "summary": "Decap CMS does not include e-commerce features in its core offering and does not provide official extensions for commerce. Integration with e-commerce platforms would require custom development to meet specific business needs. :contentReference[oaicite:9]{index=9}"
+    "summary": "Decap CMS does not include e-commerce features in its core offering and does not provide official extensions for commerce. Integration with e-commerce platforms would require custom development to meet specific business needs."
   },
   "costs": {
     "paradigm": ["free"],
     "subscription": 0,
     "softwareLicense": 0,
     "estimatedYearOneTotal": 0,
-    "summary": "Decap CMS is free to use under the MIT License, with no subscription or software licensing fees. Users should consider potential costs for hosting, custom development, and maintenance when planning their projects. :contentReference[oaicite:10]{index=10}"
+    "summary": "Decap CMS is free to use under the MIT License, with no subscription or software licensing fees. Users should consider potential costs for hosting, custom development, and maintenance when planning their projects."
   }
 }

@@ -2,7 +2,7 @@
   "title": "JustSystems Homepage Builder",
   "architecture": {
     "paradigm": "desktop software",
-    "serverAdminRequired": false,
+    "serverAdminRequired": "no",
     "backendLanguage": "N/A",
     "extensionLanguageTech": [],
     "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
@@ -78,8 +78,8 @@
   "costs": {
     "paradigm": ["one-time purchase"],
     "subscription": 0,
-    "softwareLicense": 10780,
-    "estimatedYearOneTotal": 10780,
+    "softwareLicense": 70,
+    "estimatedYearOneTotal": 70,
     "summary": "Homepage Builder is available for a one-time purchase, with the Standard edition priced at ¥10,780 (including tax). There are no ongoing subscription fees, but users may incur additional costs for hosting services and domain registration."
   }
 }

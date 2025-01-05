@@ -2,7 +2,7 @@
   "title": "Shoptet",
   "architecture": {
     "paradigm": "SaaS",
-    "serverAdminRequired": false,
+    "serverAdminRequired": "no",
     "backendLanguage": "proprietary",
     "extensionLanguageTech": [],
     "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],

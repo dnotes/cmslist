@@ -2,7 +2,7 @@
   "title": "nopCommerce",
   "architecture": {
     "paradigm": "server install",
-    "serverAdminRequired": true,
+    "serverAdminRequired": "yes",
     "backendLanguage": "C#",
     "extensionLanguageTech": ["C#", "JavaScript"],
     "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],

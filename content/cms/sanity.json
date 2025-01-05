@@ -2,7 +2,7 @@
   "title": "Sanity",
   "architecture": {
     "paradigm": "headless API",
-    "serverAdminRequired": false,
+    "serverAdminRequired": "no",
     "backendLanguage": "Javascript",
     "extensionLanguageTech": ["Javascript"],
     "frontendLanguageTech": ["React", "Vue", "Svelte", "Angular", "Next.js", "Nuxt.js", "Gatsby", "Eleventy"],

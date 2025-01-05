@@ -2,14 +2,14 @@
   "title": "Directus",
   "architecture": {
     "paradigm": "headless API",
-    "serverAdminRequired": true,
+    "serverAdminRequired": "yes",
     "backendLanguage": "JavaScript",
     "extensionLanguageTech": ["JavaScript"],
     "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
     "contentStorage": ["SQL"],
     "hostingOptions": ["self-hosted", "managed"],
     "apiOptions": ["REST", "GraphQL"],
-    "summary": "Directus is an open-source headless CMS that provides a dynamic API and an intuitive admin app for managing SQL databases. It supports both REST and GraphQL APIs, offering flexibility in content delivery. Users can choose between self-hosting or managed cloud services, depending on their needs. :contentReference[oaicite:0]{index=0}"
+    "summary": "Directus is an open-source headless CMS that provides a dynamic API and an intuitive admin app for managing SQL databases. It supports both REST and GraphQL APIs, offering flexibility in content delivery. Users can choose between self-hosting or managed cloud services, depending on their needs."
   },
   "targetUsers": {
     "individualHobbyist": "yes",
@@ -20,16 +20,16 @@
     "smallContentTeam": "yes",
     "largeContentTeam": "yes",
     "enterpriseCorporation": "yes",
-    "summary": "Directus caters to a wide range of users, from individual hobbyists to large enterprises, offering scalability and customization to meet diverse content management needs. Its open-source nature and extensibility make it suitable for various project sizes and team structures. :contentReference[oaicite:1]{index=1}"
+    "summary": "Directus caters to a wide range of users, from individual hobbyists to large enterprises, offering scalability and customization to meet diverse content management needs. Its open-source nature and extensibility make it suitable for various project sizes and team structures."
   },
   "legal": {
     "softwareLicense": "open-source: permissive",
     "corporateStructure": "commercial",
-    "summary": "Directus is released under the Business Source License (BSL), allowing for extensive customization and use. It is maintained by Monospace Inc., a commercial entity that offers additional enterprise features and support services. :contentReference[oaicite:2]{index=2}"
+    "summary": "Directus is released under the Business Source License (BSL), allowing for extensive customization and use. It is maintained by Monospace Inc., a commercial entity that offers additional enterprise features and support services."
   },
   "userManagement": {
     "paradigm": ["self-contained"],
-    "summary": "Directus includes a built-in user management system with role-based access control, enabling administrators to define permissions and manage user roles within the CMS. :contentReference[oaicite:3]{index=3}"
+    "summary": "Directus includes a built-in user management system with role-based access control, enabling administrators to define permissions and manage user roles within the CMS."
   },
   "contentEditing": {
     "paradigm": "web form",
@@ -40,7 +40,7 @@
     "previewing": "yes",
     "editingWorkflows": "yes",
     "realTimeCollaboration": "no",
-    "summary": "Directus provides a web-based interface for content creation, supporting custom fields and content types. It offers versioning, previewing, and editing workflows to facilitate content management, though it lacks real-time collaboration features. :contentReference[oaicite:4]{index=4}"
+    "summary": "Directus provides a web-based interface for content creation, supporting custom fields and content types. It offers versioning, previewing, and editing workflows to facilitate content management, though it lacks real-time collaboration features."
   },
   "contentDisplay": {
     "frontendDeveloperRequired": "yes",
@@ -48,38 +48,38 @@
     "themeMarketplace": "no",
     "paidThemes": "no",
     "supportsOnSiteDisplayCustomization": "no",
-    "summary": "As a headless CMS, Directus does not include packaged themes or on-site display customization. Frontend development is required to design and implement the presentation layer, providing flexibility in delivering content across various platforms. :contentReference[oaicite:5]{index=5}"
+    "summary": "As a headless CMS, Directus does not include packaged themes or on-site display customization. Frontend development is required to design and implement the presentation layer, providing flexibility in delivering content across various platforms."
   },
   "mobileSupport": {
     "isResponsiveDesign": "not applicable",
     "createsPWA": "not applicable",
     "createsNativeApp": "not applicable",
-    "summary": "Directus delivers content via APIs, allowing developers to build responsive designs, Progressive Web Apps (PWAs), or native mobile applications as needed. The CMS itself does not directly create these applications but serves as a backend content provider. :contentReference[oaicite:6]{index=6}"
+    "summary": "Directus delivers content via APIs, allowing developers to build responsive designs, Progressive Web Apps (PWAs), or native mobile applications as needed. The CMS itself does not directly create these applications but serves as a backend content provider."
   },
   "internationalization": {
     "multilingualContent": "yes",
     "multilingualUI": "yes",
     "multilingualEditor": "yes",
-    "summary": "Directus supports internationalization, enabling the management of multilingual content, user interfaces, and editor tools, making it suitable for global audiences. :contentReference[oaicite:7]{index=7}"
+    "summary": "Directus supports internationalization, enabling the management of multilingual content, user interfaces, and editor tools, making it suitable for global audiences."
   },
   "extensibility": {
     "backendDeveloperRequired": "yes",
     "extensionMarketplace": "yes",
     "paidExtensions": "yes",
-    "summary": "Directus is highly extensible through its modular architecture, allowing developers to enhance functionality with custom extensions or those available in the Directus marketplace. Significant customizations typically require backend development expertise. :contentReference[oaicite:8]{index=8}"
+    "summary": "Directus is highly extensible through its modular architecture, allowing developers to enhance functionality with custom extensions or those available in the Directus marketplace. Significant customizations typically require backend development expertise."
   },
   "commerce": {
     "isInCore": "no",
     "isInExtensions": "yes",
     "integratedPlatforms": [],
     "integratedPaymentGateways": [],
-    "summary": "Directus does not include e-commerce features in its core but can integrate with various e-commerce platforms through extensions and custom development, enabling tailored commerce solutions. :contentReference[oaicite:9]{index=9}"
+    "summary": "Directus does not include e-commerce features in its core but can integrate with various e-commerce platforms through extensions and custom development, enabling tailored commerce solutions."
   },
   "costs": {
     "paradigm": ["free", "subscription"],
     "subscription": 25,
     "softwareLicense": 0,
     "estimatedYearOneTotal": 0,
-    "summary": "Directus offers a free, open-source Community Edition under the BSL. For advanced features and support, paid cloud plans start at $25 per month. Users should also consider potential costs for hosting, extensions, and custom development. :contentReference[oaicite:10]{index=10}"
+    "summary": "Directus offers a free, open-source Community Edition under the BSL. For advanced features and support, paid cloud plans start at $25 per month. Users should also consider potential costs for hosting, extensions, and custom development."
   }
 }

@@ -2,7 +2,7 @@
   "title": "ProcessWire",
   "architecture": {
     "paradigm": "server install",
-    "serverAdminRequired": true,
+    "serverAdminRequired": "yes",
     "backendLanguage": "PHP",
     "extensionLanguageTech": ["PHP", "JavaScript"],
     "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],

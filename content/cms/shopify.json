@@ -2,7 +2,7 @@
   "title": "Shopify",
   "architecture": {
     "paradigm": "SaaS",
-    "serverAdminRequired": false,
+    "serverAdminRequired": "no",
     "backendLanguage": "Ruby",
     "extensionLanguageTech": ["Ruby", "Liquid", "JavaScript"],
     "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],

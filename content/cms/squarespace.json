@@ -2,7 +2,7 @@
   "title": "Squarespace",
   "architecture": {
     "paradigm": "SaaS",
-    "serverAdminRequired": false,
+    "serverAdminRequired": "no",
     "backendLanguage": "Not publicly disclosed",
     "extensionLanguageTech": ["Javascript"],
     "frontendLanguageTech": ["Javascript"],

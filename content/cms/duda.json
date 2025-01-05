@@ -2,7 +2,7 @@
   "title": "Duda",
   "architecture": {
     "paradigm": "SaaS",
-    "serverAdminRequired": false,
+    "serverAdminRequired": "no",
     "backendLanguage": "Javascript",
     "extensionLanguageTech": ["Javascript", "HTML", "CSS"],
     "frontendLanguageTech": ["Javascript"],

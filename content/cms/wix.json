@@ -2,7 +2,7 @@
   "title": "Wix",
   "architecture": {
     "paradigm": "SaaS",
-    "serverAdminRequired": false,
+    "serverAdminRequired": "no",
     "backendLanguage": "Javascript",
     "extensionLanguageTech": ["Javascript"],
     "frontendLanguageTech": ["Javascript"],

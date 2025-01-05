@@ -2,7 +2,7 @@
   "title": "GitBook",
   "architecture": {
     "paradigm": "SaaS",
-    "serverAdminRequired": false,
+    "serverAdminRequired": "no",
     "backendLanguage": "Not Applicable",
     "extensionLanguageTech": ["Not Specified"],
     "frontendLanguageTech": ["Not Specified"],
@@ -80,6 +80,6 @@
     "subscription": 65,
     "softwareLicense": 0,
     "estimatedYearOneTotal": 780,
-    "summary": "GitBook operates on a subscription-based model, with plans starting at $65 per site per month for the Premium plan, which includes features like custom domains, AI-powered instant answers, and site insights. A free plan is available with limited features, and higher-tier plans offer additional capabilities. The estimated annual cost for the Premium plan is $780 per site. :contentReference[oaicite:0]{index=0}"
+    "summary": "GitBook operates on a subscription-based model, with plans starting at $65 per site per month for the Premium plan, which includes features like custom domains, AI-powered instant answers, and site insights. A free plan is available with limited features, and higher-tier plans offer additional capabilities. The estimated annual cost for the Premium plan is $780 per site."
   }
 }

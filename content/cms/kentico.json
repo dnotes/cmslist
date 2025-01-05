@@ -2,7 +2,7 @@
   "title": "Kentico",
   "architecture": {
     "paradigm": "SaaS",
-    "serverAdminRequired": false,
+    "serverAdminRequired": "no",
     "backendLanguage": "ASP.NET",
     "extensionLanguageTech": ["C#", "JavaScript"],
     "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],

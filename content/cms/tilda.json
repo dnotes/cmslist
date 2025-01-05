@@ -2,7 +2,7 @@
   "title": "Tilda",
   "architecture": {
     "paradigm": "SaaS",
-    "serverAdminRequired": false,
+    "serverAdminRequired": "no",
     "backendLanguage": "Not publicly disclosed",
     "extensionLanguageTech": ["JavaScript"],
     "frontendLanguageTech": ["JavaScript"],

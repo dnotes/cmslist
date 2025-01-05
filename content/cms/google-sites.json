@@ -1,10 +1,10 @@
 {
   "title": "Google Sites",
   "webMarketShare": 0.15,
-  "cmsMarketShare": 0.22,
+  "cmsMarketShare": 0.2,
   "architecture": {
     "paradigm": "SaaS",
-    "serverAdminRequired": false,
+    "serverAdminRequired": "no",
     "backendLanguage": "Not publicly disclosed",
     "extensionLanguageTech": ["JavaScript"],
     "frontendLanguageTech": ["JavaScript"],

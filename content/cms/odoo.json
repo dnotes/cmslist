@@ -2,7 +2,7 @@
   "title": "Odoo",
   "architecture": {
     "paradigm": "server install",
-    "serverAdminRequired": true,
+    "serverAdminRequired": "yes",
     "backendLanguage": "Python",
     "extensionLanguageTech": ["Python", "XML"],
     "frontendLanguageTech": ["JavaScript", "HTML", "CSS"],

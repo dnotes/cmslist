@@ -4,7 +4,7 @@
   "cmsMarketShare": 0.52,
   "architecture": {
     "paradigm": "server install",
-    "serverAdminRequired": true,
+    "serverAdminRequired": "yes",
     "backendLanguage": "PHP",
     "extensionLanguageTech": ["PHP", "JavaScript"],
     "frontendLanguageTech": ["JavaScript"],

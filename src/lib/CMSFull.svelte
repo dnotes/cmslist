@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { sections, type FullCMSRecord } from "$lib";
+  import { normalizeFieldValue, sections, type FullCMSRecord } from "$lib";
   import { kebabCase, snakeCase } from "lodash-es";
 
   export let cms:FullCMSRecord
@@ -25,17 +25,7 @@
           <div class="my-2 flex items-center">
             <div class="w-40 pr-4 sm:w-56 leading-tight font-bold">{kebabCase(key).replace(/-/g,' ')}:</div>
             <div>
-              {#if Array.isArray(value)}
-                {value.join(', ')}
-              {:else if typeof value === 'number'}
-                {value}
-              {:else if typeof value === 'boolean' || value?.match(/^(?:yes|no|true|false|kinda)$/i)}
-                {value}
-              {:else if !value || value?.match(/^(?:n\/a|not applicable|not available)$/i)}
-                N/A
-              {:else}
-                {value}
-              {/if}
+              {normalizeFieldValue(value)}
             </div>
           </div>
         {/if}

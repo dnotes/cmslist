@@ -21,7 +21,7 @@ export async function GET() {
       id: filepath.split('/').pop()!.replace('.json', ''),
       webMarketShare: survey[content.title]?.webMarketShare || 0,
       cmsMarketShare: survey[content.title]?.cmsMarketShare || 0,
-      w3techsSort: -(content.cmsMarketShare ?? survey[content.title]?.cmsMarketShare) || 0,
+      w3techsSort: -(content.cmsMarketShare ?? survey[content.title]?.cmsMarketShare ?? 0),
       w3techsRank: w3techsRanks.indexOf(content.title) + 1,
       ...content
     })),
@@ -31,8 +31,6 @@ export async function GET() {
     return {
       ...record,
       rank: record.webMarketShare ? idx + 1 : "N/A",
-      webMarketShare: record.webMarketShare || "N/A",
-      cmsMarketShare: record.cmsMarketShare || "N/A",
     }
   })
 

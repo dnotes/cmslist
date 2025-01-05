@@ -2,7 +2,7 @@
   "title": "Mobirise",
   "architecture": {
     "paradigm": "static site generator",
-    "serverAdminRequired": false,
+    "serverAdminRequired": "no",
     "backendLanguage": "Not Applicable",
     "extensionLanguageTech": ["HTML", "CSS", "JavaScript"],
     "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],

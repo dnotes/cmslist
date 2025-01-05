@@ -2,7 +2,7 @@
   "title": "Bigcommerce",
   "architecture": {
     "paradigm": "SaaS",
-    "serverAdminRequired": false,
+    "serverAdminRequired": "no",
     "backendLanguage": "Proprietary",
     "extensionLanguageTech": ["JavaScript", "HTML", "CSS"],
     "frontendLanguageTech": ["JavaScript", "React"],

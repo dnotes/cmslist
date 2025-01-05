@@ -1,10 +1,10 @@
 {
   "title": "Blogger",
-  "webMarketShare": 0.45,
-  "cmsMarketShare": 0.68,
+  "webMarketShare": 0.5,
+  "cmsMarketShare": 0.7,
   "architecture": {
     "paradigm": "SaaS",
-    "serverAdminRequired": false,
+    "serverAdminRequired": "no",
     "backendLanguage": "N/A",
     "extensionLanguageTech": [],
     "frontendLanguageTech": [],

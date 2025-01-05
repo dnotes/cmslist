@@ -2,7 +2,7 @@
   "title": "Strapi",
   "architecture": {
     "paradigm": "headless API",
-    "serverAdminRequired": true,
+    "serverAdminRequired": "yes",
     "backendLanguage": "JavaScript",
     "extensionLanguageTech": ["JavaScript"],
     "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],

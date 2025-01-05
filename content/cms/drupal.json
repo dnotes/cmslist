@@ -2,7 +2,7 @@
   "title": "Drupal",
   "architecture": {
     "paradigm": "server install",
-    "serverAdminRequired": true,
+    "serverAdminRequired": "yes",
     "backendLanguage": "PHP",
     "extensionLanguageTech": ["PHP", "Javascript"],
     "frontendLanguageTech": ["Javascript"],

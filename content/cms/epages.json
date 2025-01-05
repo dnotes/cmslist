@@ -2,7 +2,7 @@
   "title": "ePages",
   "architecture": {
     "paradigm": "SaaS",
-    "serverAdminRequired": false,
+    "serverAdminRequired": "no",
     "backendLanguage": "Not Applicable",
     "extensionLanguageTech": ["JavaScript"],
     "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],

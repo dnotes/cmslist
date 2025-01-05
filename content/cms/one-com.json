@@ -2,7 +2,7 @@
   "title": "One.com Website Builder",
   "architecture": {
     "paradigm": "SaaS",
-    "serverAdminRequired": false,
+    "serverAdminRequired": "no",
     "backendLanguage": "Not Applicable",
     "extensionLanguageTech": ["HTML", "CSS", "JavaScript"],
     "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
@@ -80,6 +80,6 @@
     "subscription": 6.99,
     "softwareLicense": 0,
     "estimatedYearOneTotal": 83.88,
-    "summary": "One.com Website Builder operates on a subscription-based model, with plans starting at $6.99 per month for the Starter plan, which includes essential features for building a website. Higher-tier plans offer additional capabilities at increased costs. The estimated annual cost for the Starter plan is $83.88. :contentReference[oaicite:0]{index=0}"
+    "summary": "One.com Website Builder operates on a subscription-based model, with plans starting at $6.99 per month for the Starter plan, which includes essential features for building a website. Higher-tier plans offer additional capabilities at increased costs. The estimated annual cost for the Starter plan is $83.88."
   }
 }

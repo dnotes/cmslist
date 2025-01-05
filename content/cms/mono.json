@@ -2,14 +2,14 @@
   "title": "Mono",
   "architecture": {
     "paradigm": "server install",
-    "serverAdminRequired": true,
+    "serverAdminRequired": "yes",
     "backendLanguage": "PHP",
     "extensionLanguageTech": ["PHP", "JavaScript"],
     "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],
     "contentStorage": ["flat-file"],
     "hostingOptions": ["shared", "vps", "managed"],
     "apiOptions": ["none"],
-    "summary": "MonoCMS is a lightweight, flat-file content management system (CMS) written in PHP. It does not require a database, storing content in flat files, which simplifies installation and maintenance. The platform supports plugins and extensions developed in PHP and JavaScript, allowing for customization of functionality and appearance. :contentReference[oaicite:0]{index=0}"
+    "summary": "MonoCMS is a lightweight, flat-file content management system (CMS) written in PHP. It does not require a database, storing content in flat files, which simplifies installation and maintenance. The platform supports plugins and extensions developed in PHP and JavaScript, allowing for customization of functionality and appearance."
   },
   "targetUsers": {
     "individualHobbyist": "yes",
@@ -29,7 +29,7 @@
   },
   "userManagement": {
     "paradigm": ["self-contained"],
-    "summary": "MonoCMS includes a built-in user management system, allowing administrators to create multiple control panel accounts with varying levels of access. This facilitates straightforward management of users within the platform. :contentReference[oaicite:1]{index=1}"
+    "summary": "MonoCMS includes a built-in user management system, allowing administrators to create multiple control panel accounts with varying levels of access. This facilitates straightforward management of users within the platform."
   },
   "contentEditing": {
     "paradigm": "web form",
@@ -40,7 +40,7 @@
     "previewing": "yes",
     "editingWorkflows": "no",
     "realTimeCollaboration": "no",
-    "summary": "MonoCMS offers a web-based interface for content editing, featuring a simple text editor for creating posts and pages. While it supports basic tagging and categorization, advanced features like custom fields, content types, versioning, and collaborative workflows are limited or absent. :contentReference[oaicite:2]{index=2}"
+    "summary": "MonoCMS offers a web-based interface for content editing, featuring a simple text editor for creating posts and pages. While it supports basic tagging and categorization, advanced features like custom fields, content types, versioning, and collaborative workflows are limited or absent."
   },
   "contentDisplay": {
     "frontendDeveloperRequired": "kinda",
@@ -66,7 +66,7 @@
     "backendDeveloperRequired": "yes",
     "extensionMarketplace": "no",
     "paidExtensions": "no",
-    "summary": "MonoCMS supports plugins and extensions, but it lacks a centralized marketplace. Users can develop custom plugins using PHP and JavaScript, which requires backend development expertise. :contentReference[oaicite:3]{index=3}"
+    "summary": "MonoCMS supports plugins and extensions, but it lacks a centralized marketplace. Users can develop custom plugins using PHP and JavaScript, which requires backend development expertise."
   },
   "commerce": {
     "isInCore": "no",

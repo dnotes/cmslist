@@ -2,7 +2,7 @@
   "title": "Ghost",
   "architecture": {
     "paradigm": "server install",
-    "serverAdminRequired": true,
+    "serverAdminRequired": "yes",
     "backendLanguage": "Node.js",
     "extensionLanguageTech": ["JavaScript"],
     "frontendLanguageTech": ["HTML", "CSS", "JavaScript", "Handlebars"],

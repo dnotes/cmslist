@@ -2,7 +2,7 @@
   "title": "Craft CMS",
   "architecture": {
     "paradigm": "server install",
-    "serverAdminRequired": true,
+    "serverAdminRequired": "yes",
     "backendLanguage": "PHP",
     "extensionLanguageTech": ["PHP", "Twig"],
     "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],

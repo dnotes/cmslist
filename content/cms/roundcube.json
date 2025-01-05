@@ -2,7 +2,7 @@
   "title": "Roundcube",
   "architecture": {
     "paradigm": "server install",
-    "serverAdminRequired": true,
+    "serverAdminRequired": "yes",
     "backendLanguage": "PHP",
     "extensionLanguageTech": ["PHP"],
     "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],

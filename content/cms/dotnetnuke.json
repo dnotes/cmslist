@@ -2,7 +2,7 @@
   "title": "DotNetNuke",
   "architecture": {
     "paradigm": "server install",
-    "serverAdminRequired": true,
+    "serverAdminRequired": "yes",
     "backendLanguage": "C#",
     "extensionLanguageTech": ["C#", "VB.NET"],
     "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],

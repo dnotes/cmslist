@@ -2,7 +2,7 @@
   "title": "Prom.ua",
   "architecture": {
     "paradigm": "SaaS",
-    "serverAdminRequired": false,
+    "serverAdminRequired": "no",
     "backendLanguage": "Unknown",
     "extensionLanguageTech": [],
     "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],

@@ -2,7 +2,7 @@
   "title": "HubSpot CMS",
   "architecture": {
     "paradigm": "SaaS",
-    "serverAdminRequired": false,
+    "serverAdminRequired": "no",
     "backendLanguage": "HubL (HubSpot Markup Language)",
     "extensionLanguageTech": ["JavaScript", "HTML", "CSS"],
     "frontendLanguageTech": ["JavaScript", "React"],
@@ -80,6 +80,6 @@
     "subscription": 25,
     "softwareLicense": 0,
     "estimatedYearOneTotal": 300,
-    "summary": "HubSpot CMS offers a free tier with limited features, suitable for basic use. Paid plans start at $25 per month, billed annually, for the Starter tier, with higher tiers available for advanced features and larger teams. The estimated first-year cost for the Starter plan is $300. :contentReference[oaicite:0]{index=0}"
+    "summary": "HubSpot CMS offers a free tier with limited features, suitable for basic use. Paid plans start at $25 per month, billed annually, for the Starter tier, with higher tiers available for advanced features and larger teams. The estimated first-year cost for the Starter plan is $300."
   }
 }

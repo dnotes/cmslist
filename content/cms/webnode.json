@@ -1,10 +1,10 @@
 {
   "title": "Webnode",
-  "webMarketShare": 0.08,
-  "cmsMarketShare": 0.16,
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.2,
   "architecture": {
     "paradigm": "SaaS",
-    "serverAdminRequired": false,
+    "serverAdminRequired": "no",
     "backendLanguage": "Unknown",
     "extensionLanguageTech": [],
     "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],

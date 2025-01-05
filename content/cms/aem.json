@@ -1,10 +1,10 @@
 {
   "title": "Adobe Experience Manager (AEM)",
-  "webMarketShare": 0.08,
-  "cmsMarketShare": 0.12,
+  "webMarketShare": 0.1,
+  "cmsMarketShare": 0.1,
   "architecture": {
     "paradigm": "server install",
-    "serverAdminRequired": true,
+    "serverAdminRequired": "yes",
     "backendLanguage": "Java",
     "extensionLanguageTech": ["Java", "JavaScript"],
     "frontendLanguageTech": ["JavaScript"],

@@ -2,7 +2,7 @@
   "title": "Prismic",
   "architecture": {
     "paradigm": "headless API",
-    "serverAdminRequired": false,
+    "serverAdminRequired": "no",
     "backendLanguage": "Not applicable",
     "extensionLanguageTech": ["JavaScript", "TypeScript"],
     "frontendLanguageTech": ["JavaScript", "React", "Vue", "Svelte"],

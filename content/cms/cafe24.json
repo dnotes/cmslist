@@ -2,7 +2,7 @@
   "title": "Cafe24",
   "architecture": {
     "paradigm": "SaaS",
-    "serverAdminRequired": false,
+    "serverAdminRequired": "no",
     "backendLanguage": "Proprietary",
     "extensionLanguageTech": ["HTML", "CSS", "JavaScript"],
     "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],

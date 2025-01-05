@@ -2,7 +2,7 @@
   "title": "Contao",
   "architecture": {
     "paradigm": "server install",
-    "serverAdminRequired": true,
+    "serverAdminRequired": "yes",
     "backendLanguage": "PHP",
     "extensionLanguageTech": ["PHP", "Symfony"],
     "frontendLanguageTech": ["HTML", "CSS", "JavaScript"],

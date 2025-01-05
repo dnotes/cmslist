@@ -2,7 +2,7 @@
   "title": "CMS.S3",
   "architecture": {
     "paradigm": "SaaS",
-    "serverAdminRequired": false,
+    "serverAdminRequired": "no",
     "backendLanguage": "Not Applicable",
     "extensionLanguageTech": ["Not Specified"],
     "frontendLanguageTech": ["Not Specified"],
