@@ -115,6 +115,7 @@ export const sectionList: (keyof typeof sections)[] = Object.keys(sections) as (
 
 export type FieldDefinition = {
   field: string
+  section: keyof typeof sections
   label?: string
   isTernary?: boolean
   isFalseGood?: boolean
@@ -135,13 +136,13 @@ export const allFields:FieldDefinition[] = [
     field: 'webMarketShare',
     label: 'web %',
     isNumber: true,
-    transform: (v) => v ? `${v}%` : 'N/A',
+    transform: (v:any) => v ? `${v}%` : 'N/A',
   },
   {
     field: 'cmsMarketShare',
     label: 'cms %',
     isNumber: true,
-    transform: (v) => v ? `${v}%` : 'N/A',
+    transform: (v:any) => v ? `${v}%` : 'N/A',
   },
   {
     field: 'architecture.paradigm',
@@ -223,7 +224,7 @@ export const allFields:FieldDefinition[] = [
   {
     field: 'legal.softwareLicense',
     label: 'license',
-    transform: (v) => v.replace(/^open-source: /, '')
+    transform: (v:any) => v.replace(/^open-source: /, '')
   },
   {
     field: 'legal.corporateStructure',
@@ -378,24 +379,27 @@ export const allFields:FieldDefinition[] = [
   {
     field: 'costs.subscription',
     isNumber: true,
-    transform: (v) => v ? `$ ${v.toString().replace(/(\d)(?=(\d{3})+$)/g, '$1,')}` : '-'
+    transform: (v:any) => v ? `$ ${v.toString().replace(/(\d)(?=(\d{3})+$)/g, '$1,')}` : '-'
   },
   {
     field: 'costs.softwareLicense',
     label: 'software',
     isNumber: true,
-    transform: (v) => v ? `$ ${v.toString().replace(/(\d)(?=(\d{3})+$)/g, '$1,')}` : '-'
+    transform: (v:any) => v ? `$ ${v.toString().replace(/(\d)(?=(\d{3})+$)/g, '$1,')}` : '-'
   },
   {
     field: 'costs.estimatedYearOneTotal',
     label: 'first year estimate',
     isNumber: true,
-    transform: (v) => v ? `$ ${v.toString().replace(/(\d)(?=(\d{3})+$)/g, '$1,')}` : '-'
+    transform: (v:any) => v ? `$ ${v.toString().replace(/(\d)(?=(\d{3})+$)/g, '$1,')}` : '-'
   },
   {
     field: 'costs.summary',
   }
-]
+].map(f => ({
+  ...f,
+  section: f.field.match(/[\.\[]/) ? f.field.split(/[\.\[]/)[0] : ''
+})) as FieldDefinition[]
 
 export const numberFields = allFields.filter(f => f.isNumber).map(f => f.field)
 

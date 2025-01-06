@@ -24,11 +24,15 @@
   let width:string = $state('w-36')
   if (field === 'rank') width = 'w-12'
   else if (field === 'title') width='w-17 sm:w-36 md:w-48'
+  else if (field.endsWith('summary')) width = 'w-96'
   else if (isTernary || numberFields.includes(field)) width = 'w-20'
 
 </script>
 
-<th onclick={() => sort.set()} class:active={sort.isActive} class:shaded class="cursor-pointer">
+<th onclick={() => sort.set()}
+  class:active={sort.isActive}
+  class:shaded
+  class="cursor-pointer">
   <div class="flex items-center {width}">
     <i class="w-3 flex-grow-0 flex-shrink-0"
       class:asc={sort.direction === 'asc'}

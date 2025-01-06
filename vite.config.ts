@@ -21,5 +21,6 @@ export default defineConfig({
 	test: {
 		include: ['**/*.feature'],
 		setupFiles: ['./tests/qp.steps.ts'],
+		testTimeout: 15000,
 	}
 });

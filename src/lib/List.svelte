@@ -6,62 +6,32 @@
   import ThSort from './THSort.svelte';
   import ThFilter from './THFilter.svelte';
   import { get, indexOf } from 'lodash-es';
+  import { settings } from './state.svelte';
+  import ShowFields from './ShowFields.svelte';
 
   const { data }:{ data:FullCMSRecord[] } = $props()
 
   const table = new TableHandler(data)
 
-  let selectedFields = $state([
-    'title',
-    'rank',
-    'webMarketShare',
-    'architecture.paradigm',
-    'architecture.serverAdminRequired',
-    'legal.softwareLicense',
-    'legal.corporateStructure',
-    'userManagement.paradigm',
-    'contentEditing.paradigm',
-    'contentDisplay.frontendDeveloperRequired',
-    'contentDisplay.supportsPackagedThemes',
-    'contentDisplay.themeMarketplace',
-    'internationalization.multilingualContent',
-    'extensibility.backendDeveloperRequired',
-    'extensibility.extensionMarketplace',
-    'commerce.isInCore',
-    'commerce.isInExtensions',
-    'costs.paradigm',
-    'costs.estimatedYearOneTotal',
-  ])
-
-  let sectionCounts = $state(
-    sectionList.reduce((acc, section) => {
-      acc[section] = countFields(section)
-      return acc
-    }, {} as Partial<Record<keyof typeof sections, number>>) as Record<keyof typeof sections, number>
-  )
+  let sectionCounts = $derived.by(() => {
+    let counts = Object.fromEntries(sectionList.map(l => [l, 0]))
+    settings.selectedFields.forEach(f => {
+      const section = f.split('.')[0]
+      if (section) counts[section]++
+    })
+    return counts
+  })
 
   let sectionsVisible = $derived(sectionList.filter(k => sectionCounts[k] > 0))
 
-
-  let viewFields = allFields.map((f,index) => ({
+  const viewFields = allFields.map((f,index) => ({
     index,
-    name: f.label || normalizeFieldName(f.field),
-    isVisible: selectedFields.includes(f.field),
+    name: f.field,
+    isVisible: settings.selectedFields.includes(f.field),
     isFrozen: f.field === 'title',
   }))
 
   const view = table.createView(viewFields)
-
-  function countFields(str:string) {
-    return allFields
-      .filter(f => str ? f.field.startsWith(str) : !f.field.match(/[\.\[]/))
-      .filter(f => selectedFields.includes(f.field))
-      .length
-  }
-
-  $effect(() => {
-    console.log(sectionCounts)
-  })
 
 </script>
 
@@ -69,8 +39,12 @@
   <table>
     <thead class="opaque">
       <tr class="opaque">
-        {#each selectedFields.filter(f => !f.match(/[\.\[]/)) as f}
-          <th></th>
+        {#each settings.selectedFields.filter(f => !f.match(/[\.\[]/)) as f}
+          <th class="text-left z-50">
+            {#if f === 'title'}
+              <ShowFields {view} />
+            {/if}
+          </th>
         {/each}
         {#each sectionsVisible as sec, i}
           <th class="text-xs text-stone-600 dark:text-stone-400"

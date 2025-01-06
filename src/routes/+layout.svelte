@@ -9,7 +9,7 @@
 	<header class="w-full indent h-12 flex flex-shrink-0 py-2 items-center bg-stone-200 dark:bg-stone-800
 	              sm:h-auto sm:bg-white sm:dark:bg-stone-900">
 		<h1 class="text-2xl
-			sm:text-5xl sm:text-center sm:py-6 sm:w-full"><a href="/">CMS Showdown</a></h1>
+			sm:text-5xl sm:text-center sm:py-6 w-full"><a href="/">CMS Showdown</a></h1>
 	</header>
 
 	<main class="indent flex-grow overflow-auto">

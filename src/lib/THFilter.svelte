@@ -3,7 +3,9 @@
   const filter = table.createFilter(field, check);
 </script>
 
-<th class:shaded class="text-xs text-stone-600 dark:text-stone-400">
+<th
+  class:shaded
+  class="text-xs text-stone-600 dark:text-stone-400">
   {#if isTernary}
     <select class="bg-inherit"
       bind:value={filter.value}
