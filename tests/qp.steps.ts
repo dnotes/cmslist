@@ -72,3 +72,25 @@ Then('I should (immediately )(not )(NOT )see a column for {string}', async (worl
   let toBePresent = world.info.step?.match(/not see/i) ? false : true
   await expectElement(locator, toBePresent, true, timeout)
 })
+
+// Comparisons
+
+When('I click/select (on )the row (for ){string}', async function (world:World, cms:string) {
+  await world.page.locator('tbody tr').filter({ hasText:cms }).click({ timeout:1000 })
+});
+
+When('I click/select (on )the following rows:', async function (world:World, dataTable:DataTable) {
+  let rows = dataTable.raw().map(row => row[0])
+  for (let row of rows) {
+    await world.page.locator('tbody tr').filter({ hasText:row }).locator('td.field-rank').click({ timeout:1000, force:true })
+  }
+});
+
+
+Then('the {string} row should (still )be selected', async (world:World, cms:string) => {
+  await expect(world.page.locator('tbody tr').filter({ hasText:cms })).toHaveClass(/selected/)
+})
+Then('the {string} row should not/NOT (still )be selected', async (world:World, cms:string) => {
+  await expect(world.page.locator('tbody tr').filter({ hasText:cms })).not.toHaveClass(/selected/)
+})
+

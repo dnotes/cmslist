@@ -11,7 +11,7 @@
 
   const { data }:{ data:FullCMSRecord[] } = $props()
 
-  const table = new TableHandler(data)
+  const table = new TableHandler(data, { selectBy:'id' })
 
   let sectionCounts = $derived.by(() => {
     let counts = Object.fromEntries(sectionList.map(l => [l, 0]))
@@ -77,15 +77,25 @@
     </thead>
     <tbody class="overflow-auto">
       {#each table.rows as row}
-        <tr>
+        <tr
+          onclick={()=>{table.select(row.id)}}
+          class:selected={table.selected.includes(row.id)}
+        >
           {#each allFields as f, i}
             <td
-              class="{f.isTernary ? 'text-2xl' : 'text-sm'}"
+              class="{f.isTernary ? 'text-2xl' : 'text-sm'} field-{f.field} cursor-cell"
               class:text-center={f.isTernary || f.isNumber}
               class:opaque={viewFields[i].isFrozen}
               class:shaded={indexOf(sectionsVisible, f.field.split('.')[0])%2===0}>
               {#if f.field === 'title'}
-                <a href="/detail/{row.id}">{row.title}</a>
+                <label class="overflow-hidden relative">
+                  <input type="checkbox" value="{row.id}" bind:group={table.selected} class="absolute -left-full" />
+                  <a
+                    href="/detail/{row.id}"
+                    class="hover:underline font-bold"
+                    onclick={(e)=>{e.stopPropagation()}}
+                  >{row.title}</a>
+                </label>
               {:else}
                 {f.transform ? f.transform(normalizeFieldValue(get(row, f.field))) : normalizeFieldValue(get(row, f.field))}
               {/if}
@@ -110,7 +120,21 @@
   :global(tbody tr:hover, tbody tr:hover td, tbody tr:hover td.opaque) {
     @apply bg-cyan-100 dark:bg-cyan-800 !important;
   }
+  :global(
+    tbody tr.selected,
+    tbody tr.selected td,
+    tbody tr.selected td.opaque
+  ) {
+    @apply bg-yellow-200 dark:bg-yellow-700 !important;
+  }
   :global(td) {
     @apply py-px px-2 sm:px-2 md:py-1 md:px-3 !important;
+  }
+  td.field-title:has(:checked):after {
+    content: "☑︎";
+    font-size: 12px;
+    position:absolute;
+    top:-5px;
+    right:1px;
   }
 </style>
