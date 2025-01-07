@@ -48,9 +48,3 @@
   {/if}
 
 </div>
-
-{#if items.length < 4}
-  <div>
-    <CompareLinks current={items} cmslist={data.cmslist} />
-  </div>
-{/if}
