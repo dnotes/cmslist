@@ -8,6 +8,7 @@
   import { get, indexOf } from 'lodash-es';
   import { settings } from './state.svelte';
   import ShowFields from './ShowFields.svelte';
+  import { goto } from '$app/navigation';
 
   const { data }:{ data:FullCMSRecord[] } = $props()
 
@@ -42,7 +43,16 @@
         {#each settings.selectedFields.filter(f => !f.match(/[\.\[]/)) as f}
           <th class="text-left z-50">
             {#if f === 'title'}
-              <ShowFields {view} />
+              <div class="flex items-center">
+                <ShowFields {view} />
+                  <button
+                    onclick={()=>{ goto(`/compare?ids=${table.selected.sort().join(',')}`) }}
+                    class="px-3 py-1 bg-blue-500 disabled:bg-gray-500 text-white disabled:text-gray-200 text-sm rounded hover:bg-blue-600"
+                    disabled={table.selected.length < 1}
+                  >
+                    Compare
+                  </button>
+              </div>
             {/if}
           </th>
         {/each}

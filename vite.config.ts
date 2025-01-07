@@ -14,7 +14,7 @@ export default defineConfig({
 		// PlaywrightWorld configuration
 		worldConfig: {
 			port: 5173, // sets the port
-			slowMo: 50, // turns on "slowMo" for 50ms
+			slowMo: 80, // turns on "slowMo" for 50ms
 			screenshotDir: 'tests/screenshots',
 		}
 	})],

@@ -401,6 +401,14 @@ export const allFields:FieldDefinition[] = [
   section: f.field.match(/[\.\[]/) ? f.field.split(/[\.\[]/)[0] : ''
 })) as FieldDefinition[]
 
+export const fieldsAndHeadings = allFields.reduce((acc, cur, i, arr) => {
+  if (cur.section && cur.section !== arr[i-1]?.section) {
+    acc.push( { id:cur.section, label:sections[cur.section] } )
+  }
+  acc.push({ id:cur.field, label:(cur.label || normalizeFieldName(cur.field)) })
+  return acc
+}, [] as { id:string, label:string }[])
+
 export const numberFields = allFields.filter(f => f.isNumber).map(f => f.field)
 
 export function normalizeFieldName(field: string) {

@@ -4,4 +4,6 @@ import type { PageData } from './$types';
   let { data }: { data: PageData } = $props();
 </script>
 
-<CmsFull cms={data.cms} />
+<div class="prose prose-stone dark:prose-invert mx-auto prose-sm sm:prose-lg">
+  <CmsFull cms={data.cms} isSingle />
+</div>

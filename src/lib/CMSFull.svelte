@@ -1,37 +1,65 @@
 <script lang="ts">
-  import { normalizeFieldValue, sections, type FullCMSRecord } from "$lib";
-  import { kebabCase, snakeCase } from "lodash-es";
+  import { allFields, fieldsAndHeadings, normalizeFieldValue, sections, type FullCMSRecord } from "$lib";
+  import { get, kebabCase } from "lodash-es";
 
-  export let cms:FullCMSRecord
+  const {
+    cms,
+    column = 1,
+    isSingle = false,
+    fieldsOnly = false,
+  }:{
+    cms:FullCMSRecord,
+    column?:number,
+    isSingle?:boolean,
+    fieldsOnly?:boolean
+  } = $props()
+
 </script>
 
-<div class="prose prose-stone dark:prose-invert mx-auto prose-sm sm:prose-lg">
-
-  <h2 class="flex mt-5 mb-2 sticky top-0 h-10 bg-white dark:bg-stone-900 z-20">
+<h2 class="flex mt-5 mb-2 sticky top-0 h-10 bg-white dark:bg-stone-900 z-20">
+  {#if !fieldsOnly}
     {cms.title}
-    {#if cms.rank && typeof cms.rank === 'number'}
-      <span class="flex-grow"></span>
-      <span class="font-bold text-stone-600 dark:text-stone-400">#{cms.rank}</span>
-    {/if}
-  </h2>
+  {/if}
+  {#if cms.rank && typeof cms.rank === 'number' && isSingle}
+    <span class="flex-grow"></span>
+    <span class="font-bold text-stone-600 dark:text-stone-400">#{cms.rank}</span>
+  {/if}
+</h2>
 
-  {#each (Object.entries(sections) as [keyof typeof sections, string][]) as [sec, heading]}
-    <section id="{kebabCase(sec)}">
-      <h3 class="flex items-center sticky top-10 z-10 bg-white dark:bg-stone-900">{heading}</h3>
-      {#each Object.entries(cms[sec]) as [key, value]}
-        {#if key === 'summary'}
-          <p class="my-2 leading-snug p-3">{value}</p>
+{#each fieldsAndHeadings as {id,label}, idx}
+  {#if idx < 1} <!-- unused fields -->
+  {:else if sections.hasOwnProperty(id)} <!-- heading -->
+    <h3 id="{kebabCase(id)}"
+      style="grid-row:{idx+1}; grid-column:{column};"
+      class="flex items-center sticky top-10 z-10 bg-white dark:bg-stone-900"
+    >
+      {#if isSingle || fieldsOnly}
+        {label}
+      {/if}
+    </h3>
+  {:else}
+    {#if id.endsWith('summary')}
+      <div style="grid-row:{idx+1}; grid-column:{column};">
+        {#if fieldsOnly}
+          summary
         {:else}
-          <div class="my-2 flex items-center">
-            <div class="w-40 pr-4 sm:w-56 leading-tight font-bold">{kebabCase(key).replace(/-/g,' ')}:</div>
-            <div>
-              {normalizeFieldValue(value)}
-            </div>
+          <p class="my-2 leading-snug {isSingle ? 'p-3' : 'text-sm'}">{get(cms, id)}</p>
+        {/if}
+      </div>
+    {:else}
+      <div class="my-2 flex items-center" style="grid-row:{idx+1}; grid-column:{column};">
+        {#if isSingle || fieldsOnly}
+          <div class="w-40 pr-4 sm:w-56 leading-tight font-bold">
+            {label}:
           </div>
         {/if}
-      {/each}
-    </section>
-  {/each}
+        {#if !fieldsOnly}
+          <div>
+            {normalizeFieldValue(get(cms, id))}
+          </div>
+        {/if}
+      </div>
+    {/if}
+  {/if}
+{/each}
 
-
-</div>

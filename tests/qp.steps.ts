@@ -15,7 +15,7 @@ type World = Omit<PlaywrightWorld, 'data'> & {
 
 Before(async function (world:World) {
   world.data.handledErrors = 0
-  await world.page.waitForTimeout(1500)
+  await world.page.waitForTimeout(800)
 })
 
 AfterStep(async function (world:World) {
@@ -73,7 +73,28 @@ Then('I should (immediately )(not )(NOT )see a column for {string}', async (worl
   await expectElement(locator, toBePresent, true, timeout)
 })
 
-// Comparisons
+// Detail
+
+Then('I should see the full listing for {string}', async function (world:World, name) {
+  await expect(world.page.getByRole('heading', { name })).toBeVisible({ timeout:world.worldConfig.timeout})
+  await expect(world.page.getByRole('heading', { name:'Architecture' })).toBeVisible({ timeout:world.worldConfig.timeout})
+  await expect(world.page.getByRole('heading', { name:'Target Users' })).toBeVisible({ timeout:world.worldConfig.timeout})
+  await expect(world.page.getByRole('heading', { name:'Legal' })).toBeVisible({ timeout:world.worldConfig.timeout})
+  await expect(world.page.getByRole('heading', { name:'User Management' })).toBeVisible({ timeout:world.worldConfig.timeout})
+  await expect(world.page.getByRole('heading', { name:'Content Editing' })).toBeVisible({ timeout:world.worldConfig.timeout})
+  await expect(world.page.getByRole('heading', { name:'Content Display' })).toBeVisible({ timeout:world.worldConfig.timeout})
+  await expect(world.page.getByRole('heading', { name:'Mobile Support' })).toBeVisible({ timeout:world.worldConfig.timeout})
+  await expect(world.page.getByRole('heading', { name:'Multilingual Support' })).toBeVisible({ timeout:world.worldConfig.timeout})
+  await expect(world.page.getByRole('heading', { name:'Extensibility' })).toBeVisible({ timeout:world.worldConfig.timeout})
+  await expect(world.page.getByRole('heading', { name:'Commerce' })).toBeVisible({ timeout:world.worldConfig.timeout})
+  await expect(world.page.getByRole('heading', { name:'Costs' })).toBeVisible({ timeout:world.worldConfig.timeout})
+});
+
+Then('I should not/NOT see the full listing for {string}', async function (world:World, name) {
+  await expect(world.page.getByRole('heading', { name })).toBeHidden({ timeout:world.worldConfig.timeout})
+});
+
+// Table
 
 When('I click/select (on )the row (for ){string}', async function (world:World, cms:string) {
   await world.page.locator('tbody tr').filter({ hasText:cms }).click({ timeout:1000 })
@@ -86,7 +107,6 @@ When('I click/select (on )the following rows:', async function (world:World, dat
   }
 });
 
-
 Then('the {string} row should (still )be selected', async (world:World, cms:string) => {
   await expect(world.page.locator('tbody tr').filter({ hasText:cms })).toHaveClass(/selected/)
 })
@@ -94,3 +114,16 @@ Then('the {string} row should not/NOT (still )be selected', async (world:World, 
   await expect(world.page.locator('tbody tr').filter({ hasText:cms })).not.toHaveClass(/selected/)
 })
 
+Then('the following rows should (still )be selected:', async (world:World, dataTable:DataTable) => {
+  let rows = dataTable.raw().map(row => row[0])
+  for (let row of rows) {
+    await expect(world.page.locator('tbody tr').filter({ hasText:row })).toHaveClass(/selected/)
+  }
+  await expect(world.page.locator('tbody tr.selected')).toHaveCount(rows.length)
+})
+
+// Comparison
+
+Then('I should see {int} links to add more CMS comparisons', async function (world:World, int:number) {
+  await expect(world.page.locator('a.compare-link')).toHaveCount(int)
+});
