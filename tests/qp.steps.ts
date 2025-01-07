@@ -121,9 +121,3 @@ Then('the following rows should (still )be selected:', async (world:World, dataT
   }
   await expect(world.page.locator('tbody tr.selected')).toHaveCount(rows.length)
 })
-
-// Comparison
-
-Then('I should see {int} links to add more CMS comparisons', async function (world:World, int:number) {
-  await expect(world.page.locator('a.compare-link')).toHaveCount(int)
-});

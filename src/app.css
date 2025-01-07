@@ -1,3 +1,7 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
-@import 'tailwindcss/utilities'
+@import 'tailwindcss/utilities';
+
+.btn {
+  @apply px-3 py-1 bg-blue-500 disabled:bg-gray-500 text-white disabled:text-gray-200 text-sm rounded hover:bg-blue-600
+}

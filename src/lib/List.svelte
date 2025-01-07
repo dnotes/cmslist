@@ -47,7 +47,7 @@
                 <ShowFields {view} />
                   <button
                     onclick={()=>{ goto(`/compare?ids=${table.selected.sort().join(',')}`) }}
-                    class="px-3 py-1 bg-blue-500 disabled:bg-gray-500 text-white disabled:text-gray-200 text-sm rounded hover:bg-blue-600"
+                    class="btn"
                     disabled={table.selected.length < 1}
                   >
                     Compare
