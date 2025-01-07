@@ -13,7 +13,19 @@
   let others = $derived(data.cmslist.filter(item => !ids.includes(item.id)))
   let addComparison:string = $state('')
 
+  let pagetitle = $derived.by(() => {
+    if (items.length === 1) return `Compare ${items[0].title} with any other CMS`
+    let words = items.slice(0,4).map(i => i.title).join(' vs. ')
+    return items.length > 5 ? `${words} vs. ${items.length - 4} more` : words
+  })
+
 </script>
+
+<svelte:head>
+	<title>
+  {pagetitle} | CMS List</title>
+	<meta name="description" content="Compare the most popular content management systems." />
+</svelte:head>
 
 <div class="prose prose-stone dark:prose-invert mx-auto prose-sm sm:prose-lg grid grid-cols-{items.length + 1} gap-x-6"
   style="max-width:{224 + (items.length * 400)}px !important;"

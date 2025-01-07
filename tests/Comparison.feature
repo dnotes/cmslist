@@ -25,3 +25,11 @@ Feature: Comparison
     Given I am on "/compare"
     Then I should see a "+Drupal" link
     And I should see a "+WordPress" link
+
+  Scenario: Comparison pages have a good title
+    Given I am on "/compare?ids=drupal,wordpress"
+    Then the "title" metatag should contain "WordPress vs. Drupal"
+
+  Scenario: With one comparison page, the title invites comparing
+    Given I am on "/compare?ids=wordpress"
+    Then the "title" metatag should contain "Compare WordPress with any other CMS"

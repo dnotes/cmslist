@@ -14,3 +14,7 @@ Feature: Detail
     Then I should see the full listing for "WordPress"
     And I should see a "+Drupal" link
     But I should NOT see a "+WordPress" link
+
+  Scenario: Detail pages have a title matching the CMS name
+    Given I am on "/detail/wordpress"
+    Then the "title" metatag should be "WordPress | CMS List"
