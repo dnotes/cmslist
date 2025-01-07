@@ -20,7 +20,7 @@
 		<div class="prose prose-stone dark:prose-invert text-xs prose-a:no-underline prose-a:hover:underline">
 			<p>
 				Information compiled by AI may be outdated or incorrect,
-				please <a href="https://github.com/dnotes/cms-showdown/tree/main/content/cms">edit on GitHub</a>.
+				please <a href="https://github.com/dnotes/cmslist/tree/main/content/cms">edit on GitHub</a>.
 				Rankings from <a href="https://w3techs.com/technologies/overview/content_management">W3Techs</a>.
 				Site &copy;2025 DNotes LLC.
 			</p>
