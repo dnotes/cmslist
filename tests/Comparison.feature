@@ -21,7 +21,7 @@ Feature: Comparison
     And I should see a "+Drupal" link
     But I should NOT see a "+WordPress" link
 
-  Scenario: An empty Compare page has links
+  Scenario: Even an empty Compare page has links
     Given I am on "/compare"
     Then I should see a "+Drupal" link
     And I should see a "+WordPress" link
