@@ -2,14 +2,14 @@
   "title": "WordPress",
   "architecture": {
     "paradigm": "server install",
-    "serverAdminRequired": "yes",
+    "serverAdminRequired": "kinda",
     "backendLanguage": "PHP",
     "extensionLanguageTech": ["PHP", "JavaScript", "HTML", "CSS"],
     "frontendLanguageTech": ["JavaScript", "HTML", "CSS"],
     "contentStorage": ["SQL"],
     "hostingOptions": ["shared", "vps", "managed", "container"],
     "apiOptions": ["REST", "GraphQL"],
-    "summary": "WordPress is a self-hosted content management system (CMS) that requires server administration. It is built with PHP and stores content in a MySQL or MariaDB database. The platform supports extensions and themes developed using PHP, JavaScript, HTML, and CSS, and offers various hosting options, including shared, VPS, managed, and container-based solutions. WordPress provides REST API capabilities and can be extended to support GraphQL through plugins."
+    "summary": "WordPress is a server-installed content management system that can be self-hosted. It is built with PHP and stores content in a MySQL or MariaDB database. The platform supports extensions and themes developed using PHP, JavaScript, HTML, and CSS, and offers various hosting options, including shared, VPS, managed, and container-based solutions. WordPress provides REST API capabilities and can be extended to support GraphQL through plugins."
   },
   "targetUsers": {
     "individualHobbyist": "yes",
