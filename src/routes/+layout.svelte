@@ -1,15 +1,16 @@
 <script lang="ts">
 	import '../app.css';
 	let { children } = $props();
+	import { screen } from '$lib/state.svelte'
 </script>
 
 <div class="flex flex-col h-screen w-screen max-h-screen max-w-screen overflow-hidden
-	bg-white dark:bg-stone-900 text-black dark:text-stone-200">
+	bg-white dark:bg-stone-900 text-black dark:text-stone-200" bind:clientWidth={screen.w}>
 
 	<header class="w-full indent h-12 flex flex-shrink-0 py-2 items-center bg-stone-200 dark:bg-stone-800
 	              sm:h-auto sm:bg-white sm:dark:bg-stone-900">
 		<h1 class="text-2xl
-			sm:text-5xl sm:text-center sm:py-6 w-full"><a href="/">CMS List</a></h1>
+			sm:text-5xl text-center sm:py-6 w-full"><a href="/">CMS List</a></h1>
 	</header>
 
 	<main class="indent flex-grow overflow-auto">

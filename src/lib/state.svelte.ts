@@ -21,3 +21,7 @@ export const settings = $state({
     'costs.estimatedYearOneTotal',
   ]}
 )
+
+export const screen = $state({
+  w: 640
+})

@@ -10,12 +10,16 @@
     column = 1,
     isSingle = false,
     fieldsOnly = false,
+    hidden = false,
+    collapsed = false,
     children
   }:{
     cms:FullCMSRecord,
     column?:number,
     isSingle?:boolean,
     fieldsOnly?:boolean,
+    hidden?:boolean,
+    collapsed?:boolean,
     children?:any
   } = $props()
 
@@ -24,14 +28,14 @@
 
 </script>
 
-<h2 class="flex mt-5 mb-2 sticky top-0 h-10 bg-white dark:bg-stone-900 z-20">
+<h2 class:collapsed class="flex sticky top-0 h-10 bg-white dark:bg-stone-900 z-20">
   {#if !fieldsOnly}
     {cms.title}
     {#if !isSingle}
       <a href="/compare?ids={closelink}"
       class:hidden={!closelink}
       class="text-sm text-gray-500 no-underline relative left-2
-      flex items-center justify-center w-5 h-5 rounded-full border border-gray-500">
+      flex items-center justify-center w-5 h-5 flex-shrink-0 rounded-full border border-gray-500">
         X
       </a>
     {/if}
@@ -47,7 +51,7 @@
 {#each fieldsAndHeadings as {id,label}, idx}
   {#if idx < 1} <!-- unused fields -->
   {:else if sections.hasOwnProperty(id)} <!-- heading -->
-    <h3 id="{kebabCase(id)}"
+    <h3 class:collapsed id="{kebabCase(id)}"
       style="grid-row:{idx+1}; grid-column:{column};"
       class="flex items-center sticky top-10 z-10 bg-white dark:bg-stone-900"
     >
@@ -57,7 +61,7 @@
     </h3>
   {:else}
     {#if id.endsWith('summary')}
-      <div style="grid-row:{idx+1}; grid-column:{column};">
+      <div class:collapsed style="grid-row:{idx+1}; grid-column:{column};">
         {#if fieldsOnly}
           summary
         {:else}
@@ -65,7 +69,7 @@
         {/if}
       </div>
     {:else}
-      <div class="my-2 flex items-center" style="grid-row:{idx+1}; grid-column:{column};">
+      <div class:collapsed class="my-2 flex items-center" style="grid-row:{idx+1}; grid-column:{column};">
         {#if isSingle || fieldsOnly}
           <div class="w-40 pr-4 sm:w-56 leading-tight font-bold">
             {label}:
@@ -81,3 +85,8 @@
   {/if}
 {/each}
 
+<style lang="postcss">
+  .collapsed {
+    @apply hidden;
+  }
+</style>

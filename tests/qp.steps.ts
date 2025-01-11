@@ -73,6 +73,48 @@ Then('I should (immediately )(not )(NOT )see a column for {string}', async (worl
   await expectElement(locator, toBePresent, true, timeout)
 })
 
+Then('I should see the list of links to compare', async function (world:World) {
+  await expect(world.page.getByRole('heading', { name: 'Compare' })).toBeVisible()
+});
+
+// General
+
+When(/^I swipe (left|right|up|down)$/, async function (world:World, direction:'left'|'right'|'up'|'down') {
+  let bb = await world.page.locator('body').boundingBox()
+  let {x, y} = { x: bb!.x + bb!.width / 2, y: bb!.y + bb!.height / 2 };
+  // move the mouse to center (x,y)
+  await world.page.mouse.move(x, y);
+
+  // Calculate new x and y coordinates
+  if (direction === 'left') {
+    x = x - 1000;
+  } else if (direction === 'right') {
+    x = x + 1000;
+  } else if (direction === 'up') {
+    y = y - 1000;
+  } else if (direction === 'down') {
+    y = y + 1000;
+  }
+
+  // hold the mouse down
+  await world.page.mouse.down();
+  // move the mouse to destination
+  await world.page.mouse.move(x,y);
+  // release the mouse
+  await world.page.mouse.up();
+
+});
+
+Then('the {string} {word} should still be visible', async function (world:World, identifier:string, role:string) {
+  let locator = world.getLocator(world.page, identifier, role)
+  await expectElement(locator, true, true)
+});
+
+When('I scroll to the {string} {word}', async function (world:World, identifier:string, role:string) {
+  let locator = world.getLocator(world.page, identifier, role)
+  await locator.scrollIntoViewIfNeeded()
+});
+
 // Detail
 
 Then('I should see the full listing for {string}', async function (world:World, name) {
@@ -121,3 +163,4 @@ Then('the following rows should (still )be selected:', async (world:World, dataT
   }
   await expect(world.page.locator('tbody tr.selected')).toHaveCount(rows.length)
 })
+

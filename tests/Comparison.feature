@@ -33,3 +33,23 @@ Feature: Comparison
   Scenario: With one comparison page, the title invites comparing
     Given I am on "/compare?ids=wordpress"
     Then the "title" metatag should contain "Compare WordPress with any other CMS"
+
+  @mobile @soft
+  Rule: Comparison must work for mobile Users
+
+    Users see one CMS at a time, but can move between them
+
+    Scenario: Comparing two items
+      Given I am on "/compare?ids=drupal,wordpress"
+      Then I should see a "WordPress" heading
+      And I should not see a "Drupal" heading
+      When I click the "Drupal" button
+      Then I should see a "Drupal" heading
+      When I scroll to the "Costs" heading
+      And I click the "Wordpress" button
+      Then the "Costs" heading should still be visible
+
+    Scenario: One item is selected
+      Given I am on "/compare?ids=wordpress"
+      When I swipe left
+      Then I should see the list of links to compare
